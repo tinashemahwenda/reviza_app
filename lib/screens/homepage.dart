@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:reviza_app/widgets/navigationbar.dart';
 
 import '../constants/app_constants.dart';
+import '../widgets/banner.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -20,14 +21,9 @@ class HomePage extends StatelessWidget {
                 ),
                 RevizaNavigation(),
                 SizedBox(
-                  height: 20,
+                  height: 40,
                 ),
-                Container(
-                  width: AppMeasure.width,
-                  height: AppMeasure.height / 3,
-                  color: AppColor.darkBlue,
-                  padding: EdgeInsets.all(10),
-                )
+                RevizaBanner()
               ],
             ),
           ),
