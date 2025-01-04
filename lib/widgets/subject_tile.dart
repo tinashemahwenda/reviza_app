@@ -4,7 +4,7 @@ import '../constants/app_constants.dart';
 
 class SubjectTile extends StatelessWidget {
   final String subjectTitle;
-  final int subjectCode;
+  final String subjectCode;
   const SubjectTile({
     super.key,
     required this.subjectTitle,
@@ -49,7 +49,7 @@ class SubjectTile extends StatelessWidget {
                         fontSize: 18),
                   ),
                   Text(
-                    '0625',
+                    subjectCode,
                     style: TextStyle(
                       fontSize: 12,
                     ),
