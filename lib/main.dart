@@ -20,6 +20,8 @@ class RevizaApp extends StatelessWidget {
       AppColor.backgroundColor = Color.fromARGB(255, 0, 127, 255);
       return MaterialApp(
         home: HomePage(),
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(fontFamily: 'Manrope-ExtraBold'),
       );
     });
   }
