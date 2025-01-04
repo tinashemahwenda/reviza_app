@@ -40,7 +40,18 @@ class HomePage extends StatelessWidget {
                 SizedBox(
                   height: 30,
                 ),
-                SubjectTile()
+                SubjectTile(
+                  subjectTitle: 'Physics',
+                ),
+                SubjectTile(
+                  subjectTitle: 'Biology',
+                ),
+                SubjectTile(
+                  subjectTitle: 'Mathematics',
+                ),
+                SubjectTile(
+                  subjectTitle: 'Chemistry',
+                ),
               ],
             ),
           ),
