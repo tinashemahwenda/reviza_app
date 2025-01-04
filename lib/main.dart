@@ -21,7 +21,7 @@ class RevizaApp extends StatelessWidget {
       return MaterialApp(
         home: HomePage(),
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(fontFamily: 'Manrope-ExtraBold'),
+        theme: ThemeData(fontFamily: 'Manrope-Regular'),
       );
     });
   }
