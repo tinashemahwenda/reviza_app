@@ -3,12 +3,13 @@ import 'package:flutter/material.dart';
 import '../constants/app_constants.dart';
 
 class SubjectTile extends StatelessWidget {
-  const SubjectTile({super.key});
+  final String subjectTitle;
+  const SubjectTile({super.key, required this.subjectTitle});
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 10.0),
+      padding: const EdgeInsets.only(bottom: 20.0),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(20),
         child: Container(
@@ -31,12 +32,24 @@ class SubjectTile extends StatelessWidget {
                   ),
                 ),
               ),
-              Text(
-                'Physics',
-                style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontFamily: 'Manrope-Extrabold',
-                    fontSize: 18),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    subjectTitle,
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'Manrope-Extrabold',
+                        fontSize: 18),
+                  ),
+                  Text(
+                    '0625',
+                    style: TextStyle(
+                      fontSize: 12,
+                    ),
+                  )
+                ],
               ),
               Expanded(child: SizedBox()),
               Icon(Icons.arrow_forward_ios),
