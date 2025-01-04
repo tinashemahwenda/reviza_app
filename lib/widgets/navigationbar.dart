@@ -12,7 +12,7 @@ class RevizaNavigation extends StatelessWidget {
       children: [
         Image.asset(
           'assets/images/reviza-transparent-long.png',
-          width: 60,
+          width: 100,
         ),
         ClipRRect(
           borderRadius: BorderRadius.circular(10),
@@ -21,6 +21,7 @@ class RevizaNavigation extends StatelessWidget {
             child: Icon(
               Icons.menu,
               color: Colors.white,
+              size: 30,
             ),
             color: AppColor.dodgerBlue,
           ),
