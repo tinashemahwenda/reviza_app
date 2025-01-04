@@ -17,7 +17,7 @@ class RevizaApp extends StatelessWidget {
       AppMeasure.width = MediaQuery.of(context).size.height;
       AppColor.backgroundColor = Color.fromARGB(255, 242, 243, 244);
       AppColor.darkBlue = Color.fromARGB(255, 17, 24, 28);
-      AppColor.backgroundColor = Color.fromARGB(255, 0, 127, 255);
+      AppColor.dodgerBlue = Color.fromARGB(255, 0, 127, 255);
       return MaterialApp(
         home: HomePage(),
         debugShowCheckedModeBanner: false,
