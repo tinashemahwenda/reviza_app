@@ -14,7 +14,7 @@ class RevizaApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Builder(builder: (context) {
       AppMeasure.width = MediaQuery.of(context).size.width;
-      AppMeasure.width = MediaQuery.of(context).size.height;
+      AppMeasure.height = MediaQuery.of(context).size.height;
       AppColor.backgroundColor = Color.fromARGB(255, 242, 243, 244);
       AppColor.darkBlue = Color.fromARGB(255, 17, 24, 28);
       AppColor.dodgerBlue = Color.fromARGB(255, 0, 127, 255);
