@@ -4,7 +4,12 @@ import '../constants/app_constants.dart';
 
 class SubjectTile extends StatelessWidget {
   final String subjectTitle;
-  const SubjectTile({super.key, required this.subjectTitle});
+  final int subjectCode;
+  const SubjectTile({
+    super.key,
+    required this.subjectTitle,
+    required this.subjectCode,
+  });
 
   @override
   Widget build(BuildContext context) {
