@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColor.dodgerBlue,
+      backgroundColor: AppColor.backgroundColor,
       body: Center(
         child: Text('Hello Reviza App'),
       ),
