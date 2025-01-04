@@ -42,15 +42,19 @@ class HomePage extends StatelessWidget {
                 ),
                 SubjectTile(
                   subjectTitle: 'Physics',
+                  subjectCode: '0625',
                 ),
                 SubjectTile(
                   subjectTitle: 'Biology',
+                  subjectCode: '0610',
                 ),
                 SubjectTile(
                   subjectTitle: 'Mathematics',
+                  subjectCode: '0580',
                 ),
                 SubjectTile(
                   subjectTitle: 'Chemistry',
+                  subjectCode: '0620',
                 ),
               ],
             ),
