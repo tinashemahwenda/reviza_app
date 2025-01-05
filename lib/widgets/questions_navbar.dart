@@ -1,0 +1,33 @@
+import 'package:flutter/material.dart';
+
+class RevizaQuestionsNav extends StatelessWidget {
+  const RevizaQuestionsNav({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Icon(Icons.arrow_back_ios),
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              'Physics',
+              style: TextStyle(
+                fontSize: 10,
+              ),
+            ),
+            Text(
+              'Motion, forces & energy',
+              style: TextStyle(
+                fontFamily: 'Manrope-Extrabold',
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+              ),
+            ),
+          ],
+        )
+      ],
+    );
+  }
+}
