@@ -5,8 +5,34 @@ import 'package:reviza_app/widgets/subject_tile.dart';
 import '../constants/app_constants.dart';
 import '../widgets/banner.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  void show() {
+    showModalBottomSheet(
+      context: context,
+      builder: (BuildContext context) {
+        return ClipRRect(
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(20),
+            topRight: Radius.circular(20),
+          ),
+          child: Container(
+            height: AppMeasure.height / 2,
+            color: Colors.white,
+            child: Center(
+              child: Text('Subject Modal'),
+            ),
+          ),
+        );
+      },
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -40,10 +66,13 @@ class HomePage extends StatelessWidget {
                 SizedBox(
                   height: 30,
                 ),
-                SubjectTile(
-                  subjectTitle: 'Physics',
-                  subjectCode: '0625',
-                  subjectIconPath: 'assets/images/physics.png',
+                GestureDetector(
+                  onTap: show,
+                  child: SubjectTile(
+                    subjectTitle: 'Physics',
+                    subjectCode: '0625',
+                    subjectIconPath: 'assets/images/physics.png',
+                  ),
                 ),
                 SubjectTile(
                   subjectTitle: 'Biology',
@@ -60,6 +89,9 @@ class HomePage extends StatelessWidget {
                   subjectCode: '0620',
                   subjectIconPath: 'assets/images/chemistry.png',
                 ),
+                SizedBox(
+                  height: 20,
+                )
               ],
             ),
           ),
