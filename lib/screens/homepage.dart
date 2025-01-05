@@ -29,27 +29,29 @@ class _HomePageState extends State<HomePage> {
               color: AppColor.backgroundColor,
               child: Padding(
                 padding: const EdgeInsets.all(20.0),
-                child: Column(
-                  children: [
-                    SizedBox(
-                      height: 30,
-                    ),
-                    Text(
-                      'Select Topic',
-                      style: TextStyle(
-                        fontFamily: 'Manrope-Extrabold',
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      SizedBox(
+                        height: 30,
                       ),
-                    ),
-                    SizedBox(
-                      height: 30,
-                    ),
-                    TopicModalTile(topicTitle: 'Motion, forces & energy'),
-                    TopicModalTile(topicTitle: 'Waves'),
-                    TopicModalTile(topicTitle: 'Thermal Physics'),
-                    TopicModalTile(topicTitle: 'Electricity & Magnetism'),
-                    TopicModalTile(topicTitle: 'Nuclear Physics'),
-                    TopicModalTile(topicTitle: 'Space Physics')
-                  ],
+                      Text(
+                        'Select Topic',
+                        style: TextStyle(
+                          fontFamily: 'Manrope-Extrabold',
+                        ),
+                      ),
+                      SizedBox(
+                        height: 30,
+                      ),
+                      TopicModalTile(topicTitle: 'Motion, forces & energy'),
+                      TopicModalTile(topicTitle: 'Waves'),
+                      TopicModalTile(topicTitle: 'Thermal Physics'),
+                      TopicModalTile(topicTitle: 'Electricity & Magnetism'),
+                      TopicModalTile(topicTitle: 'Nuclear Physics'),
+                      TopicModalTile(topicTitle: 'Space Physics')
+                    ],
+                  ),
                 ),
               )),
         );
