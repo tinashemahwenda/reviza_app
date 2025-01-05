@@ -41,8 +41,7 @@ class _HomePageState extends State<HomePage> {
                     Text(
                       'Still making topics',
                       style: TextStyle(
-                        fontSize: 20,
-                      ),
+                          fontSize: 20, fontFamily: 'Manrope-Extrabold'),
                     ),
                   ],
                 ),
