@@ -19,7 +19,34 @@ class QuestionsPage extends StatelessWidget {
               ),
               GestureDetector(
                   onTap: () => Navigator.pop(context),
-                  child: RevizaQuestionsNav())
+                  child: RevizaQuestionsNav()),
+              SizedBox(
+                height: 30,
+              ),
+              Container(
+                padding: EdgeInsets.all(10),
+                width: AppMeasure.width,
+                color: Colors.white,
+                child: Column(
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          'Question 1',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontFamily: 'Manrope-Extrabold'),
+                        ),
+                        Container(
+                          padding: EdgeInsets.all(10),
+                          child: Text('0625/33/M/J/23'),
+                        )
+                      ],
+                    )
+                  ],
+                ),
+              )
             ],
           )),
         ));
