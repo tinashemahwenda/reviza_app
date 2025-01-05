@@ -120,7 +120,7 @@ class _HomePageState extends State<HomePage> {
                   height: 30,
                 ),
                 Text(
-                  'Subjects',
+                  'IGCSE Subjects',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontFamily: 'Manrope-Extrabold',
