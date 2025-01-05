@@ -27,7 +27,7 @@ class RevizaBanner extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Manrope-Extrabold',
                       fontWeight: FontWeight.bold,
-                      fontSize: 30,
+                      fontSize: 28,
                       color: Colors.white,
                     ),
                   ),
