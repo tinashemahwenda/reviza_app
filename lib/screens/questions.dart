@@ -24,6 +24,9 @@ class QuestionsPage extends StatelessWidget {
               SizedBox(
                 height: 30,
               ),
+              QuestionsBubble(),
+              QuestionsBubble(),
+              QuestionsBubble(),
               QuestionsBubble()
             ],
           )),
