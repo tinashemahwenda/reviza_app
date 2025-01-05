@@ -34,12 +34,13 @@ class QuestionsBubble extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20),
                     child: Container(
                       padding: EdgeInsets.all(5),
-                      color: Colors.blueAccent,
+                      color: AppColor.darkBlue,
                       child: Text(
                         '0625/33/M/J/23',
                         style: TextStyle(
                           fontSize: 8,
                           fontFamily: 'Manrope-Extrabold',
+                          color: Colors.white,
                         ),
                       ),
                     ),
