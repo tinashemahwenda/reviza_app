@@ -24,14 +24,35 @@ class _HomePageState extends State<HomePage> {
           ),
           child: Container(
               height: AppMeasure.height / 2,
-              color: Colors.white,
-              child: Column(
-                children: [
-                  SizedBox(
-                    height: 30,
-                  ),
-                  Text('Select Topic')
-                ],
+              width: AppMeasure.width,
+              color: AppColor.backgroundColor,
+              child: Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Column(
+                  children: [
+                    SizedBox(
+                      height: 30,
+                    ),
+                    Text(
+                      'Select Topic',
+                      style: TextStyle(
+                        fontFamily: 'Manrope-Extrabold',
+                      ),
+                    ),
+                    SizedBox(
+                      height: 30,
+                    ),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Container(
+                          width: AppMeasure.width,
+                          padding: EdgeInsets.all(20),
+                          color: Colors.white,
+                          child:
+                              Center(child: Text('Motion, forces & Energy'))),
+                    )
+                  ],
+                ),
               )),
         );
       },
