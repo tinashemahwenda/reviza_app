@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
+import 'package:reviza_app/widgets/questions_navbar.dart';
 
 class QuestionsPage extends StatelessWidget {
   const QuestionsPage({super.key});
@@ -16,30 +17,7 @@ class QuestionsPage extends StatelessWidget {
               SizedBox(
                 height: 60,
               ),
-              Row(
-                children: [
-                  Icon(Icons.arrow_back_ios),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'Physics',
-                        style: TextStyle(
-                          fontSize: 10,
-                        ),
-                      ),
-                      Text(
-                        'Motion, forces & energy',
-                        style: TextStyle(
-                          fontFamily: 'Manrope-Extrabold',
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20,
-                        ),
-                      ),
-                    ],
-                  )
-                ],
-              )
+              RevizaQuestionsNav()
             ],
           )),
         ));
