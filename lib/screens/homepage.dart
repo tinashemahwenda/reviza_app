@@ -43,18 +43,22 @@ class HomePage extends StatelessWidget {
                 SubjectTile(
                   subjectTitle: 'Physics',
                   subjectCode: '0625',
+                  subjectIconPath: 'assets/images/physics.png',
                 ),
                 SubjectTile(
                   subjectTitle: 'Biology',
                   subjectCode: '0610',
+                  subjectIconPath: 'assets/images/biology.png',
                 ),
                 SubjectTile(
                   subjectTitle: 'Mathematics',
                   subjectCode: '0580',
+                  subjectIconPath: 'assets/images/maths.png',
                 ),
                 SubjectTile(
                   subjectTitle: 'Chemistry',
                   subjectCode: '0620',
+                  subjectIconPath: 'assets/images/chemistry.png',
                 ),
               ],
             ),
