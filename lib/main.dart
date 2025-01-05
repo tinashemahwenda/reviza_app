@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/screens/homepage.dart';
-
 import 'constants/app_constants.dart';
 
 void main() {
