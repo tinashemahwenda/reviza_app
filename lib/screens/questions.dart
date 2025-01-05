@@ -9,7 +9,10 @@ class QuestionsPage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Column(
-          children: [Lottie.asset('assets/images/animations/loading.json')],
+          children: [
+            Lottie.asset('assets/images/animations/loading.json'),
+            Text('Making Questions')
+          ],
         ),
       ),
     );
