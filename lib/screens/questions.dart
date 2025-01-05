@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'package:reviza_app/widgets/go_back_button.dart';
 
 import '../constants/app_constants.dart';
 
@@ -24,23 +25,7 @@ class QuestionsPage extends StatelessWidget {
                 fontSize: 20,
               ),
             ),
-            GestureDetector(
-              onTap: () => Navigator.pop(context),
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(10),
-                child: Container(
-                  color: AppColor.darkBlue,
-                  padding: EdgeInsets.all(10),
-                  child: Text(
-                    'Go Back',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ),
-            )
+            GoBackButton()
           ],
         ),
       ),
