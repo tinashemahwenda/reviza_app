@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:reviza_app/widgets/go_back_button.dart';
 
-import '../constants/app_constants.dart';
-
 class QuestionsPage extends StatelessWidget {
   const QuestionsPage({super.key});
 
