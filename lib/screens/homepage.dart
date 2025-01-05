@@ -109,7 +109,7 @@ class _HomePageState extends State<HomePage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 SizedBox(
-                  height: 40,
+                  height: 60,
                 ),
                 RevizaNavigation(),
                 SizedBox(
