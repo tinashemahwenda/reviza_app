@@ -17,7 +17,9 @@ class QuestionsPage extends StatelessWidget {
               SizedBox(
                 height: 60,
               ),
-              RevizaQuestionsNav()
+              GestureDetector(
+                  onTap: () => Navigator.pop(context),
+                  child: RevizaQuestionsNav())
             ],
           )),
         ));
