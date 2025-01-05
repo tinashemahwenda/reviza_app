@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import '../constants/app_constants.dart';
 
 class TopicModalTile extends StatelessWidget {
-  const TopicModalTile({super.key});
+  final String topicTitle;
+  const TopicModalTile({super.key, required this.topicTitle});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +16,7 @@ class TopicModalTile extends StatelessWidget {
             width: AppMeasure.width,
             padding: EdgeInsets.all(20),
             color: Colors.white,
-            child: Center(child: Text('Motion, forces & Energy'))),
+            child: Center(child: Text(topicTitle))),
       ),
     );
   }
