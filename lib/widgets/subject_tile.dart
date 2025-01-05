@@ -5,10 +5,12 @@ import '../constants/app_constants.dart';
 class SubjectTile extends StatelessWidget {
   final String subjectTitle;
   final String subjectCode;
+  final String subjectIconPath;
   const SubjectTile({
     super.key,
     required this.subjectTitle,
     required this.subjectCode,
+    required this.subjectIconPath,
   });
 
   @override
@@ -31,7 +33,7 @@ class SubjectTile extends StatelessWidget {
                     padding: EdgeInsets.all(20),
                     color: AppColor.darkBlue,
                     child: Image.asset(
-                      'assets/images/reviza-icon.png',
+                      subjectIconPath,
                       width: 60,
                     ),
                   ),
