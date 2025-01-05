@@ -43,8 +43,12 @@ class _HomePageState extends State<HomePage> {
                     SizedBox(
                       height: 30,
                     ),
-                    TopicModalTile(),
-                    TopicModalTile()
+                    TopicModalTile(topicTitle: 'Motion, forces & energy'),
+                    TopicModalTile(topicTitle: 'Waves'),
+                    TopicModalTile(topicTitle: 'Thermal Physics'),
+                    TopicModalTile(topicTitle: 'Electricity & Magnetism'),
+                    TopicModalTile(topicTitle: 'Nuclear Physics'),
+                    TopicModalTile(topicTitle: 'Space Physics')
                   ],
                 ),
               )),
