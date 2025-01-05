@@ -32,6 +32,7 @@ class _HomePageState extends State<HomePage> {
               child: Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: Column(
+                  spacing: 20,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     SizedBox(
@@ -71,9 +72,8 @@ class _HomePageState extends State<HomePage> {
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
-                      SizedBox(
-                        height: 30,
-                      ),
+                      SizedBox(height: 10),
+                      SizedBox(height: 10),
                       Text(
                         'Select Topic',
                         style: TextStyle(
