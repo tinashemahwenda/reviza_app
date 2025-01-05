@@ -42,14 +42,17 @@ class _HomePageState extends State<HomePage> {
                     SizedBox(
                       height: 30,
                     ),
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(10),
-                      child: Container(
-                          width: AppMeasure.width,
-                          padding: EdgeInsets.all(20),
-                          color: Colors.white,
-                          child:
-                              Center(child: Text('Motion, forces & Energy'))),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                            width: AppMeasure.width,
+                            padding: EdgeInsets.all(20),
+                            color: Colors.white,
+                            child:
+                                Center(child: Text('Motion, forces & Energy'))),
+                      ),
                     )
                   ],
                 ),
