@@ -35,12 +35,23 @@ class QuestionsPage extends StatelessWidget {
                         Text(
                           'Question 1',
                           style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontFamily: 'Manrope-Extrabold'),
+                            fontWeight: FontWeight.bold,
+                            fontFamily: 'Manrope-Extrabold',
+                          ),
                         ),
-                        Container(
-                          padding: EdgeInsets.all(10),
-                          child: Text('0625/33/M/J/23'),
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(20),
+                          child: Container(
+                            padding: EdgeInsets.all(5),
+                            color: Colors.blueAccent,
+                            child: Text(
+                              '0625/33/M/J/23',
+                              style: TextStyle(
+                                fontSize: 8,
+                                fontFamily: 'Manrope-Extrabold',
+                              ),
+                            ),
+                          ),
                         )
                       ],
                     )
