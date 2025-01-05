@@ -8,6 +8,9 @@ class RevizaQuestionsNav extends StatelessWidget {
     return Row(
       children: [
         Icon(Icons.arrow_back_ios),
+        SizedBox(
+          width: 10,
+        ),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
