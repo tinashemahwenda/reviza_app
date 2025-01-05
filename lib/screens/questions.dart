@@ -24,7 +24,7 @@ class QuestionsPage extends StatelessWidget {
                 height: 30,
               ),
               Container(
-                padding: EdgeInsets.all(10),
+                padding: EdgeInsets.all(20),
                 width: AppMeasure.width,
                 color: Colors.white,
                 child: Column(
@@ -54,6 +54,18 @@ class QuestionsPage extends StatelessWidget {
                           ),
                         )
                       ],
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(10.0),
+                      child: Text(
+                        '1 (a) A boat crosses a river. The boat points at right angles to the river bank and it travels at a speed of 3.5m/ s relative to the water.A river current acts at right angles to the direction the boat points. The river current has a speed of 2.5m/s.By drawing a scale diagram or by calculation, determine the speed and direction of the boat relative to the river bank',
+                        style: TextStyle(
+                          height: 2,
+                        ),
+                      ),
                     )
                   ],
                 ),
