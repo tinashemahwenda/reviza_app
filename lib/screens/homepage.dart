@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/widgets/navigationbar.dart';
 import 'package:reviza_app/widgets/subject_tile.dart';
+import 'package:reviza_app/widgets/topic_modal_tile.dart';
 
 import '../constants/app_constants.dart';
 import '../widgets/banner.dart';
@@ -42,18 +43,8 @@ class _HomePageState extends State<HomePage> {
                     SizedBox(
                       height: 30,
                     ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: Container(
-                            width: AppMeasure.width,
-                            padding: EdgeInsets.all(20),
-                            color: Colors.white,
-                            child:
-                                Center(child: Text('Motion, forces & Energy'))),
-                      ),
-                    )
+                    TopicModalTile(),
+                    TopicModalTile()
                   ],
                 ),
               )),
