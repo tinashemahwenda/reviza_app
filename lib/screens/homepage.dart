@@ -23,12 +23,16 @@ class _HomePageState extends State<HomePage> {
             topRight: Radius.circular(20),
           ),
           child: Container(
-            height: AppMeasure.height / 2,
-            color: Colors.white,
-            child: Center(
-              child: Text('Subject Modal'),
-            ),
-          ),
+              height: AppMeasure.height / 2,
+              color: Colors.white,
+              child: Column(
+                children: [
+                  SizedBox(
+                    height: 30,
+                  ),
+                  Text('Select Topic')
+                ],
+              )),
         );
       },
     );
