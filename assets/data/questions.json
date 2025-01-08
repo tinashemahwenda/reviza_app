@@ -22,5 +22,25 @@
                 "question_body": "A student places a book in front of a plane mirror. \nState three characteristics of the image of the book formed by the plane mirror"
             }
         ]
+    },
+    {
+        "topic": "Thermal Physics",
+        "code": "0625/"
+    },
+    {
+        "topic": "Waves",
+        "code": "0625/"
+    },
+    {
+        "topic": "Electricity & Magnetism",
+        "code": "0625/"
+    },
+    {
+        "topic": "Nuclear Physics",
+        "code": "0625/"
+    },
+    {
+        "topic": "Space Physics",
+        "code": "0625/"
     }
 ]
