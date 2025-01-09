@@ -114,11 +114,19 @@ class _HomePageState extends State<HomePage> {
                       SizedBox(
                         height: 30,
                       ),
-                      ListView.builder(
-                        itemCount: _topics.length,
-                        itemBuilder: (context, index) {
-                          final topic = _topics[index];
-                        },
+                      SizedBox(
+                        height: AppMeasure.height / 1.5,
+                        child: ListView.builder(
+                          scrollDirection: Axis.vertical,
+                          itemCount: _topics.length,
+                          itemBuilder: (context, index) {
+                            final topic = _topics[index];
+                            return TopicModalTile(topicTitle: topic.topic);
+                          },
+                        ),
+                      ),
+                      SizedBox(
+                        height: 200,
                       )
                     ],
                   ),
