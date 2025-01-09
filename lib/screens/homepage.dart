@@ -1,4 +1,7 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:lottie/lottie.dart';
 import 'package:reviza_app/widgets/go_back_button.dart';
 import 'package:reviza_app/widgets/navigationbar.dart';
@@ -6,6 +9,7 @@ import 'package:reviza_app/widgets/subject_tile.dart';
 import 'package:reviza_app/widgets/topic_modal_tile.dart';
 
 import '../constants/app_constants.dart';
+import '../models/question.dart';
 import '../widgets/banner.dart';
 
 class HomePage extends StatefulWidget {
@@ -16,6 +20,33 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  List<Topic> _topics = [];
+
+  @override
+  void initState() {
+    super.initState();
+    _loadJsonData();
+  }
+
+  Future<void> _loadJsonData() async {
+    try {
+      String jsonString =
+          await rootBundle.loadString('assets/data/questions.json');
+
+      List<dynamic> jsonData = jsonDecode(jsonString);
+
+      List<Topic> topics =
+          jsonData.map((data) => Topic.fromJson(data)).toList();
+
+      setState(() {
+        _topics = topics;
+        print(_topics);
+      });
+    } catch (e) {
+      print('Error in loading data: $e');
+    }
+  }
+
   void showLoading() {
     showModalBottomSheet(
         context: context,
