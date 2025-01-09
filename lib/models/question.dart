@@ -37,9 +37,9 @@ class Question {
   factory Question.fromJson(Map<String, dynamic> json) {
     return Question(
       id: json['id'],
-      questionCode: json['questionCode'],
-      questionNumber: json['questionNumber'],
-      questionBody: json['questionBody'],
+      questionCode: json['question_code'],
+      questionNumber: json['question_number'],
+      questionBody: json['question_code'],
     );
   }
 }
