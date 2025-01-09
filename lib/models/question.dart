@@ -13,11 +13,31 @@ class Topic {
     return Topic(
       topic: json['topic'],
       topicCode: json['code'],
-      questions: List<Question>.from(json['questions'].map((questionJson)=> Question.fromJson(questionJson))),
+      questions: List<Question>.from(json['questions']
+          .map((questionJson) => Question.fromJson(questionJson))),
     );
   }
 }
 
 class Question {
-  final 
+  final int id;
+  final String questionCode;
+  final String questionNumber;
+  final String questionBody;
+
+  Question({
+    required this.id,
+    required this.questionCode,
+    required this.questionNumber,
+    required this.questionBody,
+  });
+
+  factory Question.fromJson(Map<String, dynamic> json) {
+    return Question(
+      id: json['id'],
+      questionCode: json['questionCode'],
+      questionNumber: json['questionNumber'],
+      questionBody: json['questionBody'],
+    );
+  }
 }
