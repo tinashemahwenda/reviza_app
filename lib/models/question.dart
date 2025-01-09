@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 class Topic {
   final String topic;
   final String topicCode;
@@ -40,4 +42,9 @@ class Question {
       questionBody: json['questionBody'],
     );
   }
+}
+
+List<Topic> parseTopics(String jsonData) {
+  final parsed = json.decode(jsonData).cast<Map<String, dynamic>>();
+  return parsed.map<Topic>((json) => Topic.fromJson(json)).toList();
 }
