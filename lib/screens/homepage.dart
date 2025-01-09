@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
 
       setState(() {
         _topics = topics;
-        print(_topics);
+        print(_topics[0].topic);
       });
     } catch (e) {
       print('Error in loading data: $e');
@@ -114,12 +114,12 @@ class _HomePageState extends State<HomePage> {
                       SizedBox(
                         height: 30,
                       ),
-                      TopicModalTile(topicTitle: 'Motion, forces & energy'),
-                      TopicModalTile(topicTitle: 'Waves'),
-                      TopicModalTile(topicTitle: 'Thermal Physics'),
-                      TopicModalTile(topicTitle: 'Electricity & Magnetism'),
-                      TopicModalTile(topicTitle: 'Nuclear Physics'),
-                      TopicModalTile(topicTitle: 'Space Physics')
+                      ListView.builder(
+                        itemCount: _topics.length,
+                        itemBuilder: (context, index) {
+                          final topic = _topics[index];
+                        },
+                      )
                     ],
                   ),
                 ),
