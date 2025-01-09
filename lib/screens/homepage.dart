@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage> {
             topRight: Radius.circular(20),
           ),
           child: Container(
-              height: AppMeasure.height / 2,
+              height: AppMeasure.height / 1.5,
               width: AppMeasure.width,
               color: AppColor.backgroundColor,
               child: Padding(
@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage> {
                         height: 30,
                       ),
                       SizedBox(
-                        height: AppMeasure.height / 1.5,
+                        height: AppMeasure.height,
                         child: ListView.builder(
                           scrollDirection: Axis.vertical,
                           itemCount: _topics.length,
