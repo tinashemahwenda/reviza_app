@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
 import '../constants/app_constants.dart';
-import '../models/question.dart';
+//import '../models/question.dart';
 
 class QuestionsBubble extends StatelessWidget {
   final String questionBody;
   final int questionNumber;
-  final List<Topic> data;
+  //final List<Topic> data;
   const QuestionsBubble({
     super.key,
     required this.questionNumber,
     required this.questionBody,
-    required this.data,
+    //required this.data,
   });
 
   @override
