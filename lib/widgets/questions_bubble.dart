@@ -46,7 +46,7 @@ class QuestionsBubble extends StatelessWidget {
                       padding: EdgeInsets.all(5),
                       color: AppColor.darkBlue,
                       child: Text(
-                        '$paperCode/$questionCode',
+                        '$paperCode$questionCode',
                         style: TextStyle(
                           fontSize: 8,
                           fontFamily: 'Manrope-Extrabold',
