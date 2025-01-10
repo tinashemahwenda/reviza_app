@@ -99,39 +99,38 @@ class _HomePageState extends State<HomePage> {
               width: AppMeasure.width,
               color: AppColor.backgroundColor,
               child: Padding(
-                padding: const EdgeInsets.all(20.0),
-                child: SingleChildScrollView(
-                  child: Column(
-                    children: [
-                      SizedBox(height: 10),
-                      SizedBox(height: 10),
-                      Text(
-                        'Select Topic',
-                        style: TextStyle(
-                          fontFamily: 'Manrope-Extrabold',
+                  padding: const EdgeInsets.all(20.0),
+                  child: SingleChildScrollView(
+                    child: Column(
+                      children: [
+                        SizedBox(height: 10),
+                        SizedBox(height: 10),
+                        Text(
+                          'Select Topic',
+                          style: TextStyle(
+                            fontFamily: 'Manrope-Extrabold',
+                          ),
                         ),
-                      ),
-                      SizedBox(
-                        height: 30,
-                      ),
-                      SizedBox(
-                        height: AppMeasure.height,
-                        child: ListView.builder(
-                          scrollDirection: Axis.vertical,
-                          itemCount: _topics.length,
-                          itemBuilder: (context, index) {
-                            final topic = _topics[index];
-                            return TopicModalTile(topicTitle: topic.topic);
-                          },
+                        SizedBox(
+                          height: 30,
                         ),
-                      ),
-                      SizedBox(
-                        height: 200,
-                      )
-                    ],
-                  ),
-                ),
-              )),
+                        SizedBox(
+                          height: AppMeasure.height,
+                          child: ListView.builder(
+                            scrollDirection: Axis.vertical,
+                            itemCount: _topics.length,
+                            itemBuilder: (context, index) {
+                              final topic = _topics[index];
+                              return TopicModalTile(topicTitle: topic.topic);
+                            },
+                          ),
+                        ),
+                        SizedBox(
+                          height: 200,
+                        )
+                      ],
+                    ),
+                  ))),
         );
       },
     );
