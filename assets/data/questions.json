@@ -23,6 +23,27 @@
                 "question_code": "/32/F/M/23",
                 "question_number": "1a",
                 "question_body": "A student places a book in front of a plane mirror. \nState three characteristics of the image of the book formed by the plane mirror"
+            },
+            {
+                "id": 1,
+                "paper_type": "Core",
+                "question_code": "/32/F/M/23",
+                "question_number": "1a",
+                "question_body": "A student places a book in front of a plane mirror. \nState three characteristics of the image of the book formed by the plane mirror(3)"
+            },
+            {
+                "id": 2,
+                "paper_type": "Core",
+                "question_code": "/32/F/M/23",
+                "question_number": "1a",
+                "question_body": "A student places a book in front of a plane mirror. \nState three characteristics of the image of the book formed by the plane mirror"
+            },
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "/32/F/M/23",
+                "question_number": "1a",
+                "question_body": "A student places a book in front of a plane mirror. \nState three characteristics of the image of the book formed by the plane mirror"
             }
         ]
     },
