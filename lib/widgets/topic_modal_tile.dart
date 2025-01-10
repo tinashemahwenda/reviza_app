@@ -18,7 +18,7 @@ class TopicModalTile extends StatelessWidget {
           borderRadius: BorderRadius.circular(10),
           child: Container(
               width: AppMeasure.width,
-              padding: EdgeInsets.all(20),
+              padding: EdgeInsets.all(18),
               color: Colors.white,
               child: Center(child: Text(topicTitle))),
         ),
