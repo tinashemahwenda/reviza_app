@@ -7,12 +7,14 @@ class QuestionsBubble extends StatelessWidget {
   final String questionBody;
   final int questionNumber;
   final String questionCode;
+  final String paperCode;
   //final List<Topic> data;
   const QuestionsBubble({
     super.key,
     required this.questionNumber,
     required this.questionBody,
     required this.questionCode,
+    required this.paperCode,
     //required this.data,
   });
 
@@ -44,7 +46,7 @@ class QuestionsBubble extends StatelessWidget {
                       padding: EdgeInsets.all(5),
                       color: AppColor.darkBlue,
                       child: Text(
-                        '0625/$questionCode',
+                        '$paperCode/$questionCode',
                         style: TextStyle(
                           fontSize: 8,
                           fontFamily: 'Manrope-Extrabold',
