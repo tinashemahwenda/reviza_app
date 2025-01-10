@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:lottie/lottie.dart';
-import 'package:reviza_app/screens/questions.dart';
+import 'package:reviza_app/screens/questions_page.dart';
 import 'package:reviza_app/widgets/go_back_button.dart';
 import 'package:reviza_app/widgets/navigationbar.dart';
 import 'package:reviza_app/widgets/subject_tile.dart';
