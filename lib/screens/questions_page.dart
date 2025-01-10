@@ -57,42 +57,6 @@ class _QuestionsPageState extends State<QuestionsPage> {
               SizedBox(
                 height: 30,
               ),
-              Container(
-                width: AppMeasure.width,
-                padding: EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(40)),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Container(
-                        width: AppMeasure.width / 2.5,
-                        padding: EdgeInsets.all(5),
-                        decoration: BoxDecoration(
-                            color: AppColor.darkBlue,
-                            borderRadius: BorderRadius.circular(20)),
-                        child: Center(
-                          child: Text(
-                            'Questions',
-                            style: TextStyle(
-                              color: Colors.white,
-                            ),
-                          ),
-                        )),
-                    Expanded(
-                      child: Center(
-                        child: Text(
-                          'Answers',
-                          style: TextStyle(
-                            color: Colors.grey[400],
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
               SizedBox(
                 width: AppMeasure.width,
                 height: AppMeasure.height,
