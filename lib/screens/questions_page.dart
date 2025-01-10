@@ -63,6 +63,8 @@ class _QuestionsPageState extends State<QuestionsPage> {
                 child: ListView.builder(
                     itemCount: widget.topic.questions.length,
                     itemBuilder: (context, index) => QuestionsBubble(
+                          questionCode:
+                              widget.topic.questions[index].questionCode,
                           questionNumber: widget.topic.questions[index].id,
                           questionBody:
                               widget.topic.questions[index].questionBody,
