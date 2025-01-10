@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:lottie/lottie.dart';
+import 'package:reviza_app/screens/questions.dart';
 import 'package:reviza_app/widgets/go_back_button.dart';
 import 'package:reviza_app/widgets/navigationbar.dart';
 import 'package:reviza_app/widgets/subject_tile.dart';
@@ -121,7 +122,14 @@ class _HomePageState extends State<HomePage> {
                             itemCount: _topics.length,
                             itemBuilder: (context, index) {
                               final topic = _topics[index];
-                              return TopicModalTile(topicTitle: topic.topic);
+                              return GestureDetector(
+                                  onTap: () => Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              QuestionsPage(data: _topics))),
+                                  child:
+                                      TopicModalTile(topicTitle: topic.topic));
                             },
                           ),
                         ),
