@@ -39,7 +39,7 @@ class Question {
       id: json['id'],
       questionCode: json['question_code'],
       questionNumber: json['question_number'],
-      questionBody: json['question_code'],
+      questionBody: json['question_body'],
     );
   }
 }
