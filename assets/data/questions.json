@@ -1,7 +1,7 @@
 [
     {
         "topic": "Motion, forces & energy",
-        "code" : "0625/",
+        "code" : "0625",
         "questions":[
             {
                 "id": 1,
@@ -28,7 +28,7 @@
     },
     {
         "topic": "Thermal Physics",
-        "code": "0625/",
+        "code": "0625",
         "questions":[
             {
                 "id": 1,
@@ -55,7 +55,7 @@
     },
     {
         "topic": "Waves",
-        "code": "0625/",
+        "code": "0625",
         "questions":[
             {
                 "id": 1,
@@ -82,7 +82,7 @@
     },
     {
         "topic": "Electricity & Magnetism",
-        "code": "0625/",
+        "code": "0625",
         "questions":[
             {
                 "id": 1,
@@ -109,7 +109,7 @@
     },
     {
         "topic": "Nuclear Physics",
-        "code": "0625/",
+        "code": "0625",
         "questions":[
             {
                 "id": 1,
@@ -136,7 +136,7 @@
     },
     {
         "topic": "Space Physics",
-        "code": "0625/",
+        "code": "0625",
         "questions":[
             {
                 "id": 1,
