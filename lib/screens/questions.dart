@@ -3,9 +3,17 @@ import 'package:reviza_app/constants/app_constants.dart';
 import 'package:reviza_app/widgets/questions_bubble.dart';
 import 'package:reviza_app/widgets/questions_navbar.dart';
 
-class QuestionsPage extends StatelessWidget {
-  const QuestionsPage({super.key});
+import '../models/question.dart';
 
+class QuestionsPage extends StatefulWidget {
+  final List<Topic> data;
+  const QuestionsPage({super.key, required this.data});
+
+  @override
+  State<QuestionsPage> createState() => _QuestionsPageState();
+}
+
+class _QuestionsPageState extends State<QuestionsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
