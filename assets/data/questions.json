@@ -22,7 +22,7 @@
                 "paper_type": "Core",
                 "question_code": "/32/F/M/23",
                 "question_number": "1a",
-                "question_body": "4a) (i) The motor exerts a force of 25N on the load. It lifts the load a vertical distance of 2.0m. Calculate the work done by the motor on the load.  \n[3] (ii) State the useful energy output of the electric motor when it lifts the load 2.0m.[1] \n(iii) The useful energy output of the motor is less than the energy input to the motor. Explain why the useful energy output is less than the energy input. [2] \n(b) The student uses the motor to lift a different load. The motor does 80J of work when it lifts this load. It takes 5.0s to lift the load. Calculate the power output of the electric motor.[3]"
+                "question_body": "4a) (i) The motor exerts a force of 25N on the load. It lifts the load a vertical distance of 2.0m. Calculate the work done by the motor on the load.[3] \n(ii) State the useful energy output of the electric motor when it lifts the load 2.0m.[1] \n(iii) The useful energy output of the motor is less than the energy input to the motor. Explain why the useful energy output is less than the energy input. [2] \n(b) The student uses the motor to lift a different load. The motor does 80J of work when it lifts this load. It takes 5.0s to lift the load. Calculate the power output of the electric motor.[3]"
             },
             {
                 "id": 4,
@@ -43,7 +43,7 @@
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "1 A cyclist is travelling along a straight road. Fig. 1.1 shows the speed–time graph for the cyclist. The graph is divided into four sections labelled P, Q, R and S. \n(a) Calculate the distance travelled by the cyclist in section P from time = 0 to time = 100s. In m[3] (b) Describe the motion of the cyclist in each of sections Q, R and S shown in Fig. 1.1. \nQ[1] \nR[1] \nS[1] \n(c) The cyclist is moving north along the road. Determine the velocity of the cyclist at time = 300s. Include the unit.[2]"
+                "question_body": "1 A cyclist is travelling along a straight road. Fig. 1.1 shows the speed–time graph for the cyclist. The graph is divided into four sections labelled P, Q, R and S. \n(a) Calculate the distance travelled by the cyclist in section P from time = 0 to time = 100s. In m[3] \n(b) Describe the motion of the cyclist in each of sections Q, R and S shown in Fig. 1.1. \nQ[1] \nR[1] \nS[1] \n(c) The cyclist is moving north along the road. Determine the velocity of the cyclist at time = 300s. Include the unit.[2]"
             },
             {
                 "id": 7,
