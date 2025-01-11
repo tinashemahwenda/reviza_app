@@ -5,7 +5,7 @@ import 'constants/app_constants.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    statusBarColor: AppColor.backgroundColor,
+    statusBarColor: Color.fromARGB(255, 242, 243, 244),
   ));
   runApp(RevizaApp());
 }
