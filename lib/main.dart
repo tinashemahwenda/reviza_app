@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:reviza_app/screens/homepage.dart';
 import 'constants/app_constants.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarColor: AppColor.backgroundColor,
+  ));
   runApp(RevizaApp());
 }
 
@@ -17,6 +21,7 @@ class RevizaApp extends StatelessWidget {
       AppColor.backgroundColor = Color.fromARGB(255, 242, 243, 244);
       AppColor.darkBlue = Color.fromARGB(255, 17, 24, 28);
       AppColor.dodgerBlue = Color.fromARGB(255, 0, 127, 255);
+
       return MaterialApp(
         home: HomePage(),
         debugShowCheckedModeBanner: false,
