@@ -59,7 +59,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
               ),
               SizedBox(
                 width: AppMeasure.width,
-                height: AppMeasure.height,
+                height: AppMeasure.height / 1.3,
                 child: ListView.builder(
                     itemCount: widget.topic.questions.length,
                     itemBuilder: (context, index) => QuestionsBubble(
@@ -71,6 +71,9 @@ class _QuestionsPageState extends State<QuestionsPage> {
                               widget.topic.questions[index].questionBody,
                         )),
               ),
+              SizedBox(
+                height: 100,
+              )
             ],
           )),
         ));
