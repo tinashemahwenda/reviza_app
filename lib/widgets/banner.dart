@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:typewritertext/typewritertext.dart';
 
 import '../constants/app_constants.dart';
 
@@ -22,8 +23,10 @@ class RevizaBanner extends StatelessWidget {
               children: [
                 Container(
                   width: AppMeasure.width / 3,
-                  child: Text(
+                  child: TypeWriter.text(
                     'Be an A* Student!',
+                    duration: Duration(milliseconds: 100),
+                    repeat: false,
                     style: TextStyle(
                       fontFamily: 'Manrope-Extrabold',
                       fontWeight: FontWeight.bold,
