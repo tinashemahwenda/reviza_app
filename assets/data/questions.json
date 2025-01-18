@@ -229,22 +229,85 @@
                 "paper_type": "Core",
                 "question_code": "/32/F/M/23",
                 "question_number": "1a",
-                "question_body": "A student places a book in front of a plane mirror. \nState three characteristics of the image of the book formed by the plane mirror(3)"
+                "question_body": "8 (a) A student uses a dry cloth to rub a plastic rod.State how the plastic rod gains a positive charge from friction between the cloth and the rod.[2](b) Three balls, P, Q and R, are electrically charged. The balls are suspended by threads ofinsulating material. Fig. 8.1 shows the arrangement. The charge on ball P is positive.State the charge on ball Q and the charge on ball R.[2](c) The student connects ball P to earth with a copper wire. Charges from the earth flow in the copper wire to ball P.State the name of the electrically charged particles moving in the copper wire.[1]"
             },
             {
                 "id": 2,
                 "paper_type": "Core",
                 "question_code": "/32/F/M/23",
                 "question_number": "1a",
-                "question_body": "A student places a book in front of a plane mirror. \nState three characteristics of the image of the book formed by the plane mirror"
+                "question_body": "9 Fig. 9.1 shows an electric kettle.(a) (i) The power input of the kettle is 1.5kW. The potential difference of the mains electrical supply for the kettle is 220V. Calculate the current in the kettle when it is switched on. [4] (ii) The 1.5kW kettle is used for a total of 4.0 hours. The cost of 1.0kWh of electrical energy is 14 pennies (p). Calculate the cost of the energy used by the kettle in 4.0 hours.[3] (b) Fig. 9.2 shows an overloaded extension lead.Explain the danger of connecting too many plugs to an extension lead.[2]"
             },
             {
                 "id": 3,
                 "paper_type": "Core",
                 "question_code": "/32/F/M/23",
                 "question_number": "1a",
-                "question_body": "A student places a book in front of a plane mirror. \nState three characteristics of the image of the book formed by the plane mirror"
-            }
+                "question_body": "10 (a) Fig. 10.1 shows two coils of wire P and Q, each in a circuit. The ends of the coils are close but not touching.Now, switch S is closed. The pointer in the sensitive ammeter G deflects and then returns to its zero position. Explain why the pointer in sensitive ammeter G deflects.[3] b) Describe the construction of a step-up transformer. You may draw a labelled diagram as part of your answer.[3]"
+            },
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "/31/M/J/23",
+                "question_number": "1a",
+                "question_body": "8.Fig. 8.1 shows the magnetic field pattern around two permanent magnets. The magnets are repelling each other.(a) On Fig. 8.1, label both the poles on each magnet.[1] (b) Describe how to plot the shape and direction of the magnetic field pattern shown in Fig. 8.1.[4]"
+            },
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "31/M/J/23",
+                "question_number": "1a",
+                "question_body": "9 Fig. 9.1 shows a series circuit. Two of the components in the circuit are labelled.(a) State the name of two other components in the circuit.[2](b) The current in the lamp is 0.40A. The potential difference (p.d.) across the lamp is 6.0V.Calculate the power dissipated in the lamp.power = .. W [3](c) Draw on Fig. 9.1 to show a lamp connected in parallel with the lamp in the circuit. Use the correct symbol.[1]"
+            },
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "31/M/J/23",
+                "question_number": "1a",
+                "question_body": "10 (a) Fig. 10.1 shows an arrangement used to demonstrate electromagnetic induction. (i) When the magnet moves towards the coil of wire, the pointer on the sensitive voltmeter deflects to the right. Explain why the pointer deflects  [2] (ii) State two changes that increase the deflection on the sensitive voltmeter.[2] (b) Fig. 10.2 shows the symbol for a transformer. The primary coil is connected to a voltage of 180V a.c. Calculate the secondary voltage Vs for the transformer.[3]"
+            },
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "31/M/J/23",
+                "question_number": "1a",
+                "question_body": "3.Electricity is distributed from wind turbines to homes and industry.(a) Statements A–F describe the main stages in the transfer of energy from the Sun to electrical energy in a wind turbine generator.The statements A–F are not in the correct order. A Air moves from regions of high pressure to regions of low pressure. B The turbine blades turn a generator. C Energy from the Sun heats the atmosphere unevenly. D Uneven heating of the atmosphere produces regions of different atmospheric pressure. E The generator produces electrical energy. F Moving air turns the turbine blades. Complete the flow chart to describe how a wind turbine uses energy from the Sun to generate electrical energy. Insert the missing letters in the empty boxes. (b) State two disadvantages, apart from cost, of using wind turbines to produce electrical energy for homes and industry.[2]"
+            },
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "/32/M/J/23",
+                "question_number": "1a",
+                "question_body": "7 A student uses a permanent magnet to lift some unmagnetised nails. Some of the nails are made of iron and some are made of steel. Fig. 7.1 shows the magnet lifting the nails. (a) (i) Each nail lifts the nail below it by induced magnetism.Describe what is meant by induced magnetism.[3](ii) The student leaves the nails attached to the magnet for several hours, then removes the magnet.State a difference between a magnetic property of the iron nails and of the steel nails.[1](b) A metal wire XY is connected to a voltmeter. The wire is placed between the poles of a permanent magnet. Fig. 7.2 shows the arrangement.(i) State the reading on the voltmeter when the wire is stationary between the poles.[1](ii) Give a reason for the reading on the voltmeter when the wire is moving in the direction shown in Fig. 7.2.[2]"
+            },
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "/32/F/M/23",
+                "question_number": "1a",
+                "question_body": "8 A student uses the circuit in Fig. 8.1 to measure the resistance of the heater in the circuit.(a) The symbols for the meters in Fig. 8.1 are incomplete.Complete the symbols for the two meters by writing in the circles in Fig. 8.1.[2](b) The current in the heater is 1.4A and the potential difference (p.d.) across the heater is 8.0V. Calculate the resistance of the heater. resistance = .. Ω [3] (c) The heater is switched on for 30s. The current in the heater is 1.4A and the p.d. across it is 8.0V.Calculate the electrical energy transferred by the heater during the 30s.energy transferred = .. J [3]"
+            },
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "/32/F/M/23",
+                "question_number": "1a",
+                "question_body": "9 A student has a desktop computer that connects to the 240V a.c. mains electrical supply. Fig. 9.1 shows the desktop computer.(a) The desktop computer has an on-off switch in one of the wires that connect it to the mains supply.State and explain which wire includes the switch.[3](b) The desktop computer uses a transformer to change the 240V a.c. voltage to a 12V a.c.voltage.(i) State the name of this type of transformer.[1](ii) Describe the construction of this transformer. You may include a labelled diagram.[4]"
+            },
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "/32/F/M/23",
+                "question_number": "1a",
+                "question_body": "6 Table 6.1 shows regions of the electromagnetic (e.m.) spectrum.Two of the regions are not labelled.Table 6.1(a) (i) Complete Table 6.1 by writing the name of each region that is not labelled.[2](ii) State two properties that are the same for waves in all regions of the e.m. spectrum.[2](b) X-rays are used in hospitals to check for broken bones.(i) State one other use for X-rays.[1](ii) State one precaution taken by people who work with X-rays.[1]"
+            },
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "/32/F/M/23",
+                "question_number": "1a",
+                "question_body": "8 (a) Fig. 8.1 shows the electrical symbols for some circuit components. Draw a line from each electrical symbol to the name of the circuit component it represents.(b) Fig. 8.2 shows a circuit including a battery, a fixed resistor R and an ammeter.The reading on the ammeter is 0.38A.The potential difference across the fixed resistor R is 12V.(i) Calculate the resistance of the fixed resistor R.resistance = ... Ω  [3](ii) Calculate the electrical power transferred in the fixed resistor R. Include the unit.power transferred = ............. unit[4]"
+            },
         ]
     },
     {
