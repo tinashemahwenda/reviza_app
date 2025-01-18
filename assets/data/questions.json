@@ -449,23 +449,55 @@
             {
                 "id": 1,
                 "paper_type": "Core",
-                "question_code": "/32/F/M/23",
+                "question_code": "32/F/M/23",
                 "question_number": "1a",
-                "question_body": "A student places a book in front of a plane mirror. \nState three characteristics of the image of the book formed by the plane mirror(3)"
+                "question_body": "1. State, in order, the name of the three    planets closest to the Sun.Closest to the Sun Further from the Sun. [2] (b). Define a light-year.[2] (c). Jupiter is 780 000 000 000m(7.8×10¹¹m) from the Sun. The speed of light is 300 000 000m/s(3.0×10⁸m/s).      Calculate the time for light to travel from Sun to Jupiter.Time=….s[2]"
             },
             {
                 "id": 2,
                 "paper_type": "Core",
-                "question_code": "/32/F/M/23",
+                "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "A student places a book in front of a plane mirror. \nState three characteristics of the image of the book formed by the plane mirror"
+                "question_body": "12 (a) Fig. 12.1 represents the Earth and the Sun at one point in the Earth’s orbit of the Sun.Explain the apparent daily motion of the Sun across the sky. [2] (b) List the four planets closest to the Sun in order of their distance from the Sun. One is done for you.1 ......2 Earth.......3 ..... 4 ...... [2](c) The Sun mostly consists of two elements.State the two elements.[2](d) The Sun is a star in a galaxy.State the name of the galaxy[1]"
             },
             {
                 "id": 3,
                 "paper_type": "Core",
-                "question_code": "/32/F/M/23",
+                "question_code": "32/M/J/23",
                 "question_number": "1a",
-                "question_body": "A student places a book in front of a plane mirror. \nState three characteristics of the image of the book formed by the plane mirror"
+                "question_body": "11 Fig. 11.1 shows the Sun and the four innermost planets, A, B, C, and D, of the Solar System.(a) In Table 11.1, write the names of the innermost planets. One is done for you.(b) Describe how the four innermost planets of the Solar System were formed.[4]"
+            }
+            ,
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "33/J/M/23",
+                "question_number": "1a",
+                "question_body": "10 Fig. 10.1 represents part of the Solar System. (a) (i) State the name of planet A and the name of planet B.[2] (ii) On Fig. 10.1, draw an X to represent a moon of Jupiter. Draw a line to show how this moon moves.[1] (iii) State two ways in which the four planets nearest to the Sun are different from the four planets furthest away from the Sun. [2](iv) Complete the following sentences: The galaxy that includes the Solar System is called the [1]The ........................................ includes billions of galaxies.[1]"
+            }
+            ,
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "/42/F/M/23",
+                "question_number": "1a",
+                "question_body": "10(a). The time taken for Mars to orbit the Sun is 690 Earth days. The average orbital radius of Mars is 22.8×10⁸km. An Earth day is 24h. Calculate the average orbital speed of Mars in km/s.[3](b). State the shape of the orbits of the planets.[1](c). Light from a distant galaxy is redshift.(i). Explain what is meant by redshift. [2](ii). State the quantity that the redshift is used to calculate. [1]"
+            }
+            ,
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "41/O/N/23",
+                "question_number": "1a",
+                "question_body": "10 The Milky Way is one of many billions of galaxies. Each galaxy contains many billions of stable stars.(a) Stable stars transfer energy into space by emitting electromagnetic radiation from their surfaces. Describe what happens in the core of a stable star to release energy that is eventually transferred into space.[3] (b) On the Earth, light from a distant galaxy is observed and analysed by astronomers. This information is used to determine the speed at which the galaxy is moving away from the Earth. (i) Describe how the observed light is different from when it was emitted.[2] (ii) State the quantity that astronomers use to determine the speed at which the galaxy is moving away.[1] (c) The Hubble constant H0 is equal to 2.2 × 10–18 per second. (i) Calculate the distance from the Earth of a galaxy that is moving away at a speed of 1.3 × 107m/s.[2] (ii) Calculate an estimate for the age of the Universe. Give your answer in years.age of the Universe = ... years [2]"
+            }
+            ,
+            {
+                "id": 3,
+                "paper_type": "Core",
+                "question_code": "04/SP/23",
+                "question_number": "1a",
+                "question_body": "11 (a) Describe and explain how a stable star is formed.[3](b) Describe and explain what can be deduced from cosmic microwave background radiation CMBR.[3]"
             }
         ]
     }
