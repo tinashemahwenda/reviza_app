@@ -57,21 +57,29 @@ class _QuestionsPageState extends State<QuestionsPage> {
                     ],
                   )),
               Padding(
-                padding: const EdgeInsets.only(bottom: 15, top: 20),
+                padding: const EdgeInsets.only(bottom: 30, top: 30),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
+                    FilterYearBubble(yearNumber: 'All'),
                     FilterYearBubble(yearNumber: '2024'),
                     FilterYearBubble(yearNumber: '2023'),
                     FilterYearBubble(yearNumber: '2022'),
                     FilterYearBubble(yearNumber: '2021'),
                     FilterYearBubble(yearNumber: '2020'),
-                    FilterYearBubble(yearNumber: '2020'),
-                    Icon(
-                      Icons.filter_list,
-                      color: AppColor.darkBlue.withAlpha(200),
-                    )
+                    PopupMenuButton(
+                        icon: Icon(Icons.filter_alt),
+                        itemBuilder: (context) => <PopupMenuEntry>[
+                              PopupMenuItem(child: Text('2019')),
+                              PopupMenuItem(child: Text('2018')),
+                              PopupMenuItem(child: Text('2017')),
+                              PopupMenuItem(child: Text('2016')),
+                              PopupMenuItem(child: Text('2015')),
+                              PopupMenuItem(child: Text('2014')),
+                              PopupMenuItem(child: Text('2013')),
+                              PopupMenuItem(child: Text('2012')),
+                            ])
                   ],
                 ),
               ),
