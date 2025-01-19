@@ -4,7 +4,9 @@ import '../constants/app_constants.dart';
 
 class FilterYearBubble extends StatelessWidget {
   final String yearNumber;
-  const FilterYearBubble({super.key, required this.yearNumber});
+  final bool selectedBubble;
+  const FilterYearBubble(
+      {super.key, required this.yearNumber, required this.selectedBubble});
 
   @override
   Widget build(BuildContext context) {
