@@ -11,20 +11,20 @@ class FilterYearBubble extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(left: 8.0),
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(10),
+        borderRadius: BorderRadius.circular(20),
         child: Container(
           padding: EdgeInsets.symmetric(
             horizontal: 10,
-            vertical: 4,
+            vertical: 2,
           ),
-          color: AppColor.darkBlue,
+          color: AppColor.darkBlue.withAlpha(30),
           child: Text(
             yearNumber,
             style: TextStyle(
-              color: Colors.white,
-              fontSize: 10,
-              fontWeight: FontWeight.bold,
-            ),
+                color: AppColor.darkBlue.withAlpha(100),
+                fontSize: 11,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'Manrope-ExtraBold'),
           ),
         ),
       ),
