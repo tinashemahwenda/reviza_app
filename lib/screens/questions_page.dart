@@ -22,6 +22,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
           padding: const EdgeInsets.all(20.0),
           child: SingleChildScrollView(
               child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(
                 height: 60,
@@ -58,13 +59,23 @@ class _QuestionsPageState extends State<QuestionsPage> {
               SizedBox(
                 height: 20,
               ),
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  FilterYearBubble(
-                    yearNumber: '2024',
+              Container(
+                width: AppMeasure.width / 1.2,
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      FilterYearBubble(yearNumber: '2024'),
+                      FilterYearBubble(yearNumber: '2023'),
+                      FilterYearBubble(yearNumber: '2022'),
+                      FilterYearBubble(yearNumber: '2021'),
+                      FilterYearBubble(yearNumber: '2020'),
+                      FilterYearBubble(yearNumber: '2019'),
+                      FilterYearBubble(yearNumber: '2018'),
+                    ],
                   ),
-                ],
+                ),
               ),
               SizedBox(
                 width: AppMeasure.width,
