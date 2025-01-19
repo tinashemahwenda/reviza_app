@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
+import 'package:reviza_app/widgets/filter_bubble.dart';
 import 'package:reviza_app/widgets/questions_bubble.dart';
 
 import '../models/question.dart';
@@ -60,27 +61,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
               Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.only(left: 8.0),
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(10),
-                      child: Container(
-                        padding: EdgeInsets.symmetric(
-                          horizontal: 10,
-                          vertical: 4,
-                        ),
-                        child: Text(
-                          '2022',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 10,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        color: AppColor.darkBlue,
-                      ),
-                    ),
-                  ),
+                  FilterYearBubble(),
                 ],
               ),
               SizedBox(
