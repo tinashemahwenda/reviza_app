@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
+import 'package:reviza_app/screens/solutions.dart';
 import 'package:reviza_app/widgets/filter_bubble.dart';
 import 'package:reviza_app/widgets/questions_bubble.dart';
 
@@ -111,7 +112,8 @@ class _QuestionsPageState extends State<QuestionsPage> {
           )),
         ),
         floatingActionButton: FloatingActionButton.extended(
-          onPressed: () {},
+          onPressed: () => Navigator.push(context,
+              MaterialPageRoute(builder: (context) => SolutionsPage())),
           label: Text(
             'Solutions',
             style: TextStyle(
