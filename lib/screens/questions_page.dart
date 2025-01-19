@@ -80,7 +80,10 @@ class _QuestionsPageState extends State<QuestionsPage> {
                     ),
                   ),
                   SizedBox(width: 15),
-                  Icon(Icons.filter_alt_sharp)
+                  Icon(
+                    Icons.filter_list,
+                    color: AppColor.darkBlue.withAlpha(200),
+                  )
                 ],
               ),
               SizedBox(
