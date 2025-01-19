@@ -7,8 +7,9 @@ class SolutionsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.white,
         body: UploadingQuestionsScreen(
-      uploadType: 'solutions',
-    ));
+          uploadType: 'solutions',
+        ));
   }
 }
