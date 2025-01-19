@@ -112,7 +112,17 @@ class _QuestionsPageState extends State<QuestionsPage> {
         ),
         floatingActionButton: FloatingActionButton.extended(
           onPressed: () {},
-          label: Text('Solutions'),
+          label: Text(
+            'Solutions',
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
+          backgroundColor: AppColor.darkBlue,
+          icon: Icon(
+            Icons.edit_note_outlined,
+            color: Colors.white,
+          ),
         ));
   }
 }
