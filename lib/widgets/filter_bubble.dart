@@ -19,11 +19,15 @@ class FilterYearBubble extends StatelessWidget {
             horizontal: 10,
             vertical: 2,
           ),
-          color: AppColor.darkBlue.withAlpha(30),
+          color: selectedBubble
+              ? AppColor.darkBlue.withAlpha(255)
+              : AppColor.darkBlue.withAlpha(30),
           child: Text(
             yearNumber,
             style: TextStyle(
-                color: AppColor.darkBlue.withAlpha(100),
+                color: selectedBubble
+                    ? Colors.white
+                    : AppColor.darkBlue.withAlpha(50),
                 fontSize: 11,
                 fontWeight: FontWeight.bold,
                 fontFamily: 'Manrope-ExtraBold'),
