@@ -61,7 +61,9 @@ class _QuestionsPageState extends State<QuestionsPage> {
               Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  FilterYearBubble(),
+                  FilterYearBubble(
+                    yearNumber: '2024',
+                  ),
                 ],
               ),
               SizedBox(
