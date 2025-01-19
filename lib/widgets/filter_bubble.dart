@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import '../constants/app_constants.dart';
 
 class FilterYearBubble extends StatelessWidget {
-  const FilterYearBubble({super.key});
+  final String yearNumber;
+  const FilterYearBubble({super.key, required this.yearNumber});
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +19,7 @@ class FilterYearBubble extends StatelessWidget {
           ),
           color: AppColor.darkBlue,
           child: Text(
-            '2022',
+            yearNumber,
             style: TextStyle(
               color: Colors.white,
               fontSize: 10,
