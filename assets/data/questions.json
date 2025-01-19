@@ -369,71 +369,51 @@
                 "paper_type": "Core",
                 "question_code": "/42/F/M/23",
                 "question_number": "1a",
-                "question_body": "7 (a) Define potential difference (p.d.). [2] (b) (i) State the equation which defines electromotive force (e.m.f.) E.[1] (ii) The e.m.f. of a battery is 9.0V. The battery is in a circuit. Calculate the work done by the battery when it moves a charge of 30C around a complete circuit. [2](c) A circuit consists of a d.c. power supply, a lamp and a thermistor. (i) Draw a circuit diagram of these components connected in series.[2] ii) Explain what happens in the circuit you have drawn in (c)(i) when the temperature of the thermistor is increased.[2]"
+                "question_body": "7 (a) Define potential difference (p.d.). [2] \n(b) (i) State the equation which defines electromotive force (e.m.f.) E.[1] \n(ii) The e.m.f. of a battery is 9.0V. The battery is in a circuit. Calculate the work done by the battery when it moves a charge of 30C around a complete circuit. [2]\n(c) A circuit consists of a d.c. power supply, a lamp and a thermistor. \n(i) Draw a circuit diagram of these components connected in series.[2] \n(ii) Explain what happens in the circuit you have drawn in (c)(i) when the temperature of the thermistor is increased.[2]"
             },
             {
                 "id": 3,
                 "paper_type": "Core",
                 "question_code": "/42/F/M/23",
                 "question_number": "1a",
-                "question_body": "8 Fig. 8.1 shows a horizontal, flat coil in a magnetic fied. The coil is connected to a cell. The coil rotates.(a) Determine the direction of movement of the side AB relative to the plane of the coil.direction of movement = .[1] (b) Explain how you determined the direction in (a). [2] (c) State and explain what happens to the coil as it reaches the vertical position. [2] (d) To operate as a motor, a split‑ring commutator and brushes are added to the parts shown in Fig. 8.1. Explain the effects of the split‑ring commutator and the brushes on the action of the motor. [3]"
+                "question_body": "8 Fig. 8.1 shows a horizontal, flat coil in a magnetic fied. The coil is connected to a cell. The coil rotates.\n(a) Determine the direction of movement of the side AB relative to the plane of the coil.direction of movement = .[1] \n(b) Explain how you determined the direction in (a). [2] \n(c) State and explain what happens to the coil as it reaches the vertical position. [2] \n(d) To operate as a motor, a split‑ring commutator and brushes are added to the parts shown in Fig. 8.1. Explain the effects of the split‑ring commutator and the brushes on the action of the motor. [3]"
             },
             {
                 "id": 3,
                 "paper_type": "Core",
                 "question_code": "/41/O/N/23",
                 "question_number": "1a",
-                "question_body": "7 (a) A plastic rod is uncharged. When the rod is rubbed with a woollen cloth, the rod becomes negatively charged. Explain, in terms of particles, why the rod becomes negatively charged.[2] (b) Fig. 7.1 shows a negatively charged metal sphere S. There is an electric field surrounding S. (i) State what is meant by an electric field. (ii) On Fig. 7.1, draw the pattern of the electric field surrounding sphere S and indicate its direction.[2] (c) Fig. 7.2 shows a small negative charge Z placed near to sphere S. Charge Z experiences a force due to the electric field surrounding S.On Fig. 7.2, draw an arrow to show the direction of this force on Z.[1]"
+                "question_body": "7 (a) A plastic rod is uncharged. When the rod is rubbed with a woollen cloth, the rod becomes negatively charged. Explain, in terms of particles, why the rod becomes negatively charged.[2] \n(b) Fig. 7.1 shows a negatively charged metal sphere S. There is an electric field surrounding S. \n(i) State what is meant by an electric field. \n(ii) On Fig. 7.1, draw the pattern of the electric field surrounding sphere S and indicate its direction.[2] \n(c) Fig. 7.2 shows a small negative charge Z placed near to sphere S. Charge Z experiences a force due to the electric field surrounding S.On Fig. 7.2, draw an arrow to show the direction of this force on Z.[1]"
             },
             {
                 "id": 3,
                 "paper_type": "Core",
                 "question_code": "/41/O/N/23",
                 "question_number": "1a",
-                "question_body": "8 A cylinder is made of modelling clay. The modelling clay is an electrical conductor. Fig. 8.1 shows the cylinder. The cylinder is connected into a circuit. Fig. 8.2 shows that the circuit also includes a battery of electromotive force (e.m.f.) 9.0V and a resistor P. The resistance of P is 4.0Ω. The current in P is 1.5A. (a) Calculate: (i) the magnitude X of the charge that flows through P in 600s.[2) (ii) the resistance of the cylinder of modelling clay.[3] (b) The cylinder is removed from the circuit and replaced with a new cylinder made of the same modelling clay. The new cylinder is twice the length and has half the cross-sectional area of the first cylinder.Calculate the time that it now takes for a charge of magnitude X to flow through resistor P.[4]"
+                "question_body": "8 A cylinder is made of modelling clay. The modelling clay is an electrical conductor. Fig. 8.1 shows the cylinder. The cylinder is connected into a circuit. Fig. 8.2 shows that the circuit also includes a battery of electromotive force (e.m.f.) 9.0V and a resistor P. The resistance of P is 4.0Ω. The current in P is 1.5A. \n(a) Calculate: \n(i) the magnitude X of the charge that flows through P in 600s.[2) \n(ii) the resistance of the cylinder of modelling clay.[3] \n(b) The cylinder is removed from the circuit and replaced with a new cylinder made of the same modelling clay. The new cylinder is twice the length and has half the cross-sectional area of the first cylinder.Calculate the time that it now takes for a charge of magnitude X to flow through resistor P.[4]"
             },
             {
                 "id": 3,
                 "paper_type": "Core",
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
-                "question_body": "8 Fig. 8.1 is a circuit diagram.(a) Calculate the combined resistance between Y and Z.[4](b) Calculate the potential difference (p.d.) across the 8.0 Ω resistor.[2]"
+                "question_body": "8 Fig. 8.1 is a circuit diagram.\n(a) Calculate the combined resistance between Y and Z.[4]\n(b) Calculate the potential difference (p.d.) across the 8.0 Ω resistor.[2]"
             },
             {
                 "id": 3,
                 "paper_type": "Core",
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
-                "question_body": "9 Fig. 9.1 shows a conducting ball that oscillates between two charged plates. As the ball oscillates, it touches each plate in turn. (a) Referring to the charge on the ball, explain why the ball moves to the positive plate after  touching the negative plate.[2] (b) State which particles move when there is a current and state the direction in which they move through the sensitive ammeter. particles: [1]direction: [1](c) For each complete oscillation of the ball moving between the plates, a charge of 8.5 × 10–10 C is transferred from one plate to the other. The frequency of oscillation is 4.0Hz.Calculate the current shown on the sensitive ammeter.[3]"
+                "question_body": "9 Fig. 9.1 shows a conducting ball that oscillates between two charged plates. As the ball oscillates, it touches each plate in turn. \n(a) Referring to the charge on the ball, explain why the ball moves to the positive plate after  touching the negative plate.[2] \n(b) State which particles move when there is a current and state the direction in which they move through the sensitive ammeter. particles: [1]direction: [1]\n(c) For each complete oscillation of the ball moving between the plates, a charge of 8.5 × 10–10 C is transferred from one plate to the other. The frequency of oscillation is 4.0Hz.Calculate the current shown on the sensitive ammeter.[3]"
             },
             {
                 "id": 3,
                 "paper_type": "Core",
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
-                "question_body": "12 Fig. 12.1 shows a transformer. There are 8000 turns in the primary coil of the transformer. The primary coil is connected to a 240 V mains supply. A 6.0 V lamp connected to the secondary coil operates at full brightness. (a) Calculate the number of turns in the secondary coil.[2] (b) The current in the lamp is 2.0 A. The transformer operates with 100% efficiency.Calculate the current in the primary circuit.[2]   "
-            },
-            {
-                "id": 3,
-                "paper_type": "Core",
-                "question_code": "/32/F/M/23",
-                "question_number": "1a",
-                "question_body": "8 (a) Fig. 8.1 shows the electrical symbols for some circuit components. Draw a line from each electrical symbol to the name of the circuit component it represents.(b) Fig. 8.2 shows a circuit including a battery, a fixed resistor R and an ammeter.The reading on the ammeter is 0.38A.The potential difference across the fixed resistor R is 12V.(i) Calculate the resistance of the fixed resistor R.resistance = ... Ω  [3](ii) Calculate the electrical power transferred in the fixed resistor R. Include the unit.power transferred = ............. unit[4]"
-            },
-            {
-                "id": 3,
-                "paper_type": "Core",
-                "question_code": "/32/F/M/23",
-                "question_number": "1a",
-                "question_body": "8 (a) Fig. 8.1 shows the electrical symbols for some circuit components. Draw a line from each electrical symbol to the name of the circuit component it represents.(b) Fig. 8.2 shows a circuit including a battery, a fixed resistor R and an ammeter.The reading on the ammeter is 0.38A.The potential difference across the fixed resistor R is 12V.(i) Calculate the resistance of the fixed resistor R.resistance = ... Ω  [3](ii) Calculate the electrical power transferred in the fixed resistor R. Include the unit.power transferred = ............. unit[4]"
-            },
-            {
-                "id": 3,
-                "paper_type": "Core",
-                "question_code": "/32/F/M/23",
-                "question_number": "1a",
-                "question_body": "8 (a) Fig. 8.1 shows the electrical symbols for some circuit components. Draw a line from each electrical symbol to the name of the circuit component it represents.(b) Fig. 8.2 shows a circuit including a battery, a fixed resistor R and an ammeter.The reading on the ammeter is 0.38A.The potential difference across the fixed resistor R is 12V.(i) Calculate the resistance of the fixed resistor R.resistance = ... Ω  [3](ii) Calculate the electrical power transferred in the fixed resistor R. Include the unit.power transferred = ............. unit[4]"
+                "question_body": "12 Fig. 12.1 shows a transformer. There are 8000 turns in the primary coil of the transformer. The primary coil is connected to a 240 V mains supply. A 6.0 V lamp connected to the secondary coil operates at full brightness. (a) Calculate the number of turns in the secondary coil.[2] \n(b) The current in the lamp is 2.0 A. The transformer operates with 100% efficiency.Calculate the current in the primary circuit.[2]   "
             }
+            
         ]
     },
     {
