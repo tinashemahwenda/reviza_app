@@ -120,6 +120,8 @@ class _QuestionsPageState extends State<QuestionsPage> {
               color: Colors.white,
             ),
           ),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(100)),
           backgroundColor: AppColor.darkBlue,
           icon: Icon(
             Icons.edit_note_outlined,
