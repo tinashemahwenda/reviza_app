@@ -4,7 +4,8 @@ import 'package:lottie/lottie.dart';
 import 'go_back_button.dart';
 
 class UploadingQuestionsScreen extends StatelessWidget {
-  const UploadingQuestionsScreen({super.key});
+  final String uploadType;
+  const UploadingQuestionsScreen({super.key, required this.uploadType});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +17,7 @@ class UploadingQuestionsScreen extends StatelessWidget {
           Lottie.asset('assets/images/animations/loading.json', width: 200),
           SizedBox(height: 20),
           Text(
-            'Still uploading questions',
+            'Still uploading $uploadType',
             style: TextStyle(
               fontFamily: 'Manrope-Extrabold',
               fontSize: 20,
