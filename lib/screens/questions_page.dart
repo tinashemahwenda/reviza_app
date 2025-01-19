@@ -59,23 +59,29 @@ class _QuestionsPageState extends State<QuestionsPage> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                width: AppMeasure.width / 1.2,
-                child: SingleChildScrollView(
-                  scrollDirection: Axis.horizontal,
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      FilterYearBubble(yearNumber: '2024'),
-                      FilterYearBubble(yearNumber: '2023'),
-                      FilterYearBubble(yearNumber: '2022'),
-                      FilterYearBubble(yearNumber: '2021'),
-                      FilterYearBubble(yearNumber: '2020'),
-                      FilterYearBubble(yearNumber: '2019'),
-                      FilterYearBubble(yearNumber: '2018'),
-                    ],
+              Row(
+                children: [
+                  Container(
+                    width: AppMeasure.width / 1.3,
+                    child: SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          FilterYearBubble(yearNumber: '2024'),
+                          FilterYearBubble(yearNumber: '2023'),
+                          FilterYearBubble(yearNumber: '2022'),
+                          FilterYearBubble(yearNumber: '2021'),
+                          FilterYearBubble(yearNumber: '2020'),
+                          FilterYearBubble(yearNumber: '2019'),
+                          FilterYearBubble(yearNumber: '2018'),
+                        ],
+                      ),
+                    ),
                   ),
-                ),
+                  SizedBox(width: 15),
+                  Icon(Icons.filter_alt_sharp)
+                ],
               ),
               SizedBox(
                 width: AppMeasure.width,
