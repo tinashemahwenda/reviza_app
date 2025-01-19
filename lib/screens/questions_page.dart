@@ -56,32 +56,18 @@ class _QuestionsPageState extends State<QuestionsPage> {
                       )
                     ],
                   )),
-              SizedBox(
-                height: 20,
-              ),
               Padding(
-                padding: const EdgeInsets.only(bottom: 15),
+                padding: const EdgeInsets.only(bottom: 15, top: 20),
                 child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    Container(
-                      width: AppMeasure.width / 1.3,
-                      child: SingleChildScrollView(
-                        scrollDirection: Axis.horizontal,
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            FilterYearBubble(yearNumber: '2024'),
-                            FilterYearBubble(yearNumber: '2023'),
-                            FilterYearBubble(yearNumber: '2022'),
-                            FilterYearBubble(yearNumber: '2021'),
-                            FilterYearBubble(yearNumber: '2020'),
-                            FilterYearBubble(yearNumber: '2019'),
-                            FilterYearBubble(yearNumber: '2018'),
-                          ],
-                        ),
-                      ),
-                    ),
-                    SizedBox(width: 15),
+                    FilterYearBubble(yearNumber: '2024'),
+                    FilterYearBubble(yearNumber: '2023'),
+                    FilterYearBubble(yearNumber: '2022'),
+                    FilterYearBubble(yearNumber: '2021'),
+                    FilterYearBubble(yearNumber: '2020'),
+                    FilterYearBubble(yearNumber: '2020'),
                     Icon(
                       Icons.filter_list,
                       color: AppColor.darkBlue.withAlpha(200),
@@ -93,6 +79,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                 width: AppMeasure.width,
                 height: AppMeasure.height / 1.3,
                 child: ListView.builder(
+                    padding: EdgeInsets.zero,
                     itemCount: widget.topic.questions.length,
                     itemBuilder: (context, index) => QuestionsBubble(
                           paperCode: widget.topic.topicCode,
