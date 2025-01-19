@@ -59,19 +59,25 @@ class _QuestionsPageState extends State<QuestionsPage> {
               Padding(
                 padding: const EdgeInsets.only(bottom: 30, top: 30),
                 child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    FilterYearBubble(yearNumber: 'All'),
-                    FilterYearBubble(yearNumber: '2024'),
-                    FilterYearBubble(yearNumber: '2023'),
-                    FilterYearBubble(yearNumber: '2022'),
-                    FilterYearBubble(yearNumber: '2021'),
-                    FilterYearBubble(yearNumber: '2020'),
+                    FilterYearBubble(yearNumber: 'All', selectedBubble: false),
+                    FilterYearBubble(yearNumber: '2024', selectedBubble: false),
+                    FilterYearBubble(yearNumber: '2023', selectedBubble: false),
+                    FilterYearBubble(yearNumber: '2022', selectedBubble: false),
+                    FilterYearBubble(yearNumber: '2021', selectedBubble: false),
+                    FilterYearBubble(yearNumber: '2020', selectedBubble: false),
                     PopupMenuButton(
-                        icon: Icon(Icons.filter_alt),
+                        color: Colors.white,
+                        menuPadding: EdgeInsets.all(20),
+                        offset: Offset.zero,
+                        child: Icon(Icons.filter_list),
+                        padding: EdgeInsets.zero,
                         itemBuilder: (context) => <PopupMenuEntry>[
-                              PopupMenuItem(child: Text('2019')),
+                              PopupMenuItem(
+                                child: Text('2019'),
+                              ),
                               PopupMenuItem(child: Text('2018')),
                               PopupMenuItem(child: Text('2017')),
                               PopupMenuItem(child: Text('2016')),
