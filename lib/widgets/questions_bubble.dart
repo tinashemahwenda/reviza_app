@@ -58,7 +58,10 @@ class QuestionsBubble extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Icon(Icons.bookmark_add_outlined)
+                      Icon(
+                        Icons.bookmark_add_outlined,
+                        color: AppColor.darkBlue,
+                      )
                     ],
                   )
                 ],
