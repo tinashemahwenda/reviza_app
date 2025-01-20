@@ -41,7 +41,6 @@ class _HomePageState extends State<HomePage> {
 
       setState(() {
         _topics = topics;
-        print(_topics[0].topic);
       });
     } catch (e) {
       print('Error in loading data: $e');
