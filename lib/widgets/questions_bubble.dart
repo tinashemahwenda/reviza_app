@@ -41,7 +41,7 @@ class QuestionsBubble extends StatelessWidget {
                     ),
                   ),
                   Row(
-                    spacing: 10,
+                    spacing: 5,
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(20),
