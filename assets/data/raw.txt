@@ -1,51 +1,11 @@
 
 
-0625/31/M/J/23
 
 
-0625/32/M/J/23
 
-
-0625/33/M/J/23
-
-
-EXTENDED
-0625/42/F/M/23
-
- 
-
-0625/41/O/N/23
-
-SPECIMEN 
-0625/04/SP/23
-6 (a) Fig. 6.1 shows a converging lens and its principal axis. The points F1 and F2 are each a 
-principal focus of the lens.
- 
-An object O is placed between F¹ and the lens.
-(i) On Fig. 6.1, draw two rays from the top of the object O to locate the image.
-Label the image I. [3]
-(ii) The object O is moved to the left along the principal axis so that it is further from the lens  than F¹. 
-Fig. 6.2 is a diagram of the new arrangement with the new image shown.  
-Underline three of the terms below that describe the image shown in Fig. 6.2.
-diminished; enlarged; inverted; real; same size; upright;virtual [2]
-(b) Fig. 6.3 shows yellow light passing through a glass prism.
-Blue light enters the prism along the same path as the yellow light. 
-On Fig. 6.3, draw the path of the blue light as it enters, passes through and leaves the prism
- 
-Blue light enters the prism along the same path as the yellow light.
-On Fig. 6.3, draw the path of the blue light as it enters, passes through and leaves the prism.[2]
-
-7(a) State a typical value for the speed of sound in air.[1]
-(b) A sound wave in air has a wavelength of 22 mm.
-Using your value for the speed of sound in (a), calculate the frequency of the sound wave.[2]
-(c) Fig. 7.1 shows a solid block made from hot liquid metal. As the liquid cooled, a bubble formed inside the block. The bubble is not visible from outside the block.
   
-Describe and explain how to use ultrasound to determine the size and position of the bubble 
-inside the metal block. You may draw on the diagram.[4]
-
- 
- 
-
+  
+   
  
 
 
@@ -55,14 +15,11 @@ inside the metal block. You may draw on the diagram.[4]
 
 
 
+ 
 
 
+ 
 
-
-
-
-
-
-
+ 
 
 
