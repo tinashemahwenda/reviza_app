@@ -40,20 +40,26 @@ class QuestionsBubble extends StatelessWidget {
                       fontFamily: 'Manrope-Extrabold',
                     ),
                   ),
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(20),
-                    child: Container(
-                      padding: EdgeInsets.all(5),
-                      color: AppColor.darkBlue,
-                      child: Text(
-                        '$paperCode$questionCode',
-                        style: TextStyle(
-                          fontSize: 8,
-                          fontFamily: 'Manrope-Extrabold',
-                          color: Colors.white,
+                  Row(
+                    spacing: 10,
+                    children: [
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(20),
+                        child: Container(
+                          padding: EdgeInsets.all(5),
+                          color: AppColor.darkBlue,
+                          child: Text(
+                            '$paperCode$questionCode',
+                            style: TextStyle(
+                              fontSize: 8,
+                              fontFamily: 'Manrope-Extrabold',
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                       ),
-                    ),
+                      Icon(Icons.bookmark_add_outlined)
+                    ],
                   )
                 ],
               ),
