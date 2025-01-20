@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:reviza_app/screens/saved_questions.dart';
 
 import '../constants/app_constants.dart';
 //import '../models/question.dart';
@@ -59,9 +60,17 @@ class QuestionsBubble extends StatelessWidget {
                         ),
                       ),
                       GestureDetector(
-                        onTap: () => ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(
-                                content: Text('Question saved successfully'))),
+                        onTap: () =>
+                            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                          content: Text('Question saved successfully'),
+                          action: SnackBarAction(
+                            label: 'View',
+                            onPressed: () => Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => SavedQuestions())),
+                          ),
+                        )),
                         child: Icon(
                           Icons.bookmark_add_outlined,
                           color: AppColor.darkBlue,
