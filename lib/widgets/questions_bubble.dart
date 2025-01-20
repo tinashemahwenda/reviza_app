@@ -62,7 +62,9 @@ class QuestionsBubble extends StatelessWidget {
                       GestureDetector(
                         onTap: () =>
                             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                          content: Text('Question saved successfully'),
+                          backgroundColor: AppColor.darkBlue,
+                          content: Text(
+                              'Question $questionNumber saved successfully'),
                           action: SnackBarAction(
                             label: 'View',
                             onPressed: () => Navigator.push(
