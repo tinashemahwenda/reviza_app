@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:reviza_app/screens/saved_questions.dart';
 
 import '../constants/app_constants.dart';
 
@@ -14,16 +15,20 @@ class RevizaNavigation extends StatelessWidget {
           'assets/images/reviza-transparent-long.png',
           width: 100,
         ),
-        ClipRRect(
-          borderRadius: BorderRadius.circular(10),
-          child: Container(
-            padding: EdgeInsets.all(10),
-            child: Icon(
-              Icons.bookmark,
-              color: Colors.white,
-              size: 30,
+        GestureDetector(
+          onTap: () => Navigator.push(context,
+              MaterialPageRoute(builder: (context) => SavedQuestions())),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(10),
+            child: Container(
+              padding: EdgeInsets.all(10),
+              child: Icon(
+                Icons.bookmark,
+                color: Colors.white,
+                size: 30,
+              ),
+              color: AppColor.dodgerBlue,
             ),
-            color: AppColor.dodgerBlue,
           ),
         )
       ],
