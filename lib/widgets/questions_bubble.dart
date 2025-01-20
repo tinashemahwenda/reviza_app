@@ -58,9 +58,14 @@ class QuestionsBubble extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Icon(
-                        Icons.bookmark_add_outlined,
-                        color: AppColor.darkBlue,
+                      GestureDetector(
+                        onTap: () => ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(
+                                content: Text('Question saved successfully'))),
+                        child: Icon(
+                          Icons.bookmark_add_outlined,
+                          color: AppColor.darkBlue,
+                        ),
                       )
                     ],
                   )
