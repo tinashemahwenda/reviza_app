@@ -69,6 +69,10 @@ class _QuestionsPageState extends State<QuestionsPage> {
                     FilterYearBubble(yearNumber: '2022', selectedBubble: false),
                     FilterYearBubble(yearNumber: '2021', selectedBubble: false),
                     FilterYearBubble(yearNumber: '2020', selectedBubble: false),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10),
+                      child: Icon(Icons.bookmark),
+                    ),
                   ],
                 ),
               ),
