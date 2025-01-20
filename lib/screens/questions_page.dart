@@ -69,24 +69,6 @@ class _QuestionsPageState extends State<QuestionsPage> {
                     FilterYearBubble(yearNumber: '2022', selectedBubble: false),
                     FilterYearBubble(yearNumber: '2021', selectedBubble: false),
                     FilterYearBubble(yearNumber: '2020', selectedBubble: false),
-                    PopupMenuButton(
-                        color: Colors.white,
-                        menuPadding: EdgeInsets.all(20),
-                        offset: Offset.zero,
-                        child: Icon(Icons.filter_list),
-                        padding: EdgeInsets.zero,
-                        itemBuilder: (context) => <PopupMenuEntry>[
-                              PopupMenuItem(
-                                child: Text('2019'),
-                              ),
-                              PopupMenuItem(child: Text('2018')),
-                              PopupMenuItem(child: Text('2017')),
-                              PopupMenuItem(child: Text('2016')),
-                              PopupMenuItem(child: Text('2015')),
-                              PopupMenuItem(child: Text('2014')),
-                              PopupMenuItem(child: Text('2013')),
-                              PopupMenuItem(child: Text('2012')),
-                            ])
                   ],
                 ),
               ),
