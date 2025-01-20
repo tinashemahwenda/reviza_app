@@ -19,7 +19,7 @@ class RevizaNavigation extends StatelessWidget {
           child: Container(
             padding: EdgeInsets.all(10),
             child: Icon(
-              Icons.menu,
+              Icons.bookmark,
               color: Colors.white,
               size: 30,
             ),
