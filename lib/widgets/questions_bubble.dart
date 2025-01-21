@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/screens/saved_questions.dart';
+import 'package:reviza_app/screens/solutions.dart';
 
 import '../constants/app_constants.dart';
 //import '../models/question.dart';
@@ -28,7 +29,29 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
 
   void toggleButton() {
     setState(() {
-      savedButton = !savedButton;
+      if (savedButton == true) {
+        savedButton = false;
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+          backgroundColor: AppColor.darkBlue,
+          content: Text('Question ${widget.questionNumber} removed'),
+          action: SnackBarAction(
+            label: 'View',
+            onPressed: () => Navigator.push(context,
+                MaterialPageRoute(builder: (context) => SavedQuestions())),
+          ),
+        ));
+      } else {
+        savedButton = true;
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+          backgroundColor: AppColor.darkBlue,
+          content: Text('Question ${widget.questionNumber} saved successfully'),
+          action: SnackBarAction(
+            label: 'View',
+            onPressed: () => Navigator.push(context,
+                MaterialPageRoute(builder: (context) => SavedQuestions())),
+          ),
+        ));
+      }
     });
   }
 
@@ -73,6 +96,27 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                         ),
                       ),
                       GestureDetector(
+                        onTap: () => Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => SolutionsPage())),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(20),
+                          child: Container(
+                            padding: EdgeInsets.all(5),
+                            color: AppColor.darkBlue,
+                            child: Text(
+                              'Solution',
+                              style: TextStyle(
+                                fontSize: 8,
+                                fontFamily: 'Manrope-Extrabold',
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                      GestureDetector(
                           onTap: () {
                             toggleButton();
                           },
@@ -84,7 +128,7 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                               : Icon(
                                   Icons.bookmark_add_outlined,
                                   color: AppColor.darkBlue,
-                                ))
+                                )),
                     ],
                   )
                 ],
