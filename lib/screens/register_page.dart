@@ -5,12 +5,6 @@ class RegisterPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        children: [
-          Text('Register'),
-        ],
-      ),
-    );
+    return Scaffold(body: Form(child: Column()));
   }
 }
