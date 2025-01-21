@@ -27,31 +27,31 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
   bool savedButton = false;
 
   void toggleButton() {
-    if (savedButton == true) {
-      savedButton = false;
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-        backgroundColor: AppColor.darkBlue,
-        content: Text('Question ${widget.questionNumber} removed'),
-        action: SnackBarAction(
-          label: 'View',
-          onPressed: () => Navigator.push(context,
-              MaterialPageRoute(builder: (context) => SavedQuestions())),
-        ),
-      ));
-    } else {
-      savedButton = true;
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-        backgroundColor: AppColor.darkBlue,
-        content: Text('Question ${widget.questionNumber} saved successfully'),
-        action: SnackBarAction(
-          label: 'View',
-          onPressed: () => Navigator.push(context,
-              MaterialPageRoute(builder: (context) => SavedQuestions())),
-        ),
-      ));
-    }
-
-    setState(() {});
+    setState(() {
+      if (savedButton == true) {
+        savedButton = false;
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+          backgroundColor: AppColor.darkBlue,
+          content: Text('Question ${widget.questionNumber} removed'),
+          action: SnackBarAction(
+            label: 'View',
+            onPressed: () => Navigator.push(context,
+                MaterialPageRoute(builder: (context) => SavedQuestions())),
+          ),
+        ));
+      } else {
+        savedButton = true;
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+          backgroundColor: AppColor.darkBlue,
+          content: Text('Question ${widget.questionNumber} saved successfully'),
+          action: SnackBarAction(
+            label: 'View',
+            onPressed: () => Navigator.push(context,
+                MaterialPageRoute(builder: (context) => SavedQuestions())),
+          ),
+        ));
+      }
+    });
   }
 
   @override
