@@ -5,6 +5,28 @@ class RegisterPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Form(child: Column()));
+    return Scaffold(
+        backgroundColor: Colors.white,
+        body: SafeArea(
+          child: Form(
+              child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              SizedBox(
+                height: 100,
+              ),
+              Center(
+                child: Image.asset(
+                  'assets/images/reviza-transparent-long.png',
+                  width: 200,
+                ),
+              ),
+              SizedBox(
+                height: 40,
+              ),
+              Text('Register new account')
+            ],
+          )),
+        ));
   }
 }
