@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage> {
             topRight: Radius.circular(20),
           ),
           child: Container(
-              height: AppMeasure.height / 1.5,
+              height: AppMeasure.height,
               width: AppMeasure.width,
               color: AppColor.backgroundColor,
               child: Padding(
