@@ -16,6 +16,7 @@ class QuestionsPage extends StatefulWidget {
 }
 
 class _QuestionsPageState extends State<QuestionsPage> {
+  final ScrollController _scrollController = ScrollController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -86,17 +87,20 @@ class _QuestionsPageState extends State<QuestionsPage> {
               SizedBox(
                 width: AppMeasure.width,
                 height: AppMeasure.height / 1.4,
-                child: ListView.builder(
-                    padding: EdgeInsets.zero,
-                    itemCount: widget.topic.questions.length,
-                    itemBuilder: (context, index) => QuestionsBubble(
-                          paperCode: widget.topic.topicCode,
-                          questionCode:
-                              widget.topic.questions[index].questionCode,
-                          questionNumber: widget.topic.questions[index].id,
-                          questionBody:
-                              widget.topic.questions[index].questionBody,
-                        )),
+                child: Scrollbar(
+                  controller: _scrollController,
+                  child: ListView.builder(
+                      padding: EdgeInsets.zero,
+                      itemCount: widget.topic.questions.length,
+                      itemBuilder: (context, index) => QuestionsBubble(
+                            paperCode: widget.topic.topicCode,
+                            questionCode:
+                                widget.topic.questions[index].questionCode,
+                            questionNumber: widget.topic.questions[index].id,
+                            questionBody:
+                                widget.topic.questions[index].questionBody,
+                          )),
+                ),
               ),
               SizedBox(
                 height: 200,
