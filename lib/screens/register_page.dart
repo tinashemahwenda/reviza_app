@@ -37,7 +37,7 @@ class RegisterPage extends StatelessWidget {
                     fillColor: AppColor.darkBlue,
                     hoverColor: AppColor.darkBlue,
                     label: Text(
-                      'Enter your Full Name',
+                      'Full Name',
                       style: TextStyle(
                         fontSize: 14,
                       ),
@@ -52,6 +52,65 @@ class RegisterPage extends StatelessWidget {
                   },
                 ),
               ),
+              SizedBox(height: 20),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 40),
+                child: TextFormField(
+                  decoration: InputDecoration(
+                    focusColor: AppColor.darkBlue,
+                    fillColor: AppColor.darkBlue,
+                    hoverColor: AppColor.darkBlue,
+                    label: Text(
+                      'School Name',
+                      style: TextStyle(
+                        fontSize: 14,
+                      ),
+                    ),
+                  ),
+                  validator: (value) {
+                    if (value == null || value.isEmpty) {
+                      return 'Please enter your school name';
+                    } else {
+                      return null;
+                    }
+                  },
+                ),
+              ),
+              SizedBox(height: 20),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 40),
+                child: TextFormField(
+                  decoration: InputDecoration(
+                    focusColor: AppColor.darkBlue,
+                    fillColor: AppColor.darkBlue,
+                    hoverColor: AppColor.darkBlue,
+                    label: Text(
+                      'Phone Number',
+                      style: TextStyle(
+                        fontSize: 14,
+                      ),
+                    ),
+                  ),
+                  validator: (value) {
+                    if (value == null || value.isEmpty) {
+                      return 'Please enter your phone number';
+                    } else {
+                      return null;
+                    }
+                  },
+                ),
+              ),
+              SizedBox(
+                height: 40,
+              ),
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 60, vertical: 20),
+                child: Text(
+                  'Submit',
+                  style: TextStyle(color: Colors.white),
+                ),
+                color: AppColor.darkBlue,
+              )
             ],
           )),
         ));
