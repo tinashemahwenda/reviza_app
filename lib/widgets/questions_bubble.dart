@@ -9,6 +9,7 @@ class QuestionsBubble extends StatelessWidget {
   final int questionNumber;
   final String questionCode;
   final String paperCode;
+  final bool toggleButton = false;
   //final List<Topic> data;
   const QuestionsBubble({
     super.key,
@@ -60,19 +61,20 @@ class QuestionsBubble extends StatelessWidget {
                         ),
                       ),
                       GestureDetector(
-                        onTap: () =>
-                            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                          backgroundColor: AppColor.darkBlue,
-                          content: Text(
-                              'Question $questionNumber saved successfully'),
-                          action: SnackBarAction(
-                            label: 'View',
-                            onPressed: () => Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => SavedQuestions())),
-                          ),
-                        )),
+                        onTap: () {
+                          ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                            backgroundColor: AppColor.darkBlue,
+                            content: Text(
+                                'Question $questionNumber saved successfully'),
+                            action: SnackBarAction(
+                              label: 'View',
+                              onPressed: () => Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => SavedQuestions())),
+                            ),
+                          ));
+                        },
                         child: Icon(
                           Icons.bookmark_add_outlined,
                           color: AppColor.darkBlue,
