@@ -15,6 +15,14 @@ class _RegisterPageState extends State<RegisterPage> {
   final _phoneNumberController = TextEditingController();
 
   @override
+  void dispose() {
+    _nameSurnameController.dispose();
+    _phoneNumberController.dispose();
+    _schoolNameController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.white,
