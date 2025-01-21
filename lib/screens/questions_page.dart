@@ -85,7 +85,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
               ),
               SizedBox(
                 width: AppMeasure.width,
-                height: AppMeasure.height / 1.3,
+                height: AppMeasure.height / 1.4,
                 child: ListView.builder(
                     padding: EdgeInsets.zero,
                     itemCount: widget.topic.questions.length,
@@ -99,7 +99,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                         )),
               ),
               SizedBox(
-                height: 100,
+                height: 200,
               )
             ],
           )),
