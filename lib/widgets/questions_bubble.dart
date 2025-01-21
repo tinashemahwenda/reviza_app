@@ -136,6 +136,13 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
               SizedBox(
                 height: 20,
               ),
+              Placeholder(
+                fallbackWidth: AppMeasure.width,
+                fallbackHeight: AppMeasure.height / 3,
+              ),
+              SizedBox(
+                height: 20,
+              ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Text(
