@@ -141,7 +141,7 @@
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "2 (a) Complete the definitions by giving the name of each quantity. mass × acceleration =[1] force × time = [1] \n(b) Fig. 2.2 shows a man using a golf club to hit a ball.The ball has a mass of 0.046kg. The golf club is in contact with the ball for a duration of 5.0 × 10–4s and the ball leaves the golf club at a speed of 65m/s. \n(i) Calculate the momentum of the ball as it leaves the golf club.[2] \n(ii) Calculate the average resultant force acting on the ball while it is in contact with the golf club. average force =  [2] \n(iii) While the golf club is in contact with the ball, the ball becomes compressed and changes shape. State the type of energy stored in the ball during its contact with the golf club.[1] "
+                "question_body": "2 (a) Complete the definitions by giving the name of each quantity. \nmass × acceleration =[1] \nforce × time = [1] \n(b) Fig. 2.2 shows a man using a golf club to hit a ball.The ball has a mass of 0.046kg. The golf club is in contact with the ball for a duration of 5.0 × 10–4s and the ball leaves the golf club at a speed of 65m/s. \n(i) Calculate the momentum of the ball as it leaves the golf club.[2] \n(ii) Calculate the average resultant force acting on the ball while it is in contact with the golf club. average force =  [2] \n(iii) While the golf club is in contact with the ball, the ball becomes compressed and changes shape. State the type of energy stored in the ball during its contact with the golf club.[1] "
             },
             {
                 "id": 21,
@@ -155,232 +155,235 @@
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "1 Fig. 1.1 shows a box dropped from an aeroplane. The box contains supplies. A parachute is attached to the box. The parachute is opened when the time is 6.0s. The graph in Fig. 1.2 shows the vertical speed of the box as it falls. (a) State and explain what happens to the kinetic energy of the box during the first 6.0s of its descent.[2] (b) State and explain what happens to the gravitational potential energy of the box during the first 6.0s.[2] (c) (i) Use the graph in Fig. 1.2 to determine the speed of the object when the object is moving with a constant speed.=  m/s [2] (ii) State the size of the resultant vertical force on the box when it is falling at a constant speed.[1](d) Use the graph in Fig. 1.2 to determine the distance travelled by the box during the first 6.0s. (e) Without calculation, describe how Fig. 1.2 shows that the deceleration of the box is greater  than the acceleration of the box.distance travelled in first 6.0s = m [3]"
+                "question_body": "1 Fig. 1.1 shows a box dropped from an aeroplane. The box contains supplies. A parachute is attached to the box. The parachute is opened when the time is 6.0s. The graph in Fig. 1.2 shows the vertical speed of the box as it falls. \n(a) State and explain what happens to the kinetic energy of the box during the first 6.0s of its descent.[2]\n(b) State and explain what happens to the gravitational potential energy of the box during the first 6.0s.[2] \n(c) (i) Use the graph in Fig. 1.2 to determine the speed of the object when the object is moving with a constant speed.=  m/s [2] \n(ii) State the size of the resultant vertical force on the box when it is falling at a constant speed.[1]\n(d) Use the graph in Fig. 1.2 to determine the distance travelled by the box during the first 6.0s. \n(e) Without calculation, describe how Fig. 1.2 shows that the deceleration of the box is greater  than the acceleration of the box.distance travelled in first 6.0s = m [3]"
             },
             {
                 "id": 23,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "2 Fig. 2.1 shows a measuring cylinder containing water. Fig. 2.2 shows the same measuring cylinder after a stone has been lowered into it. (a) Calculate the volume of the stone.[2] (b) Another stone has a mass of 98.4g. The volume of this stone is 41.0cm3.Calculate the density of the stone.[3] (c) The stone with a mass of 98.4g has a weight of 0.984N.Explain the difference between mass and weight.[2] 3 Fig. 3.1 shows the forces acting on a uniform balanced beam. The beam is pivoted at its centre. (a) Calculate the moment of the 5.2N force about the pivot and show that its value is close to 30Ncm.[3] (b) The beam is balanced. Calculate force P.force P = N [4]"
+                "question_body": "2 Fig. 2.1 shows a measuring cylinder containing water. Fig. 2.2 shows the same measuring cylinder after a stone has been lowered into it. \n(a) Calculate the volume of the stone.[2] \n(b) Another stone has a mass of 98.4g. The volume of this stone is 41.0cm3.Calculate the density of the stone.[3] \n(c) The stone with a mass of 98.4g has a weight of 0.984N.Explain the difference between mass and weight.[2]3 Fig. 3.1 shows the forces acting on a uniform balanced beam. The beam is pivoted at its centre. \n(a) Calculate the moment of the 5.2N force about the pivot and show that its value is close to 30Ncm.[3] \n(b) The beam is balanced. Calculate force P.force P = N [4]"
             },
             {
                 "id": 24,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "1 Fig. 1.1 shows a speed–time graph for a car. (a) (i) Describe the motion of the car from 0 to 50s, as shown in Fig. 1.1[1] (ii) Describe the motion of the car from 50s to 90s, as shown in Fig. 1.1.[1] (iii) Calculate the distance travelled by the car between 50s and 90s. distance travelled = m [3] (b) A motorcycle travels at a constant speed. (i) The motorcycle travels 710m in 87s. Calculate the speed of the motorcycle and show that it is close to 8m/s.[3] (ii) The motorcycle in part (b)(i) travels at a constant speed for 87s.On Fig. 1.1, draw the speed–time graph for the motorcycle.[2]"
+                "question_body": "1 Fig. 1.1 shows a speed–time graph for a car. \n(a) (i) Describe the motion of the car from 0 to 50s, as shown in Fig. 1.1[1] \n(ii) Describe the motion of the car from 50s to 90s, as shown in Fig. 1.1.[1] \n(iii) Calculate the distance travelled by the car between 50s and 90s. distance travelled = m [3] \n(b) A motorcycle travels at a constant speed. \n(i) The motorcycle travels 710m in 87s. Calculate the speed of the motorcycle and show that it is close to 8m/s.[3] \n(ii) The motorcycle in part(b)(i) travels at a constant speed for 87s. On Fig. 1.1, draw the speed–time graph for the motorcycle.[2]"
             },
             {
                 "id": 25,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "2 A liquid-in-glass thermometer contains mercury. (a) The mass of the mercury in the thermometer is 12g. (i) Calculate the weight of the mercury. weight of mercury = N [3] (ii) The 12g of mercury has a volume of 0.88cm3.  Calculate the density of mercury. density of mercury = g/ cm3 [3] (b) The mercury in the thermometer expands when its temperature rises. (i) State what happens to the mass of the mercury when its temperature rises. Tick (3) one box [1] (ii) State what happens to the density of the mercury when its temperature rises. Tick (3) one box."
+                "question_body": "2 A liquid-in-glass thermometer contains mercury. \n(a) The mass of the mercury in the thermometer is 12g. \n(i) Calculate the weight of the mercury. weight of mercury = N [3] \n(ii) The 12g of mercury has a volume of 0.88cm3.  Calculate the density of mercury. density of mercury = g/ cm3 [3] \n(b) The mercury in the thermometer expands when its temperature rises. \n(i) State what happens to the mass of the mercury when its temperature rises. Tick (3) one box [1]\n (ii) State what happens to the density of the mercury when its temperature rises. Tick (3) one box."
             },
             {
                 "id": 26,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "3 A plank balances horizontally on a log of wood, which acts as a pivot. (a) A girl sits on one end of the plank, and her brother pushes down on the other end to make the plank balance horizontally. Fig. 3.1 shows the arrangement.Calculate the moment of the girl’s weight about the pivot and show that it is close to 480Nm.[3](b) The plank balances horizontally when the boy pushes down with a force F at a distance of 1.6m from the pivot. Calculate the size of force F.[3]"
+                "question_body": "3 A plank balances horizontally on a log of wood, which acts as a pivot. \n(a) A girl sits on one end of the plank, and her brother pushes down on the other end to make the plank balance horizontally. Fig. 3.1 shows the arrangement.Calculate the moment of the girl’s weight about the pivot and show that it is close to 480Nm.[3]\n(b) The plank balances horizontally when the boy pushes down with a force F at a distance of 1.6m from the pivot. Calculate the size of force F.[3]"
             },
             {
                 "id": 27,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "4 A country needs to build new power stations to provide electricity for homes and industry. One type of power station is a coal-fired power station. (a) Describe how the energy stored in the coal is used in a coal-fired power station to generate electrical energy.[4] (b) Some people in the country argue against building a new coal-fired power station.They say that the power station is expensive and not very efficient.  Explain the meaning of not very efficient.[1](c) Apart from cost and efficiency, give two other reasons for not building a coal-fired power station.[1]"
+                "question_body": "4 A country needs to build new power stations to provide electricity for homes and industry. One type of power station is a coal-fired power station. \n(a) Describe how the energy stored in the coal is used in a coal-fired power station to generate electrical energy.[4] \n(b) Some people in the country argue against building a new coal-fired power station.They say that the power station is expensive and not very efficient.  Explain the meaning of not very efficient.[1]\n(c) Apart from cost and efficiency, give two other reasons for not building a coal-fired power station.[1]"
             },
             {
                 "id": 28,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "5 (a) A man starts pulling his suitcase across the floor. Fig. 5.1 shows the horizontal forces acting on the suitcase. Calculate the resultant horizontal force on the suitcase. size of force = N direction..[2] (ii) After a short time, the suitcase is moving at a constant speed.Suggest values for the sizes of the two horizontal forces on the suitcase when it is  moving at a constant speed. pulling force = .. (N)[1] friction force = .. (N)[1] (b) The total downward force of the suitcase on the ground is 150N. The suitcase has two wheels. Each wheel has an area of 0.60cm2 touching the ground.Calculate the pressure of the suitcase on the ground. pressure on the ground = N/cm2 [4]"
+                "question_body": "5 (a) A man starts pulling his suitcase across the floor. Fig. 5.1 shows the horizontal forces acting on the suitcase. Calculate the resultant horizontal force on the suitcase. size of force = N direction..[2] \n(ii) After a short time, the suitcase is moving at a constant speed.Suggest values for the sizes of the two horizontal forces on the suitcase when it is  moving at a constant speed. pulling force = .. (N)[1] \nfriction force = .. (N)[1] \n(b) The total downward force of the suitcase on the ground is 150N. The suitcase has two wheels. Each wheel has an area of 0.60cm2 touching the ground.Calculate the pressure of the suitcase on the ground. pressure on the ground = N/cm2 [4]"
             },
             {
                 "id": 29,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "1 A student uses a ruler to measure the length of a piece of wire, as shown in Fig. 1.1.(a) Use the ruler in Fig. 1.1 to determine the length of the piece of wire. length of wire =  cm [2](b) The student folds the piece of wire and measures its mass. (i) State the name of an instrument the student can use to measure mass.[1](ii) The student determines the volume of the wire.  He uses a measuring cylinder part‑filled with water and places the wire in it, as shown in  Fig. 1.2Determine the volume of the wire by using information in Fig. 1.2. volume of wire = cm3 [2](c) The student measures the mass and the volume of a piece of metal. The mass of the piece of metal is 93.6g and its volume is 12cm3. Calculate the density of the metal. density of metal =g/ cm3 [3]"
+                "question_body": "1 A student uses a ruler to measure the length of a piece of wire, as shown in Fig. 1.1.\n(a) Use the ruler in Fig. 1.1 to determine the length of the piece of wire. length of wire =  cm [2]\n(b) The student folds the piece of wire and measures its mass. \n(i) State the name of an instrument the student can use to measure mass.[1]\n(ii) The student determines the volume of the wire.  He uses a measuring cylinder part‑filled with water and places the wire in it, as shown in  Fig. 1.2\nDetermine the volume of the wire by using information in Fig. 1.2. volume of wire = cm3 [2]\n(c) The student measures the mass and the volume of a piece of metal. The mass of the piece of metal is 93.6g and its volume is 12cm3. Calculate the density of the metal. density of metal =g/ cm3 [3]"
             },
             {
                 "id": 30,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "2.A slope is made by resting one end of a plank of wood on a block, as shown in Fig. 2.1. Two students each use a digital stop‑watch to measure the time for a small trolley to roll down the full length of the slope. Fig. 2.2 shows the times on the stop‑watches. (a) (i) On the line next to each stop‑watch, write the time it shows.[1] (ii) Calculate the average time for the trolley to roll down the slope. [2](iii) The students want the same trolley to take more time to roll down the plank.  Suggest how the students alter the arrangement in Fig. 2.1.[1](b) A different trolley travels 1.2m down the slope in a time of 7.8s. Calculate the average speed of the trolley.[3](c) The trolley travels down a different slope. Fig. 2.3 shows the speed–time graph.Calculate the distance travelled by the trolley between time = 0 and time = 4.0s.[3]"
+                "question_body": "2.A slope is made by resting one end of a plank of wood on a block, as shown in Fig. 2.1. Two students each use a digital stop‑watch to measure the time for a small trolley to roll down the full length of the slope. Fig. 2.2 shows the times on the stop‑watches. \n(a) (i) On the line next to each stop‑watch, write the time it shows.[1] \n(ii) Calculate the average time for the trolley to roll down the slope. [2]\n(iii) The students want the same trolley to take more time to roll down the plank.  Suggest how the students alter the arrangement in Fig. 2.1.[1]\n(b) A different trolley travels 1.2m down the slope in a time of 7.8s. Calculate the average speed of the trolley.[3]\n(c) The trolley travels down a different slope. Fig. 2.3 shows the speed–time graph.Calculate the distance travelled by the trolley between time = 0 and time = 4.0s.[3]"
             },
             {
                 "id": 31,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "3 (a) A student determines the centre of mass of a piece of card. Fig. 3.1 shows the equipment the student uses.Describe how the student determines the centre of mass of the card using the equipment in  Fig. 3.1.[3] (b) Another card is pivoted at point P. The weight of the card is 1.4N and acts through a point  20cm from P.  Fig. 3.2 shows the arrangement.Calculate the moment of the weight of the card about point P.[3]"
+                "question_body": "3 (a) A student determines the centre of mass of a piece of card. Fig. 3.1 shows the equipment the student uses.Describe how the student determines the centre of mass of the card using the equipment in  Fig. 3.1.[3] \n(b) Another card is pivoted at point P. The weight of the card is 1.4N and acts through a point  20cm from P.  Fig. 3.2 shows the arrangement.Calculate the moment of the weight of the card about point P.[3]"
             },
             {
                 "id": 32,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "1 A cyclist travels to a friend’s house.Fig. 1.1 shows the distance–time graph of the journey.(a) Determine the distance travelled by the cyclist between points C and E.[2](b) Describe the motion, if any, of the cyclist between points B and C.. [1] (c) State the section, AB, BC, CD or DE, of the graph in which the speed of the cyclist is the  fastest. Give a reason for your answer. section of graph [1] reason [1] (d) Calculate the average speed of the cyclist between points A and E. Include the unit in your answer. average speed = .. unit .. [4]"
+                "question_body": "1 A cyclist travels to a friend’s house.Fig. 1.1 shows the distance–time graph of the journey.\n(a) Determine the distance travelled by the cyclist between points C and E.[2]\n(b) Describe the motion, if any, of the cyclist between points B and C.. [1] \n(c) State the section, AB, BC, CD or DE, of the graph in which the speed of the cyclist is the  fastest. Give a reason for your answer. section of graph [1]\n reason [1] \n(d) Calculate the average speed of the cyclist between points A and E. Include the unit in your answer. average speed = .. unit .. [4]"
             },
             {
                 "id": 33,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "2 (a) A coin collector has 19 identical coins, as shown in Fig. 2.1.Fig. 2.2 shows one of the coins in the coin collector’s hand.The coin collector wants to check the thickness of one coin. She has a 30cm ruler. Describe how she can use the 30cm ruler to determine the thickness of one coin accurately. You may include a diagram if you wish.[3](b) The coin collector finds another coin. She thinks this coin is made of gold. She performs an experiment to find the coin’s density. She obtains the following results: mass of coin = 52.5g volume of coin = 5.4cm³ (i) Show that the density of this coin is about 10 g/ cm³.[3](ii) The density of liquid mercury is 13.6g/ cm3. State and explain whether the coin in (b)(i) floats on liquid mercury.[1]"
+                "question_body": "2 (a) A coin collector has 19 identical coins, as shown in Fig. 2.1.Fig. 2.2 shows one of the coins in the coin collector’s hand.The coin collector wants to check the thickness of one coin. She has a 30cm ruler. Describe how she can use the 30cm ruler to determine the thickness of one coin accurately. You may include a diagram if you wish.[3]\n(b) The coin collector finds another coin. She thinks this coin is made of gold. She performs an experiment to find the coin’s density. She obtains the following results: mass of coin = 52.5g volume of coin = 5.4cm³ \n(i) Show that the density of this coin is about 10 g/ cm³.[3]\n(ii) The density of liquid mercury is 13.6g/ cm3. State and explain whether the coin in \n(b)(i) floats on liquid mercury.[1]"
             },
             {
                 "id": 34,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "3 Fig. 3.1 shows the vertical forces acting on a toy rocket as it leaves the ground (a) Calculate the size of the resultant vertical force on the rocket.[2](b) Explain why the top of the rocket is pointed and has a smooth surface.[2]"
+                "question_body": "3 Fig. 3.1 shows the vertical forces acting on a toy rocket as it leaves the ground \n(a) Calculate the size of the resultant vertical force on the rocket.[2]\n(b) Explain why the top of the rocket is pointed and has a smooth surface.[2]"
             },
             {
                 "id": 35,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "4 (a) A teacher wants to measure the mass of a block of metal. She also wants to measure the length, width and height of the block. Fig. 4.1 shows the block of metal. Complete each sentence using a word from the list. balance   barometer    protractor    ruler    voltmeter (i) To find the mass of the metal block, the teacher uses a ............................................. [1] (ii) To measure the length, width and height of the metal block, she uses a .................... [1] (b) The mass of the block is 5000g. Calculate the weight of the block. weight ..N [3] (c) Fig. 4.2 shows another block of metal on a solid surface.(i) Calculate the area of the block of metal in contact with the solid surface.[2](ii) The weight of the block of metal in Fig. 4.2 is 60N.  Calculate the pressure of the block of metal on the solid surface.pressure = N/cm2 [3]"
+                "question_body": "4 (a) A teacher wants to measure the mass of a block of metal. She also wants to measure the length, width and height of the block. Fig. 4.1 shows the block of metal. Complete each sentence using a word from the list.\n balance   barometer    protractor    ruler    voltmeter \n(i) To find the mass of the metal block, the teacher uses a ..................[1] \n(ii) To measure the length, width and height of the metal block, she uses a .................... [1] \n(b) The mass of the block is 5000g. Calculate the weight of the block. weight ..N [3] \n(c) Fig. 4.2 shows another block of metal on a solid surface.\n(i) Calculate the area of the block of metal in contact with the solid surface.[2]\n(ii) The weight of the block of metal in Fig. 4.2 is 60N.  Calculate the pressure of the block of metal on the solid surface.pressure = N/cm2 [3]"
             },
             {
                 "id": 36,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": " 5 (a) A student determines the centre of mass of a piece of wood. The wood is an irregular shape of constant thickness. He suspends the piece of wood from a nail as shown in Fig. 5.1. The wood is able to swing  freely. The student suspends a weight on a thin string from the nail.Describe how to determine the centre of mass of the piece of wood in Fig. 5.1.You may draw a diagram to help your answer.[3](b) Fig. 5.2 shows a flat, symmetrical object. Indicate its centre of mass by drawing X in the correct position.(c) Fig. 5.3 shows a side view of a drinking-glass in two different positions, A and B.State which position, A or B, is more stable. Explain your answer.[2]"
+                "question_body": " 5 (a) A student determines the centre of mass of a piece of wood. The wood is an irregular shape of constant thickness. He suspends the piece of wood from a nail as shown in Fig. 5.1. The wood is able to swing  freely. The student suspends a weight on a thin string from the nail.Describe how to determine the centre of mass of the piece of wood in Fig. 5.1.You may draw a diagram to help your answer.[3]\n(b) Fig. 5.2 shows a flat, symmetrical object. Indicate its centre of mass by drawing X in the correct position.\n(c) Fig. 5.3 shows a side view of a drinking-glass in two different positions, A and B.State which position, A or B, is more stable. Explain your answer.[2]"
             },
             {
                 "id": 37,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "1 Fig. 1.1 shows the speed–time graph for a car travelling along a road.(a) Determine the distance travelled by the car between 30s and 60s.[3](b) The distance travelled by the car between 60s and 110s is 460m.(c) Describe the motion of the car between 30s and 60s.[1](d) Describe the motion of the car between 60s and 80s.[1]"
+                "question_body": "1 Fig. 1.1 shows the speed–time graph for a car travelling along a road.\n(a) Determine the distance travelled by the car between 30s and 60s.[3]\n(b) The distance travelled by the car between 60s and 110s is 460m.\n(c) Describe the motion of the car between 30s and 60s.[1]\n(d) Describe the motion of the car between 60s and 80s.[1]"
             },
             {
                 "id": 38,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "2 (a) A scientist has a measuring cylinder, a beaker of sea water and an electronic balance.Describe an experiment to determine the density of the sea water.Include any equations in your answer.[5](b) A plank of wood floats on the sea.Explain why the wood floats.[1]"
+                "question_body": "2 (a) A scientist has a measuring cylinder, a beaker of sea water and an electronic balance.Describe an experiment to determine the density of the sea water.Include any equations in your answer.[5]\n(b) A plank of wood floats on the sea.Explain why the wood floats.[1]"
             },
             {
                 "id": 39,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "3 (a) A girl and her brother sit on opposite sides of a see-saw as shown in Fig. 3.1.(i) Calculate the girl’s moment about the pivot and show that it is close to 460Nm.[3](ii) The see-saw is balanced horizontally. Calculate the weight W of the brother.[3](b) The weight of the girl in Fig. 3.1 is 240N.Calculate the mass of the girl. Include the unit in your answer.mass of girl = ....unit ... [4]"
+                "question_body": "3 (a) A girl and her brother sit on opposite sides of a see-saw as shown in Fig. 3.1.\n(i) Calculate the girl’s moment about the pivot and show that it is close to 460Nm.[3]\n(ii) The see-saw is balanced horizontally. Calculate the weight W of the brother.[3]\n(b) The weight of the girl in Fig. 3.1 is 240N.Calculate the mass of the girl. Include the unit in your answer.mass of girl = ....\nunit ... [4]"
             },
             {
                 "id": 40,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "4 (a) A power station burns fossil fuel to produce electrical energy.(i) State the form of the energy stored in the fuel.[1](ii) Some of the energy stored in the fuel is not converted to electrical energy.Suggest how energy is wasted in the generator.[2](b) Solar panels produce electrical energy.State two advantages and two disadvantages of using solar panels, rather than fossil fuels, to produce electrical energy.[4]"
+                "question_body": "4 (a) A power station burns fossil fuel to produce electrical energy.\n(i) State the form of the energy stored in the fuel.[1]\n(ii) Some of the energy stored in the fuel is not converted to electrical energy. Suggest how energy is wasted in the generator.[2]\n(b) Solar panels produce electrical energy. State two advantages and two disadvantages of using solar panels, rather than fossil fuels, to produce electrical energy.[4]"
             },
             {
                 "id": 41,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "1 Fig. 1.1 shows the core of a transformer. It is made from thin sheets of iron.(a) There are 200 sheets of iron in the core of the transformer. The thickness of the core is 50mm.Calculate the average thickness of one sheet of iron. average thickness of one sheet = .. mm [3](b) The density of the iron in the core is 7.65g/cm3. The mass of the core is 1377g. Calculate the volume of the core.[3](c) State the name of a device used to measure mass.[1]"
+                "question_body": "1 Fig. 1.1 shows the core of a transformer. It is made from thin sheets of iron.\n(a) There are 200 sheets of iron in the core of the transformer. The thickness of the core is 50mm. Calculate the average thickness of one sheet of iron. average thickness of one sheet = .. mm [3]\n(b) The density of the iron in the core is 7.65g/cm3. The mass of the core is 1377g. Calculate the volume of the core.[3]\n(c) State the name of a device used to measure mass.[1]"
             },
             {
                 "id": 42,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "2 Fig. 2.1 shows how the speed of a car varies between 0 and 60.0s.(a) Determine the speed of the car using information from Fig. 2.1: (i) when the time is 5.0s speed = . m/s [2] (ii) when the car is moving with a constant speed.speed = . m/s [1] (b) Describe how the speed of the car changes between 30.0s and 60.0s.. [2] (c) Determine the distance travelled by the car between 10.0s and 30.0s. distance travelled = .... m [3] (d) The total distance travelled by the car in the last 30.0s is 226m.  Calculate the average speed of the car in the last 30.0s. average speed = . m/s [3]"
+                "question_body": "2 Fig. 2.1 shows how the speed of a car varies between 0 and 60.0s.\n(a) Determine the speed of the car using information from Fig. 2.1: \n(i) when the time is 5.0s speed = . m/s [2] \n(ii) when the car is moving with a constant speed.speed = . m/s [1] (b) Describe how the speed of the car changes between 30.0s and 60.0s.. [2] \n(c) Determine the distance travelled by the car between 10.0s and 30.0s. distance travelled = .... m [3] \n(d) The total distance travelled by the car in the last 30.0s is 226m.  Calculate the average speed of the car in the last 30.0s. average speed = . m/s [3]"
             },
             {
                 "id": 43,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "3 Fig. 3.1 shows a barrier used at a car park. The beam can be raised and lowered by a man  rotating it about its pivot.(a) The weight of the beam is 150N. This acts at a distance of 1.8m from the pivot as shown in  Fig. 3.1. Calculate the moment of the weight of the beam about the pivot.  Include the correct unit in your answer. moment of weight of beam = .. unit .. [4](b) When the weight W of the heavy weight acts at a distance of 0.6m from the pivot, the barrier  is horizontal and balanced as shown in Fig. 3.1.  The man raises the barrier and the heavy weight slips to a distance of 0.8m from the pivot. This causes a problem for the man trying to lower the barrier. Describe and explain the problem this causes for the man lowering the barrier.[3]"
+                "question_body": "3 Fig. 3.1 shows a barrier used at a car park. The beam can be raised and lowered by a man  rotating it about its pivot.\n(a) The weight of the beam is 150N. This acts at a distance of 1.8m from the pivot as shown in  Fig. 3.1. Calculate the moment of the weight of the beam about the pivot.  Include the correct unit in your answer. moment of weight of beam = .. unit .. [4]\n(b) When the weight W of the heavy weight acts at a distance of 0.6m from the pivot, the barrier  is horizontal and balanced as shown in Fig. 3.1.  The man raises the barrier and the heavy weight slips to a distance of 0.8m from the pivot. This causes a problem for the man trying to lower the barrier. Describe and explain the problem this causes for the man lowering the barrier.[3]"
             },
             {
                 "id": 44,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "4 A student investigates energy changes when a ball rolls down a curved track. The student holds the ball at a starting point on the curved track, as shown in Fig. 4.1.The ball is released. It rolls down the track, up the other side to the stopping point and then back  down again. (a) Describe the energy changes that take place as the ball rolls from the starting point to the  stopping point.[4](b) The height of the stopping point is less than the height of the starting point.Describe how the principle of conservation of energy explains the difference between the  height of the stopping point and the height of the starting point.[2]"
+                "question_body": "4 A student investigates energy changes when a ball rolls down a curved track. The student holds the ball at a starting point on the curved track, as shown in Fig. 4.1.The ball is released. It rolls down the track, up the other side to the stopping point and then back  down again. \n(a) Describe the energy changes that take place as the ball rolls from the starting point to the  stopping point.[4]\n(b) The height of the stopping point is less than the height of the starting point.Describe how the principle of conservation of energy explains the difference between the  height of the stopping point and the height of the starting point.[2]"
             },
             {
                 "id": 45,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "1 Fig. 1.1 shows a plant pot falling from an upstairs balcony. The plant pot has a constant acceleration as it falls.(a) State the cause of the acceleration.[1](b) Fig. 1.2 shows the speed–time graph for the falling plant pot. The plant pot hits the ground at time = 1.8s.Determine the height of the balcony above the ground using the information shown in Fig. 1.2.[3]"
+                "question_body": "1 Fig. 1.1 shows a plant pot falling from an upstairs balcony. The plant pot has a constant acceleration as it falls.\n(a) State the cause of the acceleration.[1]\n(b) Fig. 1.2 shows the speed–time graph for the falling plant pot. The plant pot hits the ground at time = 1.8s. Determine the height of the balcony above the ground using the information shown in Fig. 1.2.[3]"
             },
             {
                 "id": 46,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "2 Fig. 2.1 shows a pea plant. One of the pods is open, showing the peas inside.(a) A food scientist needs to find the average diameter of a pea.She places 14 peas against a ruler, as shown in Fig. 2.2.Use information from Fig. 2.2 to determine the average diameter of one pea.[3](b) The food scientist needs to find the average density of some peas.She uses the following values:mass of peas = 183g volume of peas = 250cm³.(b) The food scientist needs to find the average density of some peas.She uses the following values:mass of peas = 183gvolume of peas = 250cm3.Calculate the average density of these peas....g/cm³[3](c) A different variety of pea has a density of 0.89g/ cm3. One pea of this variety is placed in salt water. The density of the salt water is 1.02g/cm3.State whether this pea floats or sinks in the salt water. Give a reason for your answer.answer ...reason..[1]"
+                "question_body": "2 Fig. 2.1 shows a pea plant. One of the pods is open, showing the peas inside.\n(a) A food scientist needs to find the average diameter of a pea.She places 14 peas against a ruler, as shown in Fig. 2.2.Use information from Fig. 2.2 to determine the average diameter of one pea.[3]\n(b) The food scientist needs to find the average density of some peas.She uses the following values:mass of peas = 183g volume of peas = 250cm³.\n(b) The food scientist needs to find the average density of some peas.She uses the following values:mass of peas = 183gvolume of peas = 250cm3. Calculate the average density of these peas....g/cm³[3]\n(c) A different variety of pea has a density of 0.89g/ cm3. One pea of this variety is placed in salt water. The density of the salt water is 1.02g/cm3.State whether this pea floats or sinks in the salt water. Give a reason for your answer.answer ...\nreason..[1]"
             },
             {
                 "id": 47,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "3 Fig. 3.1 shows the horizontal forces acting on a skateboarder.(a) Calculate the resultant force acting on the skateboarder.resultant force= N direction = [2](b) Describe the effect of the resultant force in (a) on the motion of the skateboarder.[1](c) The skateboarder is moving along a horizontal path.The backward force is 100N. The forward force is 100N.Describe the motion of the skateboarder.[1]"
+                "question_body": "3 Fig. 3.1 shows the horizontal forces acting on a skateboarder.\n(a) Calculate the resultant force acting on the skateboarder.resultant force= N direction = [2]\n(b) Describe the effect of the resultant force in (a) on the motion of the skateboarder.[1]\n(c) The skateboarder is moving along a horizontal path.The backward force is 100N. The forward force is 100N.Describe the motion of the skateboarder.[1]"
             },
             {
                 "id": 48,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "4 (a) (i) State the principle of conservation of energy.[1](ii) Fig. 4.1 shows a type of light bulb. Energy changes occur when electrical energy is supplied to the light bulb, as shown in Fig. 4.1.Calculate the wasted energy when the total input energy is 500J.Use information from Fig. 4.1.wasted energy = J [2](iii) Describe the effect of the wasted energy on the air surrounding the light bulb.[1](b) Table 4.1 lists situations in which energy is stored.Complete Table 4.1 by naming the form of energy stored in each situation."
+                "question_body": "4 (a) (i) State the principle of conservation of energy.[1]\n(ii) Fig. 4.1 shows a type of light bulb. Energy changes occur when electrical energy is supplied to the light bulb, as shown in Fig. 4.1.Calculate the wasted energy when the total input energy is 500J.Use information from Fig. 4.1.wasted energy = J [2]\n(iii) Describe the effect of the wasted energy on the air surrounding the light bulb.[1]\n(b) Table 4.1 lists situations in which energy is stored.Complete Table 4.1 by naming the form of energy stored in each situation."
             },
             {
                 "id": 49,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "1 A skydiver of mass 76kg is falling vertically in still air. At time t = 0, the skydiver opens his  parachute.Fig. 1.1 is the speed–time graph for the skydiver from t = 0.(a) Using Fig. 1.1, determine: (i) the deceleration of the skydiver immediately after the parachute opens.[2] (ii) the force due to air resistance acting on the skydiver immediately after the parachute  opens.[3](b) Explain, in terms of the forces acting on the skydiver, his motion between t = 0 and t = 6.0s.[3](c) Explain why opening the parachute cannot reduce the speed of the skydiver to zero.[2]"
+                "question_body": "1 A skydiver of mass 76kg is falling vertically in still air. At time t = 0, the skydiver opens his  parachute.Fig. 1.1 is the speed–time graph for the skydiver from t = 0.\n(a) Using Fig. 1.1, determine: \n(i) the deceleration of the skydiver immediately after the parachute opens.[2] \n(ii) the force due to air resistance acting on the skydiver immediately after the parachute  opens.[3]\n(b) Explain, in terms of the forces acting on the skydiver, his motion between t = 0 and t = 6.0s.[3]\n(c) Explain why opening the parachute cannot reduce the speed of the skydiver to zero.[2]"
             },
             {
                 "id": 50,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "2 Fig. 2.1 shows a wooden trolley of mass 1.2kg at rest on the rough surface of a bench.A ball of mass 0.52g travels horizontally towards the trolley. The ball embeds itself in the wood of the trolley. The trolley moves with an initial speed of 0.065m/s. (a) Calculate: (i) the impulse exerted on the trolley.[2](ii) the speed of the ball as it hits the trolley.[2](b) As the trolley moves across the rough surface, it slows down and stops. Explain, in terms of the work done, the energy change that takes place as the trolley slows  down.[3]"
+                "question_body": "2 Fig. 2.1 shows a wooden trolley of mass 1.2kg at rest on the rough surface of a bench.A ball of mass 0.52g travels horizontally towards the trolley. The ball embeds itself in the wood of the trolley. The trolley moves with an initial speed of 0.065m/s. \n(a) Calculate: \n(i) the impulse exerted on the trolley.[2]\n(ii) the speed of the ball as it hits the trolley.[2]\n(b) As the trolley moves across the rough surface, it slows down and stops. Explain, in terms of the work done, the energy change that takes place as the trolley slows  down.[3]"
             },
             {
                 "id": 51,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "3 (a) Explain, in terms of molecules, why liquids are very difficult to compress.[2](b) Fig. 3.1 shows a device that uses liquid pressure to lift heavy boxes.The boxes are lifted by pumping oil into the cylinder. The force upwards on the piston due to the oil, and the force downwards on the piston due to  the air above the piston, combine to produce a constant force of 8800N. The pressure of the air is 1.0 × 105Pa and the cross-sectional area of the bottom surface of  the piston is 0.016m2. (i) Calculate the pressure of the oil at the bottom surface of the piston.[3](ii) As the boxes are lifted, the depth of the oil increases.  Explain why the pump must exert an increasing pressure on the oil as the depth of the oil  increases.[2](iii) Suggest one reason why the force of 8800N in (b) cannot lift boxes of weight 8800N.[1]"
+                "question_body": "3 (a) Explain, in terms of molecules, why liquids are very difficult to compress.[2]\n(b) Fig. 3.1 shows a device that uses liquid pressure to lift heavy boxes.The boxes are lifted by pumping oil into the cylinder. The force upwards on the piston due to the oil, and the force downwards on the piston due to  the air above the piston, combine to produce a constant force of 8800N. The pressure of the air is 1.0 × 105Pa and the cross-sectional area of the bottom surface of  the piston is 0.016m2. \n(i) Calculate the pressure of the oil at the bottom surface of the piston.[3]\n(ii) As the boxes are lifted, the depth of the oil increases.  Explain why the pump must exert an increasing pressure on the oil as the depth of the oil  increases.[2]\n(iii) Suggest one reason why the force of 8800N in (b) cannot lift boxes of weight 8800N.[1]"
             },
             {
                 "id": 52,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "4 An aluminium saucepan with a plastic handle contains cold water. Fig. 4.1 shows the saucepan on a hotplate.(a) State why the pan is made from aluminium but the handle is made from plastic.[1](b) The hotplate is switched on and, as the temperature of the water increases, the internal  energy of the water increases. (i) State, in terms of molecules, what is meant by an increase in internal energy.[1](ii) Explain, in terms of the atomic lattice and electrons, how thermal energy is transferred  through the aluminium.[3](ii) Eventually, the water reaches boiling point. Thermal energy from the hotplate is still  being transferred to the water.  Explain, in terms of molecules, the effect of this thermal energy on the water.[3](iv) The mass of the water decreases by 0.11kg in 300s. The specific latent heat of vaporisation of water is 2.3 × 10⁶ J/kg.  Calculate the rate at which the water gains thermal energy.[3]"
+                "question_body": "4 An aluminium saucepan with a plastic handle contains cold water. Fig. 4.1 shows the saucepan on a hotplate.\n(a) State why the pan is made from aluminium but the handle is made from plastic.[1]\n(b) The hotplate is switched on and, as the temperature of the water increases, the internal  energy of the water increases. \n(i) State, in terms of molecules, what is meant by an increase in internal energy.[1]\n(ii) Explain, in terms of the atomic lattice and electrons, how thermal energy is transferred  through the aluminium.[3]\n(ii) Eventually, the water reaches boiling point. Thermal energy from the hotplate is still  being transferred to the water.  Explain, in terms of molecules, the effect of this thermal energy on the water.[3]\n(iv) The mass of the water decreases by 0.11kg in 300s. The specific latent heat of vaporisation of water is 2.3 × 10⁶ J/kg.  Calculate the rate at which the water gains thermal energy.[3]"
             },
             {
                 "id": 53,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "1 Some physical quantities are scalars and other physical quantities are vectors. (a) State how a vector quantity differs from a scalar quantity.[1](b) Circle the vector quantities in the list. acceleration.  energy. mass.  momentum.  temperature. time. speed. velocity[2](c) A microphone in a recording studio has a mass of 0.55kg and a weight W. (i) Calculate W.[1](ii) The microphone is suspended from the ceiling by a cord attached to a small ring. Fig. 1.1  shows the microphone pulled to one side and kept stationary by a horizontal thread. The tension T in the horizontal thread is 8.1N.  Determine graphically the magnitude and the direction, relative to the vertical, of the  resultant of W and T. Use a scale of 1.0cm to 1.0N or greater.magnitude of resultant = ..                  direction of resultant = .. relative to vertical.[3] (iii) State and explain how the magnitude and direction of the resultant in (c)(ii) compares  with the force on the ring due to the tension in the cord.[2]"
+                "question_body": "1 Some physical quantities are scalars and other physical quantities are vectors. \n(a) State how a vector quantity differs from a scalar quantity.[1]\n(b) Circle the vector quantities in the list. acceleration.  energy. mass.  momentum.  temperature. time. speed. velocity[2]\n(c) A microphone in a recording studio has a mass of 0.55kg and a weight W. \n(i) Calculate W.[1]\n(ii) The microphone is suspended from the ceiling by a cord attached to a small ring. Fig. 1.1  shows the microphone pulled to one side and kept stationary by a horizontal thread. The tension T in the horizontal thread is 8.1N.  Determine graphically the magnitude and the direction, relative to the vertical, of the  resultant of W and T. Use a scale of 1.0cm to 1.0N or greater.magnitude of resultant = ..                  direction of resultant = .. relative to vertical.[3] \n(iii) State and explain how the magnitude and direction of the resultant in (c)(ii) compares  with the force on the ring due to the tension in the cord.[2]"
             },
             {
                 "id": 54,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
-                "question_body": "2 A student carries out an experiment using a plastic beaker that contains 0.24kg of water at 17°C.  The thermal capacity (heat capacity) of the beaker is negligible. (a) Define thermal capacity.[2](b) Several ice cubes are at a temperature of 0°C. The ice cubes are dropped into the water and  the internal energy of the water decreases. (i) Give a simple molecular account of this decrease in internal energy.[2](ii) The specific heat capacity of water is 4200J/(kg°C).  Calculate the decrease in the internal energy of the water as its temperature decreases  from 17°C to 0°C.[2](c) As the temperature of the water decreases, some of the ice melts. (i) Explain why this ice melts.[2](ii) Describe how to determine the specific latent heat of fusion of ice using this experiment.  State any other measurements that the student needs to make.[3]"
+                "question_body": "3 Fig. 3.1 shows the forces acting on a uniform balanced beam. The beam is pivoted at its centre. \n(a) Calculate the moment of the 5.2N force about the pivot and show that its value is close to 30Ncm.[3] \n(b) The beam is balanced. Calculate force P.force P = N [4]"
             },
+
+
+
             {
                 "id": 55,
                 "paper_type": "Core",
@@ -540,6 +543,13 @@
                 "question_code": "/32/F/M/23",
                 "question_number": "1a",
                 "question_body": "4 A student has a block of solid metal at room temperature. \n(a) (i) Describe the arrangement, separation and motion of the particles in the solid metal.[3] \n(ii) The student cools the block of metal in a freezer. State the effect, if any, of cooling on the kinetic energy of the particles in the block of metal.[1] \n(b) (i) State the name of the temperature at which particles have the least kinetic energy.[1] \n(ii) State the value of temperature at which particles have the least kinetic energy.  Include the unit. [1]\n(c) The metal block emits thermal radiation from its surface. State two features of a surface that is a good emitter of thermal radiation.[2]"
+            },
+            {
+                "id": 6,
+                "paper_type": "Core",
+                "question_code": "/31/M/J/23",
+                "question_number": "1a",
+                "question_body": "2 A student carries out an experiment using a plastic beaker that contains 0.24kg of water at 17°C.  The thermal capacity (heat capacity) of the beaker is negligible. \n(a) Define thermal capacity.[2]\n(b) Several ice cubes are at a temperature of 0°C. The ice cubes are dropped into the water and  the internal energy of the water decreases. \n(i) Give a simple molecular account of this decrease in internal energy.[2]\n(ii) The specific heat capacity of water is 4200J/(kg°C).  Calculate the decrease in the internal energy of the water as its temperature decreases  from 17°C to 0°C.[2]\n(c) As the temperature of the water decreases, some of the ice melts. \n(i) Explain why this ice melts.[2]\n(ii) Describe how to determine the specific latent heat of fusion of ice using this experiment.  State any other measurements that the student needs to make.[3]"
             }
         ]
     },
