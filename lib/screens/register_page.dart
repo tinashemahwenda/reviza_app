@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
+import 'package:reviza_app/screens/homepage.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key});
@@ -9,7 +11,7 @@ class RegisterPage extends StatefulWidget {
 }
 
 class _RegisterPageState extends State<RegisterPage> {
-  final formKey = GlobalKey<FormState>;
+  final _formKey = GlobalKey<FormState>();
   final _nameSurnameController = TextEditingController();
   final _schoolNameController = TextEditingController();
   final _phoneNumberController = TextEditingController();
@@ -20,6 +22,18 @@ class _RegisterPageState extends State<RegisterPage> {
     _phoneNumberController.dispose();
     _schoolNameController.dispose();
     super.dispose();
+  }
+
+  Future<void> _saveData() async {
+    if (_formKey.currentState!.validate()) {
+      SharedPreferences prefs = await SharedPreferences.getInstance();
+      await prefs.setString('name', _nameSurnameController.text);
+      await prefs.setString('schoolName', _schoolNameController.text);
+      await prefs.setString('phoneNumber', _phoneNumberController.text);
+
+      ScaffoldMessenger.of(context)
+          .showSnackBar(SnackBar(content: Text('Saved successfully')));
+    }
   }
 
   @override
@@ -125,16 +139,23 @@ class _RegisterPageState extends State<RegisterPage> {
                 SizedBox(
                   height: 40,
                 ),
-                Container(
-                  padding: EdgeInsets.symmetric(horizontal: 60, vertical: 20),
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: AppColor.darkBlue),
-                  child: Text(
-                    'Submit',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
+                GestureDetector(
+                  onTap: () {
+                    _saveData;
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => HomePage()));
+                  },
+                  child: Container(
+                    padding: EdgeInsets.symmetric(horizontal: 60, vertical: 20),
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: AppColor.darkBlue),
+                    child: Text(
+                      'Submit',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
                 )
