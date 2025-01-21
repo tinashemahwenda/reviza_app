@@ -4,13 +4,12 @@ import 'package:reviza_app/screens/saved_questions.dart';
 import '../constants/app_constants.dart';
 //import '../models/question.dart';
 
-class QuestionsBubble extends StatelessWidget {
+class QuestionsBubble extends StatefulWidget {
   final String questionBody;
   final int questionNumber;
   final String questionCode;
   final String paperCode;
-  final bool toggleButton = false;
-  //final List<Topic> data;
+
   const QuestionsBubble({
     super.key,
     required this.questionNumber,
@@ -19,6 +18,22 @@ class QuestionsBubble extends StatelessWidget {
     required this.paperCode,
     //required this.data,
   });
+
+  @override
+  State<QuestionsBubble> createState() => _QuestionsBubbleState();
+}
+
+class _QuestionsBubbleState extends State<QuestionsBubble> {
+  bool savedButton = false;
+
+  void toggleButton() {
+    if (savedButton == true) {
+      savedButton = false;
+    } else {
+      savedButton = true;
+    }
+    setState(() {});
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +51,7 @@ class QuestionsBubble extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'Question ${questionNumber.toString()}',
+                    'Question ${widget.questionNumber.toString()}',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontFamily: 'Manrope-Extrabold',
@@ -51,7 +66,7 @@ class QuestionsBubble extends StatelessWidget {
                           padding: EdgeInsets.all(5),
                           color: AppColor.darkBlue,
                           child: Text(
-                            '$paperCode$questionCode',
+                            '${widget.paperCode}${widget.questionCode}',
                             style: TextStyle(
                               fontSize: 8,
                               fontFamily: 'Manrope-Extrabold',
@@ -61,25 +76,31 @@ class QuestionsBubble extends StatelessWidget {
                         ),
                       ),
                       GestureDetector(
-                        onTap: () {
-                          ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                            backgroundColor: AppColor.darkBlue,
-                            content: Text(
-                                'Question $questionNumber saved successfully'),
-                            action: SnackBarAction(
-                              label: 'View',
-                              onPressed: () => Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => SavedQuestions())),
-                            ),
-                          ));
-                        },
-                        child: Icon(
-                          Icons.bookmark_add_outlined,
-                          color: AppColor.darkBlue,
-                        ),
-                      )
+                          onTap: () {
+                            toggleButton();
+                            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                              backgroundColor: AppColor.darkBlue,
+                              content: Text(
+                                  'Question ${widget.questionNumber} saved successfully'),
+                              action: SnackBarAction(
+                                label: 'View',
+                                onPressed: () => Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            SavedQuestions())),
+                              ),
+                            ));
+                          },
+                          child: savedButton
+                              ? Icon(
+                                  Icons.bookmark,
+                                  color: AppColor.darkBlue,
+                                )
+                              : Icon(
+                                  Icons.bookmark_add_outlined,
+                                  color: AppColor.darkBlue,
+                                ))
                     ],
                   )
                 ],
@@ -90,7 +111,7 @@ class QuestionsBubble extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Text(
-                  questionBody,
+                  widget.questionBody,
                   style: TextStyle(
                     height: 2,
                   ),
