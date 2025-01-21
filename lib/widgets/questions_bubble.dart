@@ -136,12 +136,6 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
               SizedBox(
                 height: 20,
               ),
-              Placeholder(
-                color: Colors.grey.withAlpha(10),
-                fallbackWidth: AppMeasure.width,
-                fallbackHeight: AppMeasure.height / 3,
-                child: Image.asset('assets/images/reviza-icon.png'),
-              ),
               SizedBox(
                 height: 20,
               ),
