@@ -105,11 +105,11 @@ class RegisterPage extends StatelessWidget {
               ),
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 60, vertical: 20),
+                color: AppColor.darkBlue,
                 child: Text(
                   'Submit',
                   style: TextStyle(color: Colors.white),
                 ),
-                color: AppColor.darkBlue,
               )
             ],
           )),
