@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:reviza_app/screens/homepage.dart';
+//import 'package:reviza_app/screens/homepage.dart';
+import 'package:reviza_app/screens/register_page.dart';
 import 'constants/app_constants.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class RevizaApp extends StatelessWidget {
       AppColor.dodgerBlue = Color.fromARGB(255, 0, 127, 255);
 
       return MaterialApp(
-        home: HomePage(),
+        home: RegisterPage(),
         debugShowCheckedModeBanner: false,
         theme: ThemeData(fontFamily: 'Manrope-Regular'),
       );
