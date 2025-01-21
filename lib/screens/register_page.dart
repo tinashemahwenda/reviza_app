@@ -68,6 +68,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 40),
                   child: TextFormField(
+                    controller: _schoolNameController,
                     decoration: InputDecoration(
                       focusColor: AppColor.darkBlue,
                       fillColor: AppColor.darkBlue,
@@ -92,6 +93,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 40),
                   child: TextFormField(
+                    controller: _phoneNumberController,
                     decoration: InputDecoration(
                       focusColor: AppColor.darkBlue,
                       fillColor: AppColor.darkBlue,
