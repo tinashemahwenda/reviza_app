@@ -50,6 +50,7 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
         ),
       ));
     }
+
     setState(() {});
   }
 
