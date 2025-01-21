@@ -92,6 +92,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                 controller: _scrollController,
                 scrollbarOrientation: ScrollbarOrientation.left,
                 thumbVisibility: true,
+                interactive: true,
                 child: ListView.builder(
                     controller: _scrollController,
                     padding: EdgeInsets.zero,
