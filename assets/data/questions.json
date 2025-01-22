@@ -720,7 +720,7 @@
                 "question_body": "4 Explain what happens to the pressure of a constant volume of air when the temperature of the air increases. Use ideas of momentum of molecules in your explanation.[4]  "
             },
             {
-                "id": 30,
+                "id": 31,
                 "paper_type": "Core",
                 "question_code": "/31/M/J/23",
                 "question_number": "1a",
@@ -947,7 +947,527 @@
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
                 "question_body": "12 Fig. 12.1 shows a transformer. There are 8000 turns in the primary coil of the transformer. The primary coil is connected to a 240 V mains supply. A 6.0 V lamp connected to the secondary coil operates at full brightness. (a) Calculate the number of turns in the secondary coil.[2] \n(b) The current in the lamp is 2.0 A. The transformer operates with 100% efficiency.Calculate the current in the primary circuit.[2]   "
-            }
+            },
+            {
+                "id": 20,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "8 (a) Fig. 8.1 shows the magnetic field pattern around a bar magnet.  
+(i) Describe an experiment to identify the pattern and direction of magnetic field lines around 
+a bar magnet as shown in Fig. 8.1.
+ You may add to Fig. 8.1 as part of your answer.[3]
+(ii) State a material that can be used to make a permanent bar magnet.[1]
+(b) A student uses two bar magnets to create a uniform magnetic field. He places a currentcarrying wire at right angles to the magnetic field, as shown in Fig. 8.2.
+ There is a force on the current-carrying wire.
+(i) The student wants to reverse the direction of the force on the wire.
+ State one change that reverses the direction of the force on the wire.[1]
+(ii) The student increases the separation of the poles of the permanent magnets.
+ State and explain how increasing the separation affects the force on the current-carrying 
+wire.[2]"
+            },
+            {
+                "id": 21,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "9 Fig. 9.1 shows an electric circuit.  
+(a) When the circuit is in a cool room, the voltmeter reading is 5.6V and the ammeter reading is 
+0.040A.
+Calculate the resistance of the thermistor.
+resistance of thermistor = Ω [3]
+(b) The temperature of the thermistor increases and the buzzer turns on.
+State and explain how the increase in temperature affects the current in the thermistor.[2]
+(c) Suggest a possible use for the circuit shown in Fig. 9.1.[1]"
+            },
+            {
+                "id": 22,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "10 A student uses a laptop computer. The student notices that the cable connecting the power 
+adapter for a laptop to the mains electricity supply is damaged as shown in Fig. 10.1.
+ 
+(a) State the hazard of using mains equipment with damaged insulation.[1]
+(b) Describe how a fuse protects a mains electrical appliance.[3]
+(c) The laptop computer uses a transformer to change the voltage of the mains electricity supply. 
+  
+The input (primary) voltage is 120V.
+The input (primary) coil has 2000 turns and the output (secondary) coil has 200 turns.
+Calculate the output (secondary) voltage from the transformer.
+output (secondary) voltage =  V [3] (d) State the name of the material used in the core of the transformer.[2]"
+            },
+            {
+                "id": 23,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "9 (a) The box lists four materials.
+ 
+Use words from the box to answer parts (i) and (ii).
+Each word may be used once, more than once or not at all.
+(i) State all materials that are electrical insulators.[1]
+(ii) State one example of a magnetic material.[1]
+(b) Fig. 9.1 shows two magnets, P and Q, which are repelling each other.
+ 
+On magnet P, the N pole is labelled N.
+On Fig. 9.1, label the other pole on magnet P and both poles on magnet Q.[1]
+(c) One advantage that electromagnets have, compared with permanent magnets, is that their 
+strength can easily be altered.
+ State one other advantage of an electromagnet compared with a permanent magnet.[1]
+d) A student wants to make the strongest electromagnet possible.
+Indicate which properties produce the strongest electromagnet.
+Tick (3) one box in each list."
+            },
+            {
+                "id": 24,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "10 (a) Fig. 10.1 shows a lamp and a resistor connected in a circuit.  
+(i) Determine the combined resistance of the 3.0Ω resistor and the 5.0Ω lamp.
+combined resistance = Ω [1]
+(ii) The reading on ammeter X is 0.50A.
+ State the reading on ammeter Y.
+reading on ammeter Y = A [1]
+(b) In another circuit, the 3.0Ω resistor and the 5.0Ω lamp are connected in parallel, as shown in Fig. 10.2. 
+ 
+The lamp and resistor have changed from a series to a parallel combination.  State and explain the effect of this change on the current in ammeter X.[3]
+(c) The current in a different lamp is 0.40A when the potential difference (p.d.) across the lamp is 6.0V. 
+Calculate the resistance of the lamp.
+resistance of lamp = Ω [3]"
+            },
+            {
+                "id": 25,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "1 A student uses a coil and a magnet on a spring to generate an electromotive force (e.m.f.) that varies. He suspends the magnet above a coil as shown in Fig. 11.1.
+ 
+(a) The student pulls the magnet through the coil to X and then releases it. The magnet moves 
+up and down through the coil. State the type of voltage induced in the coil. Tick (3) one box.
+ 
+(b) State two ways of increasing the voltage induced in the coil.[2]"
+            },
+            {
+                "id": 26,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "8 (a) Fig. 8.1 shows the magnetic field pattern around a bar magnet.
+ 
+(i) On Fig. 8.1, label the north and south poles of the magnet, using the letters N and S. [1] (ii) A soft‑iron bar is positioned as shown in Fig. 8.2.
+ 
+State and explain what happens to the soft‑iron bar.[3]
+(b) (i) A plastic rod is rubbed with a cloth. The plastic rod becomes positively charged.  Explain how the friction between the cloth and the rod causes the rod to become  positively charged.  Use your ideas about the movement of charge.[2]
+(ii) Plastic is an electrical insulator. Iron is an electrical conductor.  State two other materials that are electrical conductors.[1]"
+            },
+            {
+                "id": 26,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "9 This question is about electric circuits. (a) (i) State the name of the instrument used to measure potential difference (p.d.) in an electric  circuit.[1]
+(ii) State the unit for the electromotive force (e.m.f.) of a battery.[1]
+(b) (i) A student connects a circuit to determine the resistance of a wire. The current in the wire  is 0.20A when the potential difference across the wire is 6.4V.  Calculate the resistance of the wire.[3]
+ (ii) The student has some wires of the same material as those in (b)(i) but of various lengths  and thicknesses. He wants a wire with higher resistance than the wire in (b)(i).  State two ways of identifying a wire with a higher resistance by comparing its length and  thickness with the wire in (b)(i).[2]"
+            },
+            {
+                "id": 27,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "10 (a) A student plans to demonstrate the induction of an electromotive force (e.m.f.) in a wire. He has a length of wire, a sensitive centre‑reading galvanometer and a permanent magnet. (i) Describe how the student uses the equipment.[2]
+(ii) State two ways in which the student can increase the size of the induced e.m.f.[2]
+(b) Fig. 10.1 shows a d.c. motor.
+ 
+(i) On Fig. 10.1, draw an arrow between the poles of the magnet to show the direction of  the magnetic field.[1] (ii) State two ways of making the coil spin faster.[2]
+ (iii) State one way of making the coil spin in the opposite direction.[1]"
+            },
+            {
+                "id": 28,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "9 (a) Fig. 9.1 shows an electric circuit.
+ 
+(i) The current in the metal wires of the circuit is a flow of particles.  State the name of these particles.[1]
+(ii) State the name of component X.[1]
+ (iii) The circuit is in a darkened room. The voltmeter reading is 5.5V and the ammeter  reading is 0.050A.  Calculate the resistance of the light-dependent resistor (LDR).[3]
+(b) The light in the room is switched on. The room becomes bright. State and explain how increasing the brightness of the light that falls on the LDR changes the  current in the circuit.[2]"
+            },
+            {
+                "id": 29,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "10 Fig. 10.1 shows an electric screwdriver which has an electric motor and a battery. 
+ 
+(a) (i) The electric motor has a current-carrying coil in a magnetic field. The screwdriver’s  manufacturer decides that the turning effect of the coil is too small.  State three ways of increasing the turning effect of the coil.[3]
+(ii) The coil in the motor can rotate in either direction.  State what happens in the coil to reverse the direction of rotation.[1]
+(b) The battery is charged using a transformer connected to an a.c. power supply. The primary voltage Vp to the transformer is 234V and the secondary voltage Vs of the  transformer is 18V. The number of turns on the primary coil Np is 2470 turns. Calculate the number of turns on the secondary coil Ns. Ns = . [3]"
+            },
+            {
+                "id": 30,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "10 (a) Fig. 10.1 shows two resistors connected in series with a cell and three ammeters.
+
+ 
+(i) State the physical quantity that an ammeter measures.[1]
+ (ii) Indicate the correct statement about the readings A1, A2 and A3 on the ammeters in  Fig. 10.1. Tick one box
+ 
+(b) (i) Draw a circuit diagram for a battery connected to two resistors in parallel.[2]
+(ii) State one advantage of connecting lamps in parallel.[1]
+(c) Fig. 10.2 shows another circuit.
+ 
+The circuit consists of a power supply, a lamp and component X. (i) Name component X in Fig. 10.2.[1]
+(ii) Suggest one use of the circuit.[1]
+(iii) Describe how to use component X and explain its effect on the circuit.[2]"
+            },
+            {
+                "id": 31,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "11 (a) Fig. 11.1 shows a magnet and a coil of wire connected to a galvanometer.
+ 
+ A student slowly moves the magnet into the coil. The pointer on the galvanometer moves to  the left. This deflection shows that an electromotive force (e.m.f.) is induced in the coil.
+State three ways of increasing the size of the e.m.f. in the coil.[3]
+(b) Fig. 11.2 shows a transformer.
+ 
+(i) Name one material that is suitable for the core of the transformer.[1]
+(ii) The primary coil has 1000 turns and its input is 240V a.c.  The secondary coil has 50 turns.
+ Calculate the output voltage across the secondary coil. [3]"
+            },
+            {
+                "id": 32,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "9 (a) Fig. 9.1 shows two uncharged balloons suspended from a beam by light thread.
+ 
+  
+The balloons are close to each other but not touching. In the box below, draw the position of the balloons when they both have a positive charge.
+ 
+(b) Table 9.1 includes a list of materials.  State whether each material is an electrical conductor or an electrical insulator. The first example is done for you.
+ 
+(c) An uncharged cloth rubs an uncharged plastic rod. The cloth becomes positively charged and the plastic rod becomes negatively charged. Explain how the cloth becomes positively charged.[3]"
+            },
+            {
+                "id": 33,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "10 (a) Fig. 10.1 shows the circuit symbols for three electrical components. Draw a line from each circuit symbol to the correct electrical component.
+ 
+(b) Fig. 10.2 shows a circuit consisting of a battery, a fixed resistor and an ammeter
+ 
+(i) A voltmeter is connected in the circuit to measure the potential difference (p.d.) across  the fixed resistor.  By drawing on Fig. 10.2, show how the voltmeter is connected. Use the correct circuit  symbol for the voltmeter.[2] (ii) The potential difference (p.d.) across the fixed resistor is 11.5V. The reading on the  ammeter is 0.25A.  Calculate the resistance of the fixed resistor.  Include the unit in your answer. resistance = ... unit .. [4]"
+            },
+            {
+                "id": 34,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "9 (a) The circuit diagrams in Fig. 9.1 and Fig. 9.2 each show two resistors connected to a battery. Fig. 9.1 shows two resistors connected in series. Fig. 9.2 shows two resistors connected in parallel. All the resistors have the same resistance. Ignore the resistance of the ammeters.
+ 
+Compare the currents in the ammeters by completing the sentences.
+ 
+(b) The lights in a room are connected in parallel with a power supply. 
+  
+State one advantage of connecting the lights in parallel.[1]
+(c) The circuit diagram in Fig. 9.3 shows a resistor Q connected to a battery.
+ 
+The current in resistor Q is 0.048A. The potential difference (p.d.) across resistor Q is 12V. Calculate the resistance of resistor Q. Include the unit in your answer. resistance = ... unit ... [4]"
+            },
+            {
+                "id": 35,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "10 (a) Fig. 10.1 shows the arrangement for transferring electrical energy from a power station to  homes and factories.
+ 
+Explain why the arrangement includes a step-up transformer and a step-down transformer.[4]
+b) A transformer has 2000 turns on the primary coil and 500 turns on the secondary coil. The potential difference (p.d.) across the primary coil is 240V a.c. Calculate the p.d. across the secondary coil.
+p.d. across the secondary coil = ...V [3]"
+            },
+            {
+                "id": 36,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "7 Fig. 7.1 represents an alternating current (a.c.) generator.
+ 
+(a) A student rotates the handle H, as shown in Fig. 7.1. (i) On Fig. 7.2, sketch a graph to show how the electromotive force (e.m.f.) between  terminals X and Y varies with time during two complete revolutions of the coil.
+ 
+(ii) On Fig. 7.2, mark and label a point P, for the e.m.f. when the coil is horizontal, as shown  in Fig. 7.1.[1]  (iii) The student turns the handle more quickly.
+ State two ways in which the e.m.f. between terminals X and Y changes.[2]
+(b) Terminals X and Y are connected to the primary coil of a transformer. State and explain what happens in the transformer as the student turns the handle of the a.c. generator.[3]
+(c) Explain why the power losses in transmission cables are lower when electrical energy is transmitted at higher voltages.[2]"
+            },
+            {
+                "id": 37,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "8 A student sets up a circuit that includes a 12V battery, an 800Ω resistor, a voltmeter and a thermistor. Fig. 8.1 is an incomplete circuit diagram because the symbol for the thermistor is missing.
+ 
+The thermistor is connected between terminals P and Q. 
+(a) Complete Fig. 8.1 by drawing the symbol for a thermistor between terminals P and Q.[1] (b) The 12V battery consists of eight identical cells connected in series. Calculate the electromotive force (e.m.f.) of each cell.[1]
+(c) The reading on the voltmeter is 8.0V. (i) Determine the resistance of the thermistor.[3]
+(ii) A few hours later, the student notices that the reading on the voltmeter is greater.  Explain what can be deduced from this observation.[3]"
+            },
+            {
+                "id": 38,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "7 A plastic rod becomes negatively charged when it is rubbed with a woollen cloth. (a) Describe, in terms of particles, how the rod becomes negatively charged when rubbed with  the cloth.[2]
+(b) A light, conducting ball is at rest on a metal table. When the rod is brought close to the ball,as shown in Fig. 7.1, the ball jumps up towards the rod.
+ 
+(i) Explain why the ball jumps up.[3]
+(ii) The ball touches the rod and falls back down to the table.  Explain why this happens.[2]
+8 A circuit contains two fixed resistors and a light‑dependent resistor (LDR). Fig. 8.1 shows that the power supply is a 9.0V battery.
+ 
+The current in the 450Ω resistor is 0.012A. (a) State what is meant by electric current.[1]
+(b) The current in the LDR is I1 and the current in the 800Ω resistor is I2. Complete the equation that relates the current in the 450Ω resistor to I1 and I2. current in the 450Ω resistor = [1]
+(c) Calculate the power dissipated in the 800Ω resistor.[2]
+(d) The brightness of the light that is incident on the LDR increases. Explain what happens to the potential difference (p.d.) across the 450Ω resistor.[3]"
+            },
+            {
+                "id": 39,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "7 Fig. 7.1 shows a horizontal conducting wire XY between two opposite magnetic poles. Wire XY forms a circuit with an ammeter.
+(a) Explain why the reading on the ammeter is zero when the wire XY is not moving.[1]
+(b) The wire XY is moved and there is a deflection on the ammeter that indicates there is a 
+current in the wire from X to Y.
+On Table 7.1, tick one box to indicate the direction of the movement of the wire XY and 
+explain your answer.
+  
+          explanation[3]
+(c) State what is observed on the ammeter when the wire XY is moved
+(i) in the opposite direction to part (b) [1]
+(ii) in the same direction as part (b) but at a greater speed  [1]"
+            },
+            {
+                "id": 40,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "8 (a) Define electromotive force (e.m.f.)[1]
+(b) Fig. 8.1 shows a source E of e.m.f. 60V in a circuit.
+ 
+The heater H has a resistance of 22.5Ω and the potential difference (p.d.) across it is 45V.
+Calculate:
+(i) the power of the heater.[3]
+(ii) the p.d. across resistor X.[2]
+ (iii) the current in the 10Ω resistor.[2]"
+            },
+            {
+                "id": 41,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "9 (a) Write down the truth table for an OR gate.[2]
+(b) Draw the symbol for a NOR gate.[1]
+(c) Fig. 9.1 shows a digital circuit designed to produce the values shown in Table 9.1 for the 
+output S from the two inputs P and Q.
+  
+(i) Table 9.1 is the truth table for the circuit shown in Fig. 9.1. 
+ 
+  
+(i) Table 9.1 is the truth table for the circuit shown in Fig. 9.1. 
+ 
+Complete the column for point R in Table 9.1.[1] 
+(ii) State which type of gate is used for gate X. Explain your answer.
+statement 
+explanation ...[3]"
+            },
+            {
+                "id": 42,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "7 (a) Fig. 7.1 shows two magnets and the gap between the N pole of one magnet and the S pole of the other magnet.
+ 
+On Fig. 7.1, draw three lines to show the pattern and direction of the magnetic field in the  gap.[2] (b) (i) Fig. 7.2 is a repeat of Fig. 7.1 showing the two magnets.   On Fig. 7.2, draw the position of a plotting compass needle when it comes to rest in the  gap between the N pole and the S pole.
+ 
+(ii) Explain why the needle comes to rest in this position.[2]
+(c) Describe a method of demagnetising a bar magnet.[2]"
+            },
+            {
+                "id": 43,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "8 (a) Two identical radioactive sources emit α-particles and γ-rays into two vacuum tubes. (i) Fig. 8.1 shows two electrically charged plates on either side of one of the vacuum tubes.
+ 
+Write the symbol α once in Table 8.1 to indicate any deflection of the α-particles.  Write the symbol γ once in Table 8.1 to indicate any deflection of the γ-rays.
+ 
+(ii) Fig. 8.2 shows the poles of a very strong magnet on either side of the other vacuum  tube.
+ 
+ Write the symbol α once in Table 8.2 to indicate any deflection of the α-particles.   Write the symbol γ once in Table 8.2 to indicate any deflection of the γ-rays.
+ 
+(b) Fig. 8.3 shows a simple direct current (d.c.) electric motor with a split-ring commutator.
+ 
+(i) State and explain the direction of rotation of the coil as seen from point X.[3]
+(ii) The coil rotates through 90° from the position shown.   State what happens to the moment in this position.[1]
+iii) The coil is rotated through 180° from the position shown. By considering the forces on the coil, explain how the split-ring commutator enables the motor to turn continuously.[2]"
+            },
+            {
+                "id": 44,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "9 (a) Fig. 9.1 shows a circuit.
+ 
+On Fig. 9.1, draw two clearly labelled arrows to show the direction of the electron flow and  the direction of the conventional current in the circuit.[2] (b) The current in the motor is 13A. The charge on an electron is 1.6 × 10–19C.  Calculate the number of electrons that pass through the motor every second.[3]"
+            },
+            {
+                "id": 45,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "10 (a) Fig. 10.1 shows the potential difference–current graph for a circuit component K.
+ 
+Calculate the resistance of component K when the current in it is 4.0mA.[2]
+(b) Fig. 10.2 shows a circuit containing component K.
+ 
+At low temperature, component K has a much greater resistance than resistor R.  At high temperature, component K has a much smaller resistance than resistor R.
+State and explain the effect on the lamp when the temperature changes from very low to very  high. Refer to the voltage at point X in your explanation.[4]
+(c) State the name of component K. [1]"
+            },
+            {
+                "id": 46,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "8 (a) Fig. 8.1 shows a conducting object A, initially uncharged, held on an insulating stand. The 
+positively charged rod B is brought close to object A.
+ 
+ (i) On Fig. 8.1, draw the distribution of charges on object A.[2] (ii) A wire is connected from object A to earth.
+ State and explain any movement of charge.[2]
+(b) There is a current in a wire of 0.65mA for 2.2 minutes. Calculate the charge that flows.[3]"
+            },
+            {
+                "id": 47,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "9 (a) Fig. 9.1 shows a cell of electromotive force (e.m.f.) 1.5V and a battery of e.m.f. 6.0V  connected in series.
+ 
+Calculate the combined e.m.f. of the cell and the battery. e.m.f. =  [1]
+(b) The combined resistance of the three resistors shown in Fig. 9.2 is 4.4Ω.
+ 
+i) Calculate the resistance of resistor R.[3]
+(ii) The current I in Fig. 9.2 is 0.94A.  Calculate the potential difference (p.d.) across the combination of resistors.[2]"
+            },
+            {
+                "id": 48,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "10 (a) Name the logic gate shown in Fig. 10.1
+  (b) Fig. 10.2 shows a combination of logic gates.
+ 
+Complete the right-hand column of Table 10.1, the truth table for the combination of logic 
+gates. You may use the blank column for your working.
+ 
+c) An electrical device has a metal case.
+Explain the benefit of earthing the metal case.[2]
+(d) (i) Explain how a fuse protects a circuit.[2]"
+            },
+            {
+                "id": 49,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "7 (a) Define electromotive force (e.m.f.)
+ 
+The two lamps shown are identical. Each lamp has a potential difference (p.d.) of 3.0V across 
+it and a current of 2.0A in it. PQ is a length of uniform metal wire. The resistance of PQ is R. (i) Calculate the value of R.[3]
+  (ii) Another piece of wire is made of the same metal as PQ. The length of the new piece  of wire is twice the length of PQ. The diameter of the new piece of wire is twice the  diameter of PQ.  Calculate the resistance of the new piece of wire.[3]"
+            },
+            {
+                "id": 50,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "9 (a) An X-ray machine requires a supply of 110kV. The mains electricity supply is 230V. A  transformer is used to supply the correct voltage to the X-ray machine. There are 50 turns on  the primary coil of the transformer.
+Calculate the number of turns on the secondary coil.[2]
+(b) Draw a labelled diagram of a step-down transformer. On the labels, state a suitable material  for each of the components.[2]
+(c) Explain how a transformer operates.[3]"
+            },
+            {
+                "id": 51,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "8 (a) Fig. 8.1 shows two charged metal plates with a gap between them. The plates are parallel to each other. The top plate is negatively charged and the bottom plate is positively charged.  
+ On Fig. 8.1, draw five electric field lines between the two plates.[2]
+(b) An electric iron has a power of 2400W. The potential difference (p.d.) of the mains supply is 220V. (i) Calculate the electric current in the iron.[2]
+(ii) Calculate the electric charge which flows through the iron in 15 minutes.[2]
+iii) Fuse ratings of 3A, 5A, 10A, 13A and 30A are available.
+ State which of these fuse ratings is suitable for use in the iron.[1]"
+            },
+            {
+                "id": 52,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "9 Fig. 9.1 shows current–potential difference (p.d.) graphs for a resistor, a thermistor and a filament lamp.
+ 
+The resistor, the thermistor and the filament lamp are connected in series with a power supply. (a) (i) Draw a circuit diagram for this circuit.[2]
+ (ii) Add a voltmeter to your circuit diagram in (a)(i) in a correct position to measure the p.d.  across the resistor.[1]  (iii) Using the graph in Fig. 9.1, determine the p.d. across the terminals of the power supply  when the p.d. across the resistor is 6.0V.[4]
+(b) Describe a practical use for a thermistor.[1]"
+            },
+            {
+                "id": 53,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "10 (a) A transformer has 500 turns on the primary coil and 25 turns on the secondary coil. The input voltage is 120V.
+(i) Calculate the output voltage.2] (ii) The current in the primary coil is 125mA. The transformer is 100% efficient.  Calculate the output current.[2]
+(b) Fig. 10.1 shows a loose wire connected in a circuit with a d.c. (direct current) power supply  and a switch. The length of the wire between the two supports is in the magnetic field of a  horseshoe magnet.
+ 
+  
+The power supply is switched on and the wire moves down. 
+  
+(i) On Fig. 10.1, draw an arrow on the wire to show the direction of the current.[1] (ii) The power supply is switched off and the wire returns to its original position. The power  supply is then switched on so that the current is in the opposite direction.  State and explain what happens to the wire.[2]
+(c) A split-ring commutator is an important feature of a d.c. motor. Suggest one reason why the d.c. motor cannot operate without a split-ring commutator.[1]"
+            },
+            {
+                "id": 54,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "8 Fig. 8.1 is a circuit diagram.\n(a) Calculate the combined resistance between Y and Z.[4]\n(b) Calculate the potential difference (p.d.) across the 8.0 Ω resistor.[2]"
+            },
+            {
+                "id": 55,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "8 Fig. 8.1 is a circuit diagram.\n(a) Calculate the combined resistance between Y and Z.[4]\n(b) Calculate the potential difference (p.d.) across the 8.0 Ω resistor.[2]"
+            },
+            {
+                "id": 56,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "8 Fig. 8.1 is a circuit diagram.\n(a) Calculate the combined resistance between Y and Z.[4]\n(b) Calculate the potential difference (p.d.) across the 8.0 Ω resistor.[2]"
+            },
+            {
+                "id": 57,
+                "paper_type": "Core",
+                "question_code": "04/O/N/23",
+                "question_number": "1a",
+                "question_body": "8 Fig. 8.1 is a circuit diagram.\n(a) Calculate the combined resistance between Y and Z.[4]\n(b) Calculate the potential difference (p.d.) across the 8.0 Ω resistor.[2]"
+            },
             
         ]
     },
