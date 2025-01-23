@@ -3,9 +3,14 @@ import 'package:typewritertext/typewritertext.dart';
 
 import '../constants/app_constants.dart';
 
-class RevizaBanner extends StatelessWidget {
+class RevizaBanner extends StatefulWidget {
   const RevizaBanner({super.key});
 
+  @override
+  State<RevizaBanner> createState() => _RevizaBannerState();
+}
+
+class _RevizaBannerState extends State<RevizaBanner> {
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
@@ -24,7 +29,7 @@ class RevizaBanner extends StatelessWidget {
                 Container(
                   width: AppMeasure.width / 3,
                   child: TypeWriter.text(
-                    'Be an A* Student!',
+                    '$_name, be an A* Student!',
                     duration: Duration(milliseconds: 100),
                     repeat: false,
                     style: TextStyle(
