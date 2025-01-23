@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'package:shared_preferences/shared_preferences.dart';
-//import 'package:typewritertext/typewritertext.dart';
-
 import '../constants/app_constants.dart';
 
 class RevizaBanner extends StatefulWidget {
