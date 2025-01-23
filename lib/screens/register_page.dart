@@ -25,19 +25,20 @@ class _RegisterPageState extends State<RegisterPage> {
 
   _isUserNameAvailable() async {
     final prefs = await SharedPreferences.getInstance();
-    final existingName = prefs.getString('revizaUserName');
+    final existingName = prefs.getString('name');
 
     if (existingName != null) {
       setState(() {
         _existingName = existingName;
         _isFormVisible = false;
+        print(_existingName);
       });
     }
   }
 
   _saveNameAndPhone() async {
     final prefs = await SharedPreferences.getInstance();
-    prefs.setString('revizaUserName', _nameSurnameController.text);
+    prefs.setString('name', _nameSurnameController.text);
     prefs.setString('revizaPhoneNumber', _phoneNumberController.text);
   }
 
@@ -76,14 +77,14 @@ class _RegisterPageState extends State<RegisterPage> {
                         fillColor: AppColor.darkBlue,
                         hoverColor: AppColor.darkBlue,
                         label: Text(
-                          'Full Name',
+                          'First Name',
                           style: TextStyle(
                             fontSize: 14,
                           ),
                         ),
                       ),
                       validator: (value) {
-                        if (value!.isEmpty) {
+                        if (value!.isEmpty || value.length < 10) {
                           return 'Please enter your name';
                         } else {
                           return null;
@@ -108,7 +109,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         ),
                       ),
                       validator: (value) {
-                        if (value == null || value.isEmpty) {
+                        if (value!.isEmpty) {
                           return 'Please enter your phone number';
                         } else {
                           return null;
