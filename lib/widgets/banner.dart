@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:typewritertext/typewritertext.dart';
 
 import '../constants/app_constants.dart';
@@ -11,6 +12,23 @@ class RevizaBanner extends StatefulWidget {
 }
 
 class _RevizaBannerState extends State<RevizaBanner> {
+  String _name = 'Bull';
+
+  @override
+  void initState() {
+    super.initState();
+    _loadProfileData();
+  }
+
+  _loadProfileData() async {
+    final prefs = await SharedPreferences.getInstance();
+    final name = prefs.getString('revizaUserName');
+
+    setState(() {
+      _name = name!;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
