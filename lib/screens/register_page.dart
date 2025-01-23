@@ -13,7 +13,6 @@ class RegisterPage extends StatefulWidget {
 class _RegisterPageState extends State<RegisterPage> {
   final _formKey = GlobalKey<FormState>();
   final _nameSurnameController = TextEditingController();
-  final _schoolNameController = TextEditingController();
   final _phoneNumberController = TextEditingController();
   bool _isFormVisible = true;
   String _existingName = '';
@@ -47,124 +46,100 @@ class _RegisterPageState extends State<RegisterPage> {
     return SingleChildScrollView(
       child: SafeArea(
         child: Form(
+            key: _formKey,
             child: Column(
-          //crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            SizedBox(
-              height: 100,
-            ),
-            Center(
-              child: Image.asset(
-                'assets/images/reviza-transparent-long.png',
-                width: 200,
-              ),
-            ),
-            SizedBox(
-              height: 40,
-            ),
-            Text('Register new account'),
-            SizedBox(
-              height: 30,
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 40),
-              child: TextFormField(
-                controller: _nameSurnameController,
-                decoration: InputDecoration(
-                  focusColor: AppColor.darkBlue,
-                  fillColor: AppColor.darkBlue,
-                  hoverColor: AppColor.darkBlue,
-                  label: Text(
-                    'Full Name',
-                    style: TextStyle(
-                      fontSize: 14,
+              //crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                SizedBox(
+                  height: 100,
+                ),
+                Center(
+                  child: Image.asset(
+                    'assets/images/reviza-transparent-long.png',
+                    width: 200,
+                  ),
+                ),
+                SizedBox(
+                  height: 40,
+                ),
+                Text('Register new account'),
+                SizedBox(
+                  height: 30,
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 40),
+                  child: TextFormField(
+                    controller: _nameSurnameController,
+                    decoration: InputDecoration(
+                      focusColor: AppColor.darkBlue,
+                      fillColor: AppColor.darkBlue,
+                      hoverColor: AppColor.darkBlue,
+                      label: Text(
+                        'Full Name',
+                        style: TextStyle(
+                          fontSize: 14,
+                        ),
+                      ),
+                    ),
+                    validator: (value) {
+                      if (value!.isEmpty) {
+                        return 'Please enter your name';
+                      } else {
+                        return null;
+                      }
+                    },
+                  ),
+                ),
+                SizedBox(height: 20),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 40),
+                  child: TextFormField(
+                    controller: _phoneNumberController,
+                    decoration: InputDecoration(
+                      focusColor: AppColor.darkBlue,
+                      fillColor: AppColor.darkBlue,
+                      hoverColor: AppColor.darkBlue,
+                      label: Text(
+                        'Phone Number',
+                        style: TextStyle(
+                          fontSize: 14,
+                        ),
+                      ),
+                    ),
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Please enter your phone number';
+                      } else {
+                        return null;
+                      }
+                    },
+                  ),
+                ),
+                SizedBox(
+                  height: 40,
+                ),
+                GestureDetector(
+                  onTap: () {
+                    _saveNameAndPhone();
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => HomePage()));
+                  },
+                  child: Container(
+                    padding: EdgeInsets.symmetric(horizontal: 60, vertical: 20),
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: AppColor.darkBlue),
+                    child: Text(
+                      'Submit',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
-                ),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter your name';
-                  } else {
-                    return null;
-                  }
-                },
-              ),
-            ),
-            SizedBox(height: 20),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 40),
-              child: TextFormField(
-                controller: _schoolNameController,
-                decoration: InputDecoration(
-                  focusColor: AppColor.darkBlue,
-                  fillColor: AppColor.darkBlue,
-                  hoverColor: AppColor.darkBlue,
-                  label: Text(
-                    'School Name',
-                    style: TextStyle(
-                      fontSize: 14,
-                    ),
-                  ),
-                ),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter your school name';
-                  } else {
-                    return null;
-                  }
-                },
-              ),
-            ),
-            SizedBox(height: 20),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 40),
-              child: TextFormField(
-                controller: _phoneNumberController,
-                decoration: InputDecoration(
-                  focusColor: AppColor.darkBlue,
-                  fillColor: AppColor.darkBlue,
-                  hoverColor: AppColor.darkBlue,
-                  label: Text(
-                    'Phone Number',
-                    style: TextStyle(
-                      fontSize: 14,
-                    ),
-                  ),
-                ),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please enter your phone number';
-                  } else {
-                    return null;
-                  }
-                },
-              ),
-            ),
-            SizedBox(
-              height: 40,
-            ),
-            GestureDetector(
-              onTap: () {
-                _saveData;
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
-              },
-              child: Container(
-                padding: EdgeInsets.symmetric(horizontal: 60, vertical: 20),
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    color: AppColor.darkBlue),
-                child: Text(
-                  'Submit',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-            )
-          ],
-        )),
+                )
+              ],
+            )),
       ),
     );
   }
