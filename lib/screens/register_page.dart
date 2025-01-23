@@ -120,9 +120,11 @@ class _RegisterPageState extends State<RegisterPage> {
                 ),
                 GestureDetector(
                   onTap: () {
-                    _saveNameAndPhone();
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => HomePage()));
+                    if (_formKey.currentState!.validate()) {
+                      _saveNameAndPhone();
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => HomePage()));
+                    }
                   },
                   child: Container(
                     padding: EdgeInsets.symmetric(horizontal: 60, vertical: 20),
