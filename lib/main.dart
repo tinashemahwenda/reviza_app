@@ -24,7 +24,10 @@ class RevizaApp extends StatelessWidget {
       AppColor.dodgerBlue = Color.fromARGB(255, 0, 127, 255);
 
       return MaterialApp(
-        home: RegisterPage(),
+        home: Scaffold(
+          backgroundColor: Colors.white,
+          body: RegisterPage(),
+        ),
         debugShowCheckedModeBanner: false,
         theme: ThemeData(fontFamily: 'Manrope-Regular'),
       );
