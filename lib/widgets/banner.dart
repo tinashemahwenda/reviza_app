@@ -1,34 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'package:typewritertext/typewritertext.dart';
+//import 'package:shared_preferences/shared_preferences.dart';
+//import 'package:typewritertext/typewritertext.dart';
 
 import '../constants/app_constants.dart';
 
 class RevizaBanner extends StatefulWidget {
-  const RevizaBanner({super.key});
+  final String studentName;
+  const RevizaBanner({super.key, required this.studentName});
 
   @override
   State<RevizaBanner> createState() => _RevizaBannerState();
 }
 
 class _RevizaBannerState extends State<RevizaBanner> {
-  String _name = 'Bull';
-
-  @override
-  void initState() {
-    super.initState();
-    _loadProfileData();
-  }
-
-  _loadProfileData() async {
-    final prefs = await SharedPreferences.getInstance();
-    final name = prefs.getString('revizaUserName');
-
-    setState(() {
-      _name = name!;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
@@ -45,19 +29,32 @@ class _RevizaBannerState extends State<RevizaBanner> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
-                  width: AppMeasure.width / 3,
-                  child: TypeWriter.text(
-                    '$_name, be an A* Student!',
-                    duration: Duration(milliseconds: 100),
-                    repeat: false,
-                    style: TextStyle(
-                      fontFamily: 'Manrope-Extrabold',
-                      fontWeight: FontWeight.bold,
-                      fontSize: 28,
-                      color: Colors.white,
-                    ),
-                  ),
-                ),
+                    width: AppMeasure.width / 1.5,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Text(
+                          'Hi, ${widget.studentName}',
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                        Text(
+                          'Be an A* \nStudent!',
+                          style: TextStyle(
+                            fontFamily: 'Manrope-Extrabold',
+                            fontWeight: FontWeight.bold,
+                            fontSize: 32,
+                            color: Colors.white,
+                            height: 0,
+                          ),
+                        ),
+                      ],
+                    )),
                 Expanded(child: SizedBox())
               ],
             ),
