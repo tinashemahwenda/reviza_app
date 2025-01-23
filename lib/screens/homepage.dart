@@ -8,6 +8,7 @@ import 'package:reviza_app/widgets/go_back_button.dart';
 import 'package:reviza_app/widgets/navigationbar.dart';
 import 'package:reviza_app/widgets/subject_tile.dart';
 import 'package:reviza_app/widgets/topic_modal_tile.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../constants/app_constants.dart';
 import '../models/question.dart';
@@ -21,12 +22,14 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  String _name = '';
   List<Topic> _topics = [];
 
   @override
   void initState() {
     super.initState();
     _loadJsonData();
+    _loadProfileData();
   }
 
   Future<void> _loadJsonData() async {
@@ -143,6 +146,16 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
+  _loadProfileData() async {
+    final prefs = await SharedPreferences.getInstance();
+    final name = prefs.getString('name');
+
+    setState(() {
+      _name = name!;
+      print('Profile loaded for $_name');
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -158,11 +171,12 @@ class _HomePageState extends State<HomePage> {
                 ),
                 RevizaNavigation(),
                 SizedBox(
-                  height: 40,
-                ),
-                RevizaBanner(),
-                SizedBox(
                   height: 30,
+                ),
+                RevizaBanner(
+                    studentName: _name.isNotEmpty ? _name : 'Loading...'),
+                SizedBox(
+                  height: 40,
                 ),
                 Text(
                   'IGCSE Subjects',
