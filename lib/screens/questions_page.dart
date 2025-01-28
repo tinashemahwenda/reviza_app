@@ -46,6 +46,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
         .toSet()
         .toList()
         .sort();
+
     return Scaffold(
       backgroundColor: AppColor.backgroundColor,
       body: Padding(
@@ -87,13 +88,16 @@ class _QuestionsPageState extends State<QuestionsPage> {
                   ],
                 )),
             Padding(
-              padding: const EdgeInsets.only(bottom: 30, top: 30),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [],
-              ),
-            ),
+                padding: const EdgeInsets.only(bottom: 30, top: 30),
+                child: Wrap(
+                  children: [
+                    FilterChip(
+                      label: Text('All'),
+                      selected: selectedFilter == 'All',
+                      onSelected: (_) => filterQuestions('All'),
+                    )
+                  ],
+                )),
             SizedBox(
               width: AppMeasure.width,
               height: AppMeasure.height / 1.4,
