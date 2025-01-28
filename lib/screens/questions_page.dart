@@ -95,15 +95,37 @@ class _QuestionsPageState extends State<QuestionsPage> {
                     FilterChip(
                       label: Text(
                         'All',
+                        style: TextStyle(
+                          color: selectedFilter == 'All'
+                              ? Colors.white
+                              : AppColor.darkBlue,
+                        ),
                       ),
                       selected: selectedFilter == 'All',
                       onSelected: (_) => filterQuestions('All'),
+                      showCheckmark: false,
+                      selectedColor: AppColor.darkBlue,
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(50)),
                     ),
                     ...years.map((year) {
                       return FilterChip(
-                        label: Text('20$year'),
+                        label: Text(
+                          '20$year',
+                          style: TextStyle(
+                            color: selectedFilter == year
+                                ? Colors.white
+                                : AppColor.darkBlue,
+                          ),
+                        ),
                         selected: selectedFilter == year,
                         onSelected: (_) => filterQuestions(year),
+                        selectedColor: AppColor.darkBlue,
+                        showCheckmark: false,
+                        backgroundColor: Colors.white,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(50)),
                       );
                     }).toList()
                   ],
