@@ -123,7 +123,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                     itemCount: filteredQuestions.length,
                     itemBuilder: (context, index) {
                       final question = filteredQuestions[index];
-                      QuestionsBubble(
+                      return QuestionsBubble(
                         paperCode: widget.topic.topicCode,
                         questionCode: question.questionCode,
                         questionNumber: question.id,
