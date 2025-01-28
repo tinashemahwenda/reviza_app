@@ -93,7 +93,9 @@ class _QuestionsPageState extends State<QuestionsPage> {
                   spacing: 10,
                   children: [
                     FilterChip(
-                      label: Text('All'),
+                      label: Text(
+                        'All',
+                      ),
                       selected: selectedFilter == 'All',
                       onSelected: (_) => filterQuestions('All'),
                     ),
@@ -118,15 +120,16 @@ class _QuestionsPageState extends State<QuestionsPage> {
                 child: ListView.builder(
                     controller: _scrollController,
                     padding: EdgeInsets.zero,
-                    itemCount: widget.topic.questions.length,
-                    itemBuilder: (context, index) => QuestionsBubble(
-                          paperCode: widget.topic.topicCode,
-                          questionCode:
-                              widget.topic.questions[index].questionCode,
-                          questionNumber: widget.topic.questions[index].id,
-                          questionBody:
-                              widget.topic.questions[index].questionBody,
-                        )),
+                    itemCount: filteredQuestions.length,
+                    itemBuilder: (context, index) {
+                      final question = filteredQuestions[index];
+                      QuestionsBubble(
+                        paperCode: widget.topic.topicCode,
+                        questionCode: question.questionCode,
+                        questionNumber: question.id,
+                        questionBody: question.questionBody,
+                      );
+                    }),
               ),
             ),
             SizedBox(
