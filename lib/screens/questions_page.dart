@@ -41,6 +41,11 @@ class _QuestionsPageState extends State<QuestionsPage> {
 
   @override
   Widget build(BuildContext context) {
+    final years = widget.topic.questions
+        .map((q) => q.questionCode.substring(q.questionCode.length - 2))
+        .toSet()
+        .toList()
+        .sort();
     return Scaffold(
       backgroundColor: AppColor.backgroundColor,
       body: Padding(
