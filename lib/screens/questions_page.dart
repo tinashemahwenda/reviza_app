@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
-import 'package:reviza_app/screens/saved_questions.dart';
-//import 'package:reviza_app/screens/solutions.dart';
-import 'package:reviza_app/widgets/filter_bubble.dart';
 import 'package:reviza_app/widgets/questions_bubble.dart';
 
 import '../models/question.dart';
@@ -17,8 +14,39 @@ class QuestionsPage extends StatefulWidget {
 
 class _QuestionsPageState extends State<QuestionsPage> {
   final ScrollController _scrollController = ScrollController();
+  String selectedFilter = 'All';
+  List<Question> filteredQuestions = [];
+
+  @override
+  void initState() {
+    super.initState();
+    filteredQuestions = widget.topic.questions;
+  }
+
+  void filterQuestions(String year) {
+    if (year == 'All') {
+      setState(() {
+        filteredQuestions = widget.topic.questions;
+        selectedFilter = 'All';
+      });
+    } else {
+      setState(() {
+        filteredQuestions = widget.topic.questions
+            .where((question) => question.questionCode.endsWith(year))
+            .toList();
+        selectedFilter = year;
+      });
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
+    final years = widget.topic.questions
+        .map((q) => q.questionCode.substring(q.questionCode.length - 2))
+        .toSet()
+        .toList()
+      ..sort();
+
     return Scaffold(
       backgroundColor: AppColor.backgroundColor,
       body: Padding(
@@ -60,52 +88,68 @@ class _QuestionsPageState extends State<QuestionsPage> {
                   ],
                 )),
             Padding(
-              padding: const EdgeInsets.only(bottom: 30, top: 30),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  FilterYearBubble(yearNumber: 'All', selectedBubble: false),
-                  FilterYearBubble(yearNumber: '2024', selectedBubble: false),
-                  FilterYearBubble(yearNumber: '2023', selectedBubble: false),
-                  FilterYearBubble(yearNumber: '2022', selectedBubble: false),
-                  FilterYearBubble(yearNumber: '2021', selectedBubble: false),
-                  FilterYearBubble(yearNumber: '2020', selectedBubble: false),
-                  GestureDetector(
-                    onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => SavedQuestions())),
-                    child: Padding(
-                      padding: const EdgeInsets.only(left: 10),
-                      child: Icon(Icons.bookmark),
+                padding: const EdgeInsets.only(bottom: 30, top: 20),
+                child: Wrap(
+                  spacing: 5,
+                  children: [
+                    FilterChip(
+                      label: Text(
+                        'All',
+                        style: TextStyle(
+                          fontSize: 11,
+                          color: selectedFilter == 'All'
+                              ? Colors.white
+                              : AppColor.darkBlue,
+                        ),
+                      ),
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 10, vertical: 2),
+                      selected: selectedFilter == 'All',
+                      onSelected: (_) => filterQuestions('All'),
+                      showCheckmark: false,
+                      selectedColor: AppColor.darkBlue,
+                      backgroundColor: Colors.grey[200],
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(50)),
                     ),
-                  ),
-                ],
-              ),
-            ),
+                    ...years.map((year) {
+                      return FilterChip(
+                        label: Text(
+                          '20$year',
+                          style: TextStyle(
+                            fontSize: 11,
+                            color: selectedFilter == year
+                                ? Colors.white
+                                : AppColor.darkBlue,
+                          ),
+                        ),
+                        selected: selectedFilter == year,
+                        onSelected: (_) => filterQuestions(year),
+                        selectedColor: AppColor.darkBlue,
+                        showCheckmark: false,
+                        backgroundColor: Colors.grey[200],
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(50)),
+                      );
+                    }).toList()
+                  ],
+                )),
             SizedBox(
               width: AppMeasure.width,
               height: AppMeasure.height / 1.4,
-              child: Scrollbar(
-                radius: Radius.circular(10),
-                controller: _scrollController,
-                scrollbarOrientation: ScrollbarOrientation.left,
-                thumbVisibility: true,
-                interactive: true,
-                child: ListView.builder(
-                    controller: _scrollController,
-                    padding: EdgeInsets.zero,
-                    itemCount: widget.topic.questions.length,
-                    itemBuilder: (context, index) => QuestionsBubble(
-                          paperCode: widget.topic.topicCode,
-                          questionCode:
-                              widget.topic.questions[index].questionCode,
-                          questionNumber: widget.topic.questions[index].id,
-                          questionBody:
-                              widget.topic.questions[index].questionBody,
-                        )),
-              ),
+              child: ListView.builder(
+                  controller: _scrollController,
+                  padding: EdgeInsets.zero,
+                  itemCount: filteredQuestions.length,
+                  itemBuilder: (context, index) {
+                    final question = filteredQuestions[index];
+                    return QuestionsBubble(
+                      paperCode: widget.topic.topicCode,
+                      questionCode: question.questionCode,
+                      questionNumber: question.id,
+                      questionBody: question.questionBody,
+                    );
+                  }),
             ),
             SizedBox(
               height: 200,

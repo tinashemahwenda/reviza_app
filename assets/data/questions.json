@@ -6,14 +6,14 @@
             {
                 "id": 1,
                 "paper_type": "Core",
-                "question_code": "/32/F/M/23",
+                "question_code": "/32/F/M/21",
                 "question_number": "1a",
                 "question_body": "Fig. 1.1 shows two strips of staples.\n(a) The width of one strip is 56mm.There are 40 staples in the strip. Calculate the average width of one staple.average width of one staple in mm[2]\n(b) A student wants to find the volume of one strip of 40 staples. The student has a measuring cylinder and a beaker of water as shown in Fig. 1.2.\nDescribe how the student can determine the volume of one strip of staples by using the equipment shown in Fig. 1.2.[4]\n(c) The staples are made from a block of metal. The mass of the block is 296g. The volume of the block is 33.2cm3.Calculate the density of the metal. Include the unit.[4]"
             },
             {
                 "id": 2,
                 "paper_type": "Core",
-                "question_code": "/32/F/M/23",
+                "question_code": "/32/F/M/22",
                 "question_number": "2a",
                 "question_body": "A student has a spring of length 14.0cm. She stretches the spring by adding different loads to the spring.She measures the length of the spring for each load. She plots a graph of the results.Fig. 2.1 shows the graph of her results.\n(i) Use the graph to determine the length of the spring when the student adds a load of 8.0N to the spring.[1]\n(ii) Use the graph to determine the load added to the spring when the extension of the spring is 7.0cm. [2] \nA load stretching a spring is an example of a force changing the size of an object.[1] \n(c) A clamp stand used in the experiment has a weight of 8.6N. Calculate the mass of the clamp stand.[3]"
             },
@@ -132,14 +132,14 @@
             {
                 "id": 19,
                 "paper_type": "Core",
-                "question_code": "/31/M/J/23",
+                "question_code": "/31/M/J/22",
                 "question_number": "1a",
                 "question_body": "1 Fig. 1.1 shows the speed-time graph for a vehicle accelerating from rest.  \n(a) Calculate the acceleration of the vehicle at time t = 30s.[3]\n(b) Without further calculation, state how the acceleration at time t = 100s compares to the acceleration at time t = 10s. Using ideas about forces, explain why any change in the acceleration has occurred.[2] \n(c) Determine the distance travelled by the vehicle between time t = 120s and time t = 160s.[3]"
             },
             {
                 "id": 20,
                 "paper_type": "Core",
-                "question_code": "/31/M/J/23",
+                "question_code": "/31/M/J/22",
                 "question_number": "1a",
                 "question_body": "2 (a) Complete the definitions by giving the name of each quantity. \nmass × acceleration =[1] \nforce × time = [1] \n(b) Fig. 2.2 shows a man using a golf club to hit a ball.The ball has a mass of 0.046kg. The golf club is in contact with the ball for a duration of 5.0 × 10–4s and the ball leaves the golf club at a speed of 65m/s. \n(i) Calculate the momentum of the ball as it leaves the golf club.[2] \n(ii) Calculate the average resultant force acting on the ball while it is in contact with the golf club. average force =  [2] \n(iii) While the golf club is in contact with the ball, the ball becomes compressed and changes shape. State the type of energy stored in the ball during its contact with the golf club.[1] "
             },
@@ -153,7 +153,7 @@
             {
                 "id": 22,
                 "paper_type": "Core",
-                "question_code": "/31/M/J/23",
+                "question_code": "/31/M/J/21",
                 "question_number": "1a",
                 "question_body": "1 Fig. 1.1 shows a box dropped from an aeroplane. The box contains supplies. A parachute is attached to the box. The parachute is opened when the time is 6.0s. The graph in Fig. 1.2 shows the vertical speed of the box as it falls. \n(a) State and explain what happens to the kinetic energy of the box during the first 6.0s of its descent.[2]\n(b) State and explain what happens to the gravitational potential energy of the box during the first 6.0s.[2] \n(c) (i) Use the graph in Fig. 1.2 to determine the speed of the object when the object is moving with a constant speed.=  m/s [2] \n(ii) State the size of the resultant vertical force on the box when it is falling at a constant speed.[1]\n(d) Use the graph in Fig. 1.2 to determine the distance travelled by the box during the first 6.0s. \n(e) Without calculation, describe how Fig. 1.2 shows that the deceleration of the box is greater  than the acceleration of the box.distance travelled in first 6.0s = m [3]"
             },
@@ -279,7 +279,7 @@
             {
                 "id": 40,
                 "paper_type": "Core",
-                "question_code": "/31/M/J/23",
+                "question_code": "/31/M/J/21",
                 "question_number": "1a",
                 "question_body": "4 (a) A power station burns fossil fuel to produce electrical energy.\n(i) State the form of the energy stored in the fuel.[1]\n(ii) Some of the energy stored in the fuel is not converted to electrical energy. Suggest how energy is wasted in the generator.[2]\n(b) Solar panels produce electrical energy. State two advantages and two disadvantages of using solar panels, rather than fossil fuels, to produce electrical energy.[4]"
             },
@@ -293,7 +293,7 @@
             {
                 "id": 42,
                 "paper_type": "Core",
-                "question_code": "/31/M/J/23",
+                "question_code": "/31/M/J/21",
                 "question_number": "1a",
                 "question_body": "2 Fig. 2.1 shows how the speed of a car varies between 0 and 60.0s.\n(a) Determine the speed of the car using information from Fig. 2.1: \n(i) when the time is 5.0s speed = . m/s [2] \n(ii) when the car is moving with a constant speed.speed = . m/s [1] (b) Describe how the speed of the car changes between 30.0s and 60.0s.. [2] \n(c) Determine the distance travelled by the car between 10.0s and 30.0s. distance travelled = .... m [3] \n(d) The total distance travelled by the car in the last 30.0s is 226m.  Calculate the average speed of the car in the last 30.0s. average speed = . m/s [3]"
             },
@@ -429,7 +429,7 @@
             {
                 "id": 61,
                 "paper_type": "Core",
-                "question_code": "/31/M/J/23",
+                "question_code": "/31/M/J/21",
                 "question_number": "1a",
                 "question_body": "3 Fig. 3.1 shows water flowing at very slow speed over a cliff edgeThe water falls 15m onto the rocks below. \n(a) Show that the velocity of the water when it strikes the rocks is 17m/ s.[4]\n(b) 30kg of water flows over the cliff edge every second. Calculate the force exerted by the rocks on the falling water. Ignore any splashing.[3]"
             },
@@ -554,14 +554,14 @@
             {
                 "id": 7,
                 "paper_type": "Core",
-                "question_code": "/31/M/J/23",
+                "question_code": "/31/M/J/21",
                 "question_number": "1a",
                 "question_body": "4 Fig. 4.1 shows an outline of the main parts of a geothermal power station used to generate electricity. Some parts of the power station are labelled.\n(a) State the names of the parts of the power station labelled A and B.[2]\n(b) Geothermal energy is one source of renewable energy.State two other sources of renewable energy.[2]\n(c) State two environmental advantages, other than being renewable, of a geothermal power station compared to a coal-fired power station.[2]"
             },
             {
                 "id": 8,
                 "paper_type": "Core",
-                "question_code": "/31/M/J/23",
+                "question_code": "/31/M/J/21",
                 "question_number": "1a",
                 "question_body": "5 Fig. 5.1 shows a metal block on a flat surface.  \n(a) (i) The mass of the metal block is 1.6kg.Calculate the weight of the metal block.weight = N[2]\n(ii) Calculate the pressure on the flat surface due to the metal block. pressure = N/ cm2 [3]\n(b) In an experiment, the metal block is heated and the temperature of the metal block increases  by 100°C. State the effect, if any, of the temperature increase on: \n1. the volume of the metal block [1]\n 2. the mass of the metal block [1]\n3. the density of the metal block [1]"
             },
@@ -575,7 +575,7 @@
             {
                 "id": 10,
                 "paper_type": "Core",
-                "question_code": "/31/M/J/23",
+                "question_code": "/31/M/J/22",
                 "question_number": "1a",
                 "question_body": "4 (a) A substance cools from 50°C to 5.0°C. Its melting point is 20°C. The substance takes 30 minutes to cool from 50°C to its melting point.The substance takes a total time of 80 minutes to cool from 50°C to 5.0°C. On Fig. 4.1, sketch a graph that shows how the temperature of the substance varies with time as it cools from 50°C to 5.0°C.\n(b) Describe the arrangement and motion of the molecules in the substance when they are in the solid state.[2]"
             },
@@ -589,7 +589,7 @@
             {
                 "id": 12,
                 "paper_type": "Core",
-                "question_code": "/31/M/J/23",
+                "question_code": "/31/M/J/22",
                 "question_number": "1a",
                 "question_body": "5 Fig. 5.1 shows a device connected to a gas cylinder. The device is used to measure the pressure of the gas inside the cylinder. \n(a) (i) State the name of the device shown in Fig. 5.1.[1]\n(ii) The atmospheric pressure is equal to 75cm of mercury.  Determine the pressure of the gas in the cylinder. Use information from Fig. 5.1. pressure of gas = ... cm of mercury [2]\n(b) Fig. 5.2 shows two identical heavy stone tiles placed on soft ground. One is vertical and the  other is horizontal.One of the tiles sinks into the soft ground. State and explain which tile sinks into the soft ground.[4]"
             },
@@ -735,21 +735,21 @@
             {
                 "id": 1,
                 "paper_type": "Core",
-                "question_code": "/32/F/M/23",
+                "question_code": "/32/F/M/22",
                 "question_number": "1a",
                 "question_body": "6 Fig. 6.1 shows how the displacement of a transverse wave varies with time. \n(a) (i) Determine the amplitude of the wave in Fig. 6.1.amplitude = ... cm [1]\n(ii) Determine the frequency of the wave in Fig. 6.1.frequency = ...Hz [2]\n(b) Describe the motion of particles in a transverse water wave.[3]\n(c) A wave has a frequency of 400Hz and a wavelength of 0.90m.jCalculate the velocity of the wave.velocity = .. m/ s [3]"
             },
             {
                 "id": 2,
                 "paper_type": "Core",
-                "question_code": "/32/F/M/23",
+                "question_code": "/32/F/M/22",
                 "question_number": "1a",
                 "question_body": "7 (a) A student places a book in front of a plane mirror. State three characteristics of the image of the book formed by the plane mirror.[3]\nVisible light is one region of the electromagnetic spectrum. Another region is ultraviolet radiation.\n(i) Give one use of ultraviolet radiation. [1]\n(ii) Give one possible harmful effect of excessive exposure to ultraviolet radiation.[1]"
             },
             {
                 "id": 3,
                 "paper_type": "Core",
-                "question_code": "/32/F/M/23",
+                "question_code": "/32/F/M/21",
                 "question_number": "1a",
                 "question_body": "6 A student observes waves on the surface of water in a tank. The waves all have the same wavelength.\n(a) The student measures the wavelength of the waves by measuring the distance between onepeak and the next peak. Describe a more accurate method for determining the wavelength.[2] \n(b) The wavelength of the waves is 4.0cm and their frequency is 6.0Hz.Calculate the wave speed.wave speed = ..cm/ s [3]\n(c) Fig. 6.1 shows water waves in the tank travelling from deep water to shallow water.State and explain what happens to the waves as they move from deep water to shallow water.\nname of effect...[1] \nExplanation....[2]"
             },
@@ -1231,28 +1231,28 @@
             {
                 "id": 1,
                 "paper_type": "Core",
-                "question_code": "/32/F/M/23",
+                "question_code": "/32/F/M/21",
                 "question_number": "1a",
                 "question_body": "9a. A nuclear power station has a reactor where controlled nuclear fission of uranium-235 takes place. \n(i). Explain what is meant by nuclear fission.[3]\n(ii). State one advantage and one disadvantage of generating electrical power in nuclear power stations compared with electrical power generated using wind turbines. [2]\n(b). Deuterium is an isotope of hydrogen(H) with 1 proton and 1 neutron. Nuclear fission occurs when two nuclei of deuterium combine.An isotope of helium (He) and a neutron are formed.Use nuclide notation to write down the nuclide equation for this reaction.[3]\n(i) State how the composition of a nucleus of americium-241 differs from that of a nucleus of americium-242.[1]"
             },
             {
                 "id": 2,
                 "paper_type": "Core",
-                "question_code": "/32/F/M/23",
+                "question_code": "/32/F/M/21",
                 "question_number": "1a",
                 "question_body": "10 (a) (i) An americium (Am) nucleus decays by the emission of an α-particle into a neptunium (Np) nucleus.\n(ii) Americium is used in smoke detectors.Explain why beta (β) emitters or gamma (γ) emitters are not used in smoke detectors.[1]\n(b) The half-life of this americium nuclide is 470 years. A sample of this nuclide contains 8.0 × 10¹⁴atoms. After some time, 6.0 × 10¹⁴americium atoms have decayed.Calculate the time required for this decay.[3] "
             },
             {
                 "id": 3,
                 "paper_type": "Core",
-                "question_code": "/32/F/M/23",
+                "question_code": "/32/F/M/22",
                 "question_number": "1a",
                 "question_body": "9 Many household smoke alarms contain a sample of the radioactive isotope americium-241 (Am).\n(a) Americium-241 is the isotope of the element americium that has the nucleon number (mass number) 241.\n(i) State how the composition of a nucleus of americium-241 differs from that of a nucleus of americium-242.[1]\n(ii) An atom of a different element has a nucleon number of 241.(b)State two differences between the composition of a nucleus of this atom and a nucleus of americium-241.[2]\nAmericium-241 decays to an isotope of neptunium (Np) by alpha-particle (α-particle) emission.\n(ii) One reason for using an isotope that emits α-particles in a smoke detector is thatα-particles are more strongly ionising than beta-particles (β-particles).Explain why α-particles are more strongly ionising than β-particles.[2]\n(iii) The isotope of neptunium produced by americium-241 is also radioactive.The decay of this isotope of neptunium produces an isotope of protactinium whichdecays by β-emission. β-particles are more penetrating than α-particles.The half-life of neptunium is longer than two million years.Using this information, explain the advantage of this long half-life for the use and safe disposal of a household smoke alarm.[2]"
             },
             {
                 "id": 4,
                 "paper_type": "Core",
-                "question_code": "/32/F/M/23",
+                "question_code": "/32/F/M/22",
                 "question_number": "1a",
                 "question_body": "10 (a) (i) An americium (Am) nucleus decays by the emission of an α-particle into a neptunium (Np) nucleus.\n(ii) Americium is used in smoke detectors.Explain why beta (β) emitters or gamma (γ) emitters are not used in smoke detectors.[1]\n(b) The half-life of this americium nuclide is 470 years. A sample of this nuclide contains 8.0 × 10¹⁴atoms. After some time, 6.0 × 10¹⁴americium atoms have decayed.Calculate the time required for this decay.[3] "
             },
@@ -1315,7 +1315,7 @@
             {
                 "id": 4,
                 "paper_type": "Core",
-                "question_code": "33/J/M/23",
+                "question_code": "33/J/M/21",
                 "question_number": "1a",
                 "question_body": "10 Fig. 10.1 represents part of the Solar System. \n(a) (i) State the name of planet A and the name of planet B.[2] \n(ii) On Fig. 10.1, draw an X to represent a moon of Jupiter. Draw a line to show how this moon moves.[1] \n(iii) State two ways in which the four planets nearest to the Sun are different from the four planets furthest away from the Sun. [2]\n(iv) Complete the following sentences: The galaxy that includes the Solar System is called the [1]The ...................... includes billions of galaxies.[1]"
             }
@@ -1323,7 +1323,7 @@
             {
                 "id": 5,
                 "paper_type": "Core",
-                "question_code": "/42/F/M/23",
+                "question_code": "/42/F/M/21",
                 "question_number": "1a",
                 "question_body": "10(a). The time taken for Mars to orbit the Sun is 690 Earth days. The average orbital radius of Mars is 22.8×10⁸km. An Earth day is 24h. Calculate the average orbital speed of Mars in km/s.[3]\n(b). State the shape of the orbits of the planets.[1]\n(c). Light from a distant galaxy is redshift.\n(i). Explain what is meant by redshift. [2]\n(ii). State the quantity that the redshift is used to calculate. [1]"
             }
@@ -1331,7 +1331,7 @@
             {
                 "id": 6,
                 "paper_type": "Core",
-                "question_code": "41/O/N/23",
+                "question_code": "41/O/N/22",
                 "question_number": "1a",
                 "question_body": "10 The Milky Way is one of many billions of galaxies. Each galaxy contains many billions of stable stars.\n(a) Stable stars transfer energy into space by emitting electromagnetic radiation from their surfaces. Describe what happens in the core of a stable star to release energy that is eventually transferred into space.[3] \n(b) On the Earth, light from a distant galaxy is observed and analysed by astronomers. This information is used to determine the speed at which the galaxy is moving away from the Earth. \n(i) Describe how the observed light is different from when it was emitted.[2] \n(ii) State the quantity that astronomers use to determine the speed at which the galaxy is moving away.[1] \n(c) The Hubble constant H0 is equal to 2.2 × 10–18 per second. \n(i) Calculate the distance from the Earth of a galaxy that is moving away at a speed of 1.3 × 107m/s.[2] \n(ii) Calculate an estimate for the age of the Universe. Give your answer in years.age of the Universe = ... years [2]"
             }
@@ -1339,7 +1339,7 @@
             {
                 "id": 7,
                 "paper_type": "Core",
-                "question_code": "04/SP/23",
+                "question_code": "04/SP/22",
                 "question_number": "1a",
                 "question_body": "11 (a) Describe and explain how a stable star is formed.[3]\n(b) Describe and explain what can be deduced from cosmic microwave background radiation CMBR.[3]"
             }
