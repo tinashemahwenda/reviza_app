@@ -16,6 +16,13 @@ class _QuestionsPageState extends State<QuestionsPage> {
   final ScrollController _scrollController = ScrollController();
   String selectedFilter = 'All';
   List<Question> filteredQuestions = [];
+
+  @override
+  void initState() {
+    super.initState();
+    filteredQuestions = widget.topic.questions;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
