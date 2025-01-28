@@ -85,7 +85,9 @@ class _QuestionsPageState extends State<QuestionsPage> {
                           ),
                         ),
                       ],
-                    )
+                    ),
+                    Spacer(),
+                    SavedQuestionsButton()
                   ],
                 )),
             Padding(
@@ -134,7 +136,6 @@ class _QuestionsPageState extends State<QuestionsPage> {
                             borderRadius: BorderRadius.circular(50)),
                       );
                     }).toList(),
-                    SavedQuestionsButton()
                   ],
                 )),
             SizedBox(
