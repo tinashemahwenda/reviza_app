@@ -14,6 +14,7 @@ class QuestionsPage extends StatefulWidget {
 
 class _QuestionsPageState extends State<QuestionsPage> {
   final ScrollController _scrollController = ScrollController();
+  String selectedFilter = 'All';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
