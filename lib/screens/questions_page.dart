@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
 import 'package:reviza_app/widgets/questions_bubble.dart';
+import 'package:reviza_app/widgets/saved_questions_button.dart';
 
 import '../models/question.dart';
 
@@ -84,13 +85,16 @@ class _QuestionsPageState extends State<QuestionsPage> {
                           ),
                         ),
                       ],
-                    )
+                    ),
+                    Spacer(),
+                    SavedQuestionsButton()
                   ],
                 )),
             Padding(
                 padding: const EdgeInsets.only(bottom: 30, top: 20),
                 child: Wrap(
                   spacing: 5,
+                  crossAxisAlignment: WrapCrossAlignment.center,
                   children: [
                     FilterChip(
                       label: Text(
@@ -131,7 +135,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(50)),
                       );
-                    }).toList()
+                    }).toList(),
                   ],
                 )),
             SizedBox(

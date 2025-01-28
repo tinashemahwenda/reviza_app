@@ -10,10 +10,7 @@ class SavedQuestionsButton extends StatelessWidget {
     return GestureDetector(
       onTap: () => Navigator.push(
           context, MaterialPageRoute(builder: (context) => SavedQuestions())),
-      child: Padding(
-        padding: const EdgeInsets.only(left: 10),
-        child: Icon(Icons.bookmark),
-      ),
+      child: Icon(Icons.bookmark, size: 30),
     );
   }
 }
