@@ -90,22 +90,25 @@ class _QuestionsPageState extends State<QuestionsPage> {
             Padding(
                 padding: const EdgeInsets.only(bottom: 30, top: 30),
                 child: Wrap(
-                  spacing: 10,
+                  spacing: 5,
                   children: [
                     FilterChip(
                       label: Text(
                         'All',
                         style: TextStyle(
+                          fontSize: 11,
                           color: selectedFilter == 'All'
                               ? Colors.white
                               : AppColor.darkBlue,
                         ),
                       ),
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 10, vertical: 2),
                       selected: selectedFilter == 'All',
                       onSelected: (_) => filterQuestions('All'),
                       showCheckmark: false,
                       selectedColor: AppColor.darkBlue,
-                      backgroundColor: Colors.white,
+                      backgroundColor: Colors.grey[200],
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(50)),
                     ),
@@ -114,6 +117,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                         label: Text(
                           '20$year',
                           style: TextStyle(
+                            fontSize: 11,
                             color: selectedFilter == year
                                 ? Colors.white
                                 : AppColor.darkBlue,
@@ -123,7 +127,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                         onSelected: (_) => filterQuestions(year),
                         selectedColor: AppColor.darkBlue,
                         showCheckmark: false,
-                        backgroundColor: Colors.white,
+                        backgroundColor: Colors.grey[200],
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(50)),
                       );
