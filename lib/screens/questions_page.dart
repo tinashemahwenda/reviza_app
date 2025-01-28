@@ -23,6 +23,22 @@ class _QuestionsPageState extends State<QuestionsPage> {
     filteredQuestions = widget.topic.questions;
   }
 
+  void filterQuestions(String year) {
+    if (year == 'All') {
+      setState(() {
+        filteredQuestions = widget.topic.questions;
+        selectedFilter = 'All';
+      });
+    } else {
+      setState(() {
+        filteredQuestions = widget.topic.questions
+            .where((question) => question.questionCode.endsWith(year))
+            .toList();
+        selectedFilter = year;
+      });
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
