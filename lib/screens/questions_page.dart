@@ -88,7 +88,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                   ],
                 )),
             Padding(
-                padding: const EdgeInsets.only(bottom: 30, top: 30),
+                padding: const EdgeInsets.only(bottom: 30, top: 20),
                 child: Wrap(
                   spacing: 5,
                   children: [
@@ -137,26 +137,19 @@ class _QuestionsPageState extends State<QuestionsPage> {
             SizedBox(
               width: AppMeasure.width,
               height: AppMeasure.height / 1.4,
-              child: Scrollbar(
-                radius: Radius.circular(10),
-                controller: _scrollController,
-                scrollbarOrientation: ScrollbarOrientation.left,
-                thumbVisibility: true,
-                interactive: true,
-                child: ListView.builder(
-                    controller: _scrollController,
-                    padding: EdgeInsets.zero,
-                    itemCount: filteredQuestions.length,
-                    itemBuilder: (context, index) {
-                      final question = filteredQuestions[index];
-                      return QuestionsBubble(
-                        paperCode: widget.topic.topicCode,
-                        questionCode: question.questionCode,
-                        questionNumber: question.id,
-                        questionBody: question.questionBody,
-                      );
-                    }),
-              ),
+              child: ListView.builder(
+                  controller: _scrollController,
+                  padding: EdgeInsets.zero,
+                  itemCount: filteredQuestions.length,
+                  itemBuilder: (context, index) {
+                    final question = filteredQuestions[index];
+                    return QuestionsBubble(
+                      paperCode: widget.topic.topicCode,
+                      questionCode: question.questionCode,
+                      questionNumber: question.id,
+                      questionBody: question.questionBody,
+                    );
+                  }),
             ),
             SizedBox(
               height: 200,
