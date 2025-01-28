@@ -45,7 +45,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
         .map((q) => q.questionCode.substring(q.questionCode.length - 2))
         .toSet()
         .toList()
-        .sort();
+      ..sort();
 
     return Scaffold(
       backgroundColor: AppColor.backgroundColor,
@@ -90,12 +90,20 @@ class _QuestionsPageState extends State<QuestionsPage> {
             Padding(
                 padding: const EdgeInsets.only(bottom: 30, top: 30),
                 child: Wrap(
+                  spacing: 10,
                   children: [
                     FilterChip(
                       label: Text('All'),
                       selected: selectedFilter == 'All',
                       onSelected: (_) => filterQuestions('All'),
-                    )
+                    ),
+                    ...years.map((year) {
+                      return FilterChip(
+                        label: Text('20$year'),
+                        selected: selectedFilter == year,
+                        onSelected: (_) => filterQuestions(year),
+                      );
+                    }).toList()
                   ],
                 )),
             SizedBox(
