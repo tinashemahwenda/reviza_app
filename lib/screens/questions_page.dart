@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
-import 'package:reviza_app/screens/saved_questions.dart';
-//import 'package:reviza_app/screens/solutions.dart';
-import 'package:reviza_app/widgets/filter_bubble.dart';
 import 'package:reviza_app/widgets/questions_bubble.dart';
 
 import '../models/question.dart';
@@ -64,24 +61,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  FilterYearBubble(yearNumber: 'All', selectedBubble: true),
-                  FilterYearBubble(yearNumber: '2024', selectedBubble: false),
-                  FilterYearBubble(yearNumber: '2023', selectedBubble: false),
-                  FilterYearBubble(yearNumber: '2022', selectedBubble: false),
-                  FilterYearBubble(yearNumber: '2021', selectedBubble: false),
-                  FilterYearBubble(yearNumber: '2020', selectedBubble: false),
-                  GestureDetector(
-                    onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => SavedQuestions())),
-                    child: Padding(
-                      padding: const EdgeInsets.only(left: 10),
-                      child: Icon(Icons.bookmark),
-                    ),
-                  ),
-                ],
+                children: [],
               ),
             ),
             SizedBox(
