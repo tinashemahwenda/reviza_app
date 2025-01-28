@@ -65,7 +65,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  FilterYearBubble(yearNumber: 'All', selectedBubble: false),
+                  FilterYearBubble(yearNumber: 'All', selectedBubble: true),
                   FilterYearBubble(yearNumber: '2024', selectedBubble: false),
                   FilterYearBubble(yearNumber: '2023', selectedBubble: false),
                   FilterYearBubble(yearNumber: '2022', selectedBubble: false),
