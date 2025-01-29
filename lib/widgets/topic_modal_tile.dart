@@ -4,11 +4,10 @@ import '../constants/app_constants.dart';
 
 class TopicModalTile extends StatelessWidget {
   final String topicTitle;
+  final int questionNumbers;
 
-  const TopicModalTile({
-    super.key,
-    required this.topicTitle,
-  });
+  const TopicModalTile(
+      {super.key, required this.topicTitle, required this.questionNumbers});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +20,17 @@ class TopicModalTile extends StatelessWidget {
             padding: EdgeInsets.all(18),
             color: Colors.white,
             child: Center(
-              child: Text(topicTitle),
+              child: Row(
+                spacing: 5,
+                children: [
+                  Spacer(),
+                  Text(topicTitle),
+                  Badge(
+                    label: Text(questionNumbers.toString()),
+                  ),
+                  Spacer()
+                ],
+              ),
             )),
       ),
     );

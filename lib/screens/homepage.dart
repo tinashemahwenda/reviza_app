@@ -130,8 +130,10 @@ class _HomePageState extends State<HomePage> {
                                       MaterialPageRoute(
                                           builder: (context) =>
                                               QuestionsPage(topic: topic))),
-                                  child:
-                                      TopicModalTile(topicTitle: topic.topic));
+                                  child: TopicModalTile(
+                                    topicTitle: topic.topic,
+                                    questionNumbers: topic.questions.length,
+                                  ));
                             },
                           ),
                         ),
