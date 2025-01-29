@@ -29,6 +29,15 @@ class _QuestionsPageState extends State<QuestionsPage> {
   Future<void> _toggleSaveQuestion(String questionId, String topic) async {
     final prefs = await SharedPreferences.getInstance();
     final String key = '$topic-$questionId';
+
+    setState(() {
+      if (savedQuestions.contains(key)) {
+        savedQuestions.remove(key);
+      } else {
+        savedQuestions.add(key);
+      }
+      prefs.setStringList('savedQuestions', savedQuestions.toList());
+    });
   }
 
   void filterQuestions(String year) {
