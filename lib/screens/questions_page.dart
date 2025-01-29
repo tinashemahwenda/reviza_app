@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
 import 'package:reviza_app/widgets/questions_bubble.dart';
 import 'package:reviza_app/widgets/saved_questions_button.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../models/question.dart';
 
@@ -23,6 +24,11 @@ class _QuestionsPageState extends State<QuestionsPage> {
   void initState() {
     super.initState();
     filteredQuestions = widget.topic.questions;
+  }
+
+  Future<void> _toggleSaveQuestion(String questionId, String topic) async {
+    final prefs = await SharedPreferences.getInstance();
+    final String key = '$topic-$questionId';
   }
 
   void filterQuestions(String year) {
