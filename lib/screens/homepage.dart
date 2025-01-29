@@ -98,16 +98,25 @@ class _HomePageState extends State<HomePage> {
             topRight: Radius.circular(20),
           ),
           child: Container(
-              height: AppMeasure.height,
+              height: AppMeasure.height * 2,
               width: AppMeasure.width,
               color: AppColor.backgroundColor,
               child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: SingleChildScrollView(
+                    scrollDirection: Axis.vertical,
                     child: Column(
                       children: [
                         SizedBox(height: 10),
-                        SizedBox(height: 10),
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          children: [
+                            Spacer(),
+                            GestureDetector(
+                                onTap: () => Navigator.pop(context),
+                                child: Icon(Icons.cancel_outlined)),
+                          ],
+                        ),
                         Text(
                           'Select Topic',
                           style: TextStyle(
@@ -115,7 +124,7 @@ class _HomePageState extends State<HomePage> {
                           ),
                         ),
                         SizedBox(
-                          height: 30,
+                          height: 20,
                         ),
                         SizedBox(
                           height: AppMeasure.height,
@@ -130,13 +139,15 @@ class _HomePageState extends State<HomePage> {
                                       MaterialPageRoute(
                                           builder: (context) =>
                                               QuestionsPage(topic: topic))),
-                                  child:
-                                      TopicModalTile(topicTitle: topic.topic));
+                                  child: TopicModalTile(
+                                    topicTitle: topic.topic,
+                                    questionNumbers: topic.questions.length,
+                                  ));
                             },
                           ),
                         ),
                         SizedBox(
-                          height: 200,
+                          height: 20,
                         )
                       ],
                     ),
