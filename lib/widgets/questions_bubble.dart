@@ -121,13 +121,13 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                         ),
                       ),
                       IconButton(
+                          padding: EdgeInsets.all(0),
                           onPressed: widget.onSavePressed,
                           icon: Icon(
-                            widget.isSaved
-                                ? Icons.bookmark
-                                : Icons.bookmark_border,
-                            color: widget.isSaved ? Colors.blue : Colors.grey,
-                          ))
+                              widget.isSaved
+                                  ? Icons.bookmark
+                                  : Icons.bookmark_add_outlined,
+                              color: AppColor.darkBlue))
                     ],
                   )
                 ],
