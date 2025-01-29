@@ -27,6 +27,7 @@ class TopicModalTile extends StatelessWidget {
                   Text(topicTitle),
                   Badge(
                     label: Text(questionNumbers.toString()),
+                    backgroundColor: AppColor.darkBlue,
                   ),
                   Spacer()
                 ],
