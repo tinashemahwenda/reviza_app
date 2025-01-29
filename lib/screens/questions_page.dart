@@ -17,6 +17,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
   final ScrollController _scrollController = ScrollController();
   String selectedFilter = 'All';
   List<Question> filteredQuestions = [];
+  Set<String> savedQuestions = {};
 
   @override
   void initState() {
