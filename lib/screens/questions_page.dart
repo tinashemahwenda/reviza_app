@@ -171,6 +171,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                   itemCount: filteredQuestions.length,
                   itemBuilder: (context, index) {
                     final question = filteredQuestions[index];
+                    final String uniqueKey = '${widget.topic}-${question.id}';
                     return QuestionsBubble(
                       paperCode: widget.topic.topicCode,
                       questionCode: question.questionCode,
