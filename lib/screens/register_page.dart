@@ -76,6 +76,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         focusColor: AppColor.darkBlue,
                         fillColor: AppColor.darkBlue,
                         hoverColor: AppColor.darkBlue,
+                        hintText: 'e.g Nigel🐾',
                         label: Text(
                           'First Name',
                           style: TextStyle(
@@ -84,8 +85,8 @@ class _RegisterPageState extends State<RegisterPage> {
                         ),
                       ),
                       validator: (value) {
-                        if (value!.isEmpty || value.length < 10) {
-                          return 'Please enter your name';
+                        if (value!.isEmpty || value.length > 10) {
+                          return 'Name must have less than 10 characters';
                         } else {
                           return null;
                         }
