@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../constants/app_constants.dart';
 //import '../models/question.dart';
 
@@ -21,7 +20,9 @@ class TopicModalTile extends StatelessWidget {
             width: AppMeasure.width,
             padding: EdgeInsets.all(18),
             color: Colors.white,
-            child: Center(child: Text(topicTitle))),
+            child: Center(
+              child: Text(topicTitle),
+            )),
       ),
     );
   }
