@@ -141,7 +141,8 @@ class _QuestionsPageState extends State<QuestionsPage> {
             Padding(
               padding: EdgeInsets.only(bottom: 20),
               child: selectedFilter != 'All'
-                  ? Text('Showing Questions for : 20$selectedFilter')
+                  ? Text(
+                      'Showing ${filteredQuestions.length} Questions for : 20$selectedFilter')
                   : Text('All ${widget.topic.questions.length} Questions'),
             ),
             SizedBox(
