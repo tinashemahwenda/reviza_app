@@ -24,6 +24,14 @@ class _QuestionsPageState extends State<QuestionsPage> {
   void initState() {
     super.initState();
     filteredQuestions = widget.topic.questions;
+    _loadSavedQuestions();
+  }
+
+  Future<void> _loadSavedQuestions() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      savedQuestions = prefs.getStringList('savedQuestions')?.toSet() ?? {};
+    });
   }
 
   Future<void> _toggleSaveQuestion(String questionId, String topic) async {
