@@ -960,63 +960,63 @@
                 "paper_type": "Core",
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
-                "question_body": "9 Fig. 9.1 shows an electric circuit.  (a) When the circuit is in a cool room, the voltmeter reading is 5.6V and the ammeter reading is 0.040A.Calculate the resistance of the thermistor. resistance of thermistor = Ω [3](b) The temperature of the thermistor increases and the buzzer turns on. State and explain how the increase in temperature affects the current in the thermistor.[2](c) Suggest a possible use for the circuit shown in Fig. 9.1.[1]"
+                "question_body": "9 Fig. 9.1 shows an electric circuit.  \n(a) When the circuit is in a cool room, the voltmeter reading is 5.6V and the ammeter reading is 0.040A.Calculate the resistance of the thermistor. resistance of thermistor = Ω [3]\n(b) The temperature of the thermistor increases and the buzzer turns on. State and explain how the increase in temperature affects the current in the thermistor.[2]\n(c) Suggest a possible use for the circuit shown in Fig. 9.1.[1]"
             },
             {
                 "id": 22,
                 "paper_type": "Core",
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
-                "question_body": "10 A student uses a laptop computer. The student notices that the cable connecting the power adapter for a laptop to the mains electricity supply is damaged as shown in Fig. 10.1. (a) State the hazard of using mains equipment with damaged insulation.[1](b) Describe how a fuse protects a mains electrical appliance.[3](c) The laptop computer uses a transformer to change the voltage of the mains electricity supply. The input (primary) voltage is 120V. The input (primary) coil has 2000 turns and the output (secondary) coil has 200 turns.Calculate the output (secondary) voltage from the transformer.output (secondary) voltage =  V [3] (d) State the name of the material used in the core of the transformer.[2]"
+                "question_body": "10 A student uses a laptop computer. The student notices that the cable connecting the power adapter for a laptop to the mains electricity supply is damaged as shown in Fig. 10.1. \n(a) State the hazard of using mains equipment with damaged insulation.[1]\n(b) Describe how a fuse protects a mains electrical appliance.[3]\n(c) The laptop computer uses a transformer to change the voltage of the mains electricity supply. The input (primary) voltage is 120V. The input (primary) coil has 2000 turns and the output (secondary) coil has 200 turns.Calculate the output (secondary) voltage from the transformer.output (secondary) voltage =  V [3] (d) State the name of the material used in the core of the transformer.[2]"
             },
             {
                 "id": 23,
                 "paper_type": "Core",
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
-                "question_body": "9 (a) The box lists four materials. Use words from the box to answer parts (i) and (ii). Each word may be used once, more than once or not at all.(i) State all materials that are electrical insulators.[1](ii) State one example of a magnetic material.[1](b) Fig. 9.1 shows two magnets, P and Q, which are repelling each other. On magnet P, the N pole is labelled N. On Fig. 9.1, label the other pole on magnet P and both poles on magnet Q.[1] (c) One advantage that electromagnets have, compared with permanent magnets, is that their strength can easily be altered. State one other advantage of an electromagnet compared with a permanent magnet.[1] d) A student wants to make the strongest electromagnet possible.Indicate which properties produce the strongest electromagnet.Tick (3) one box in each list."
+                "question_body": "9 (a) The box lists four materials. Use words from the box to answer parts (i) and (ii). Each word may be used once, more than once or not at all.\n(i) State all materials that are electrical insulators.[1]\n(ii) State one example of a magnetic material.[1]\n(b) Fig. 9.1 shows two magnets, P and Q, which are repelling each other. On magnet P, the N pole is labelled N. On Fig. 9.1, label the other pole on magnet P and both poles on magnet Q.[1] \n(c) One advantage that electromagnets have, compared with permanent magnets, is that their strength can easily be altered. State one other advantage of an electromagnet compared with a permanent magnet.[1]\n(d) A student wants to make the strongest electromagnet possible.Indicate which properties produce the strongest electromagnet.Tick (3) one box in each list."
             },
             {
                 "id": 24,
                 "paper_type": "Core",
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
-                "question_body": "10 (a) Fig. 10.1 shows a lamp and a resistor connected in a circuit.  (i) Determine the combined resistance of the 3.0Ω resistor and the 5.0Ω lamp. combined resistance = Ω [1](ii) The reading on ammeter X is 0.50A. State the reading on ammeter Y.reading on ammeter Y = A [1] (b) In another circuit, the 3.0Ω resistor and the 5.0Ω lamp are connected in parallel, as shown in Fig. 10.2. The lamp and resistor have changed from a series to a parallel combination.  State and explain the effect of this change on the current in ammeter X.[3] (c) The current in a different lamp is 0.40A when the potential difference (p.d.) across the lamp is 6.0V. Calculate the resistance of the lamp.resistance of lamp = Ω [3]"
+                "question_body": "10 (a) Fig. 10.1 shows a lamp and a resistor connected in a circuit.  \n(i) Determine the combined resistance of the 3.0Ω resistor and the 5.0Ω lamp. combined resistance = Ω [1]\n(ii) The reading on ammeter X is 0.50A. State the reading on ammeter Y.reading on ammeter Y = A [1] \n(b) In another circuit, the 3.0Ω resistor and the 5.0Ω lamp are connected in parallel, as shown in Fig. 10.2. The lamp and resistor have changed from a series to a parallel combination.  State and explain the effect of this change on the current in ammeter X.[3] \n(c) The current in a different lamp is 0.40A when the potential difference (p.d.) across the lamp is 6.0V. Calculate the resistance of the lamp.resistance of lamp = Ω [3]"
             },
             {
                 "id": 25,
                 "paper_type": "Core",
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
-                "question_body": "1 A student uses a coil and a magnet on a spring to generate an electromotive force (e.m.f.) that varies. He suspends the magnet above a coil as shown in Fig. 11.1. (a) The student pulls the magnet through the coil to X and then releases it. The magnet moves up and down through the coil. State the type of voltage induced in the coil. Tick (3) one box.(b) State two ways of increasing the voltage induced in the coil.[2]"
+                "question_body": "1 A student uses a coil and a magnet on a spring to generate an electromotive force (e.m.f.) that varies. He suspends the magnet above a coil as shown in Fig. 11.1. \n(a) The student pulls the magnet through the coil to X and then releases it. The magnet moves up and down through the coil. State the type of voltage induced in the coil. Tick (3) one box.\n(b) State two ways of increasing the voltage induced in the coil.[2]"
             },
             {
                 "id": 26,
                 "paper_type": "Core",
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
-                "question_body": "8 (a) Fig. 8.1 shows the magnetic field pattern around a bar magnet.(i) On Fig. 8.1, label the north and south poles of the magnet, using the letters N and S. [1] (ii) A soft‑iron bar is positioned as shown in Fig. 8.2.State and explain what happens to the soft‑iron bar.[3] (b) (i) A plastic rod is rubbed with a cloth. The plastic rod becomes positively charged.  Explain how the friction between the cloth and the rod causes the rod to become  positively charged.  Use your ideas about the movement of charge.[2](ii) Plastic is an electrical insulator. Iron is an electrical conductor.  State two other materials that are electrical conductors.[1]"
+                "question_body": "8 (a) Fig. 8.1 shows the magnetic field pattern around a bar magnet.\n(i) On Fig. 8.1, label the north and south poles of the magnet, using the letters N and S. [1] \n(ii) A soft‑iron bar is positioned as shown in Fig. 8.2.State and explain what happens to the soft‑iron bar.[3] \n(b) (i) A plastic rod is rubbed with a cloth. The plastic rod becomes positively charged.  Explain how the friction between the cloth and the rod causes the rod to become  positively charged.  Use your ideas about the movement of charge.[2]\n(ii) Plastic is an electrical insulator. Iron is an electrical conductor.  State two other materials that are electrical conductors.[1]"
             },
             {
                 "id": 26,
                 "paper_type": "Core",
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
-                "question_body": "9 This question is about electric circuits. (a) (i) State the name of the instrument used to measure potential difference (p.d.) in an electric  circuit.[1](ii) State the unit for the electromotive force (e.m.f.) of a battery.[1](b) (i) A student connects a circuit to determine the resistance of a wire. The current in the wire  is 0.20A when the potential difference across the wire is 6.4V.  Calculate the resistance of the wire.[3](ii) The student has some wires of the same material as those in (b)(i) but of various lengths  and thicknesses. He wants a wire with higher resistance than the wire in (b)(i).  State two ways of identifying a wire with a higher resistance by comparing its length and  thickness with the wire in (b)(i).[2]"
+                "question_body": "9 This question is about electric circuits. \n(a) (i) State the name of the instrument used to measure potential difference (p.d.) in an electric  circuit.[1]\n(ii) State the unit for the electromotive force (e.m.f.) of a battery.[1]\n(b) (i) A student connects a circuit to determine the resistance of a wire. The current in the wire  is 0.20A when the potential difference across the wire is 6.4V.  Calculate the resistance of the wire.[3]\n(ii) The student has some wires of the same material as those in \n(b)(i) but of various lengths  and thicknesses. He wants a wire with higher resistance than the wire in (b)(i).  State two ways of identifying a wire with a higher resistance by comparing its length and  thickness with the wire in (b)(i).[2]"
             },
             {
                 "id": 27,
                 "paper_type": "Core",
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
-                "question_body": "10 (a) A student plans to demonstrate the induction of an electromotive force (e.m.f.) in a wire. He has a length of wire, a sensitive centre‑reading galvanometer and a permanent magnet. (i) Describe how the student uses the equipment.[2](ii) State two ways in which the student can increase the size of the induced e.m.f.[2](b) Fig. 10.1 shows a d.c. motor.(i) On Fig. 10.1, draw an arrow between the poles of the magnet to show the direction of  the magnetic field.[1] (ii) State two ways of making the coil spin faster.[2](iii) State one way of making the coil spin in the opposite direction.[1]"
+                "question_body": "10 (a) A student plans to demonstrate the induction of an electromotive force (e.m.f.) in a wire. He has a length of wire, a sensitive centre‑reading galvanometer and a permanent magnet. \n(i) Describe how the student uses the equipment.[2]\n(ii) State two ways in which the student can increase the size of the induced e.m.f.[2](b) Fig. 10.1 shows a d.c. motor.\n(i) On Fig. 10.1, draw an arrow between the poles of the magnet to show the direction of  the magnetic field.[1] \n(ii) State two ways of making the coil spin faster.[2]\n(iii) State one way of making the coil spin in the opposite direction.[1]"
             },
             {
                 "id": 28,
                 "paper_type": "Core",
                 "question_code": "04/O/N/23",
                 "question_number": "1a",
-                "question_body": "9 (a) Fig. 9.1 shows an electric circuit.(i) The current in the metal wires of the circuit is a flow of particles.  State the name of these particles.[1](ii) State the name of component X.[1] (iii) The circuit is in a darkened room. The voltmeter reading is 5.5V and the ammeter  reading is 0.050A.  Calculate the resistance of the light-dependent resistor (LDR).[3](b) The light in the room is switched on. The room becomes bright. State and explain how increasing the brightness of the light that falls on the LDR changes the  current in the circuit.[2]"
+                "question_body": "9 (a) Fig. 9.1 shows an electric circuit.\n(i) The current in the metal wires of the circuit is a flow of particles.  State the name of these particles.[1]\n(ii) State the name of component X.[1] \n(iii) The circuit is in a darkened room. The voltmeter reading is 5.5V and the ammeter  reading is 0.050A.  Calculate the resistance of the light-dependent resistor (LDR).[3]\n(b) The light in the room is switched on. The room becomes bright. State and explain how increasing the brightness of the light that falls on the LDR changes the  current in the circuit.[2]"
             },
             {
                 "id": 29,
