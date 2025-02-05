@@ -179,7 +179,9 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(
                   height: 60,
                 ),
-                RevizaNavigation(),
+                RevizaNavigation(
+                  nameInitials: _name,
+                ),
                 SizedBox(
                   height: 30,
                 ),
