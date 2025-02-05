@@ -96,7 +96,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'CAMBRIDGE | IGCSE | O LEVEL | PHYSICS',
+                          'CAMBRIDGE IGCSE | O LEVEL | PHYSICS',
                           style: TextStyle(
                             fontSize: 10,
                           ),
