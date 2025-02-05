@@ -168,7 +168,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
               child: selectedFilter == 'All'
                   ? Text('All ${widget.topic.questions.length} Questions')
                   : Text(
-                      'Showing ${filteredQuestions.length} Questions for 20${selectedFilter}'),
+                      'Showing ${filteredQuestions.length} Questions for 20$selectedFilter'),
             ),
             SizedBox(
               width: AppMeasure.width,

@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
         _topics = topics;
       });
     } catch (e) {
-      print('Error in loading data: $e');
+      _topics == e;
     }
   }
 
@@ -163,7 +163,6 @@ class _HomePageState extends State<HomePage> {
 
     setState(() {
       _name = name!;
-      print('Profile loaded for $_name');
     });
   }
 

@@ -25,7 +25,7 @@ class _RevizaBannerState extends State<RevizaBanner> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Container(
+                SizedBox(
                     width: AppMeasure.width / 1.5,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,

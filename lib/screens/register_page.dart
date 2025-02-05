@@ -31,7 +31,6 @@ class _RegisterPageState extends State<RegisterPage> {
       setState(() {
         _existingName = existingName;
         _isFormVisible = false;
-        print(_existingName);
       });
     }
   }
