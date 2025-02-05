@@ -15,7 +15,7 @@ class RevizaQuestionsNav extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'CAMBRIDGE | IGCSE | O LEVEL | PHYSICS',
+              'CAMBRIDGE IGCSE | O LEVEL | PHYSICS',
               style: TextStyle(
                 fontSize: 10,
               ),
