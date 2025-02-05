@@ -116,7 +116,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
                   ],
                 )),
             Padding(
-                padding: const EdgeInsets.only(bottom: 30, top: 20),
+                padding: const EdgeInsets.only(bottom: 0, top: 20),
                 child: Wrap(
                   spacing: 5,
                   crossAxisAlignment: WrapCrossAlignment.center,
@@ -163,6 +163,13 @@ class _QuestionsPageState extends State<QuestionsPage> {
                     }).toList(),
                   ],
                 )),
+            Padding(
+              padding: EdgeInsets.symmetric(vertical: 20),
+              child: selectedFilter == 'All'
+                  ? Text('All ${widget.topic.questions.length} Questions')
+                  : Text(
+                      'Showing ${filteredQuestions.length} Questions for 20${selectedFilter}'),
+            ),
             SizedBox(
               width: AppMeasure.width,
               height: AppMeasure.height / 1.4,
