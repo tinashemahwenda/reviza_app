@@ -108,15 +108,6 @@ class _HomePageState extends State<HomePage> {
                     child: Column(
                       children: [
                         SizedBox(height: 10),
-                        Row(
-                          crossAxisAlignment: CrossAxisAlignment.end,
-                          children: [
-                            Spacer(),
-                            GestureDetector(
-                                onTap: () => Navigator.pop(context),
-                                child: Icon(Icons.cancel_outlined)),
-                          ],
-                        ),
                         Text(
                           'Select Topic',
                           style: TextStyle(
