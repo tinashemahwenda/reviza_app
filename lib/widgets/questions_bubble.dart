@@ -131,7 +131,7 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                               widget.isSaved
                                   ? Icons.bookmark
                                   : Icons.bookmark_add_outlined,
-                              color: AppColor.darkBlue))
+                              color: AppColor.darkBlue)),
                     ],
                   )
                 ],
