@@ -62,7 +62,10 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 10),
+      padding: const EdgeInsets.only(
+        top: 10,
+        bottom: 10,
+      ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(20),
         child: Container(
@@ -79,6 +82,7 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontFamily: 'Manrope-Extrabold',
+                      fontSize: 18,
                     ),
                   ),
                   Row(
@@ -120,10 +124,10 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                           ),
                         ),
                       ),
-                      IconButton(
-                          padding: EdgeInsets.all(0),
-                          onPressed: widget.onSavePressed,
-                          icon: Icon(
+                      GestureDetector(
+                          //padding: EdgeInsets.all(0),
+                          onTap: widget.onSavePressed,
+                          child: Icon(
                               widget.isSaved
                                   ? Icons.bookmark
                                   : Icons.bookmark_add_outlined,
