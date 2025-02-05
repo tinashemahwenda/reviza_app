@@ -26,7 +26,14 @@ class RevizaNavigation extends StatelessWidget {
               MaterialPageRoute(builder: (context) => SavedQuestions())),
           child: CircleAvatar(
             backgroundColor: AppColor.dodgerBlue,
-            child: Text(nameInitials[0]),
+            radius: 24,
+            child: Text(
+              nameInitials[0],
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ),
           ),
         )
       ],
