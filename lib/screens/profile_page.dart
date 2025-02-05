@@ -16,9 +16,9 @@ class ProfilePage extends StatelessWidget {
           children: [
             Lottie.asset('assets/images/animations/profile-loading.json',
                 width: 200),
-            SizedBox(height: 20),
+            //SizedBox(height: 20),
             Text(
-              'Still working on your profile page',
+              'We are working on your profile page',
               style: TextStyle(
                 fontFamily: 'Manrope-Extrabold',
                 fontSize: 20,
