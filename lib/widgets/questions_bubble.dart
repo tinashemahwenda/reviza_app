@@ -139,14 +139,20 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                width: AppMeasure.width,
-                height: AppMeasure.height / 4,
-                color: Colors.grey[200],
-              ),
+              /*ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: Container(
+                  width: AppMeasure.width,
+                  height: AppMeasure.height / 4,
+                  color: AppColor.darkBlue,
+                  child: Image.asset(
+                    'assets/images/chemistry.png',
+                  ),
+                ),
+              ),*/
               Padding(
                 padding: const EdgeInsets.all(10.0),
-                child: Text(
+                child: SelectableText(
                   widget.questionBody,
                   style: TextStyle(
                     height: 2,
