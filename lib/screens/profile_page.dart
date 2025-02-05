@@ -14,7 +14,8 @@ class ProfilePage extends StatelessWidget {
           spacing: 20,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Lottie.asset('assets/images/animations/loading.json', width: 200),
+            Lottie.asset('assets/images/animations/profile-loading.json',
+                width: 200),
             SizedBox(height: 20),
             Text(
               'Still working on your profile page',
