@@ -29,7 +29,7 @@ class RevizaNavigation extends StatelessWidget {
             backgroundColor: AppColor.dodgerBlue,
             radius: 24,
             child: Text(
-              nameInitials[0],
+              nameInitials[0].toUpperCase(),
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
