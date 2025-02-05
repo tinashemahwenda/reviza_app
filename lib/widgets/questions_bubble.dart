@@ -10,6 +10,8 @@ class QuestionsBubble extends StatefulWidget {
   final int questionNumber;
   final String questionCode;
   final String paperCode;
+  final bool isSaved;
+  final VoidCallback onSavePressed;
 
   const QuestionsBubble({
     super.key,
@@ -17,6 +19,8 @@ class QuestionsBubble extends StatefulWidget {
     required this.questionBody,
     required this.questionCode,
     required this.paperCode,
+    required this.isSaved,
+    required this.onSavePressed,
     //required this.data,
   });
 
@@ -116,19 +120,14 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                           ),
                         ),
                       ),
-                      GestureDetector(
-                          onTap: () {
-                            toggleButton();
-                          },
-                          child: savedButton
-                              ? Icon(
-                                  Icons.bookmark,
-                                  color: AppColor.darkBlue,
-                                )
-                              : Icon(
-                                  Icons.bookmark_add_outlined,
-                                  color: AppColor.darkBlue,
-                                )),
+                      IconButton(
+                          padding: EdgeInsets.all(0),
+                          onPressed: widget.onSavePressed,
+                          icon: Icon(
+                              widget.isSaved
+                                  ? Icons.bookmark
+                                  : Icons.bookmark_add_outlined,
+                              color: AppColor.darkBlue))
                     ],
                   )
                 ],
