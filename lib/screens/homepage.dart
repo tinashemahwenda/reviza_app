@@ -180,7 +180,7 @@ class _HomePageState extends State<HomePage> {
                   height: 60,
                 ),
                 RevizaNavigation(
-                  nameInitials: _name,
+                  nameInitials: _name.isNotEmpty ? _name : 'X',
                 ),
                 SizedBox(
                   height: 30,
