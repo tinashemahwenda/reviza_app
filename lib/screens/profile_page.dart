@@ -145,66 +145,15 @@ class _ProfilePageState extends State<ProfilePage> {
                           SettingsTile(
                               settingName: 'Saved Questions',
                               iconName: Icons.bookmark),
-                          Padding(
-                            padding: const EdgeInsets.symmetric(vertical: 15),
-                            child: Row(
-                              spacing: 20,
-                              children: [
-                                Icon(Icons.update),
-                                Text(
-                                  'Upcoming Updates',
-                                  style: TextStyle(
-                                    fontSize: 14,
-                                  ),
-                                ),
-                                Spacer(),
-                                Icon(
-                                  Icons.arrow_forward_ios,
-                                  size: 16,
-                                ),
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.symmetric(vertical: 15),
-                            child: Row(
-                              spacing: 20,
-                              children: [
-                                Icon(Icons.star),
-                                Text(
-                                  'Upgrade Your Account',
-                                  style: TextStyle(
-                                    fontSize: 14,
-                                  ),
-                                ),
-                                Spacer(),
-                                Icon(
-                                  Icons.arrow_forward_ios,
-                                  size: 16,
-                                ),
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.symmetric(vertical: 15),
-                            child: Row(
-                              spacing: 20,
-                              children: [
-                                Icon(Icons.add_box),
-                                Text(
-                                  'More Apps',
-                                  style: TextStyle(
-                                    fontSize: 14,
-                                  ),
-                                ),
-                                Spacer(),
-                                Icon(
-                                  Icons.arrow_forward_ios,
-                                  size: 16,
-                                ),
-                              ],
-                            ),
-                          ),
+                          SettingsTile(
+                              settingName: 'Upcoming Updates',
+                              iconName: Icons.update),
+                          SettingsTile(
+                              settingName: 'Upgrade Your Account',
+                              iconName: Icons.star_border_purple500_outlined),
+                          SettingsTile(
+                              settingName: 'More Apps',
+                              iconName: Icons.add_box_rounded)
                         ],
                       ),
                     ),
