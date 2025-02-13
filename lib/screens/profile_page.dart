@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:lottie/lottie.dart';
 import 'package:reviza_app/constants/app_constants.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 //import 'package:reviza_app/widgets/go_back_button.dart';
 
 class ProfilePage extends StatefulWidget {
@@ -11,6 +12,23 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
+  String _name = '';
+
+  @override
+  void initState() {
+    super.initState();
+    _loadProfileData();
+  }
+
+  _loadProfileData() async {
+    final prefs = await SharedPreferences.getInstance();
+    final name = prefs.getString('name');
+
+    setState(() {
+      _name = name!;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     bool value = true;
