@@ -29,6 +29,9 @@ class ProfilePage extends StatelessWidget {
                         ),
                       ],
                     ),
+                    SizedBox(
+                      height: 40,
+                    ),
                     Container(
                       width: AppMeasure.width,
                       padding: EdgeInsets.all(20),
@@ -47,7 +50,27 @@ class ProfilePage extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                          )
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                'Tinashe',
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
+                              ),
+                              Text(
+                                'Student',
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color: Colors.grey,
+                                ),
+                              ),
+                            ],
+                          ),
+                          Spacer(),
+                          Icon(Icons.arrow_forward_ios)
                         ],
                       ),
                     )
