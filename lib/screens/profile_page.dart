@@ -146,26 +146,6 @@ class _ProfilePageState extends State<ProfilePage> {
                             child: Row(
                               spacing: 20,
                               children: [
-                                Icon(Icons.bookmark),
-                                Text(
-                                  'Saved Questions',
-                                  style: TextStyle(
-                                    fontSize: 14,
-                                  ),
-                                ),
-                                Spacer(),
-                                Icon(
-                                  Icons.arrow_forward_ios,
-                                  size: 16,
-                                ),
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.symmetric(vertical: 15),
-                            child: Row(
-                              spacing: 20,
-                              children: [
                                 Icon(Icons.update),
                                 Text(
                                   'Upcoming Updates',
