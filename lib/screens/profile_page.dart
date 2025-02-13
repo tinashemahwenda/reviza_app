@@ -71,7 +71,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           CircleAvatar(
                             backgroundColor: AppColor.dodgerBlue,
                             child: Text(
-                              'T',
+                              _name.isNotEmpty ? _name[0] : 'X',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
@@ -129,6 +129,9 @@ class _ProfilePageState extends State<ProfilePage> {
                               Switch(
                                   value: value,
                                   activeColor: AppColor.dodgerBlue,
+                                  inactiveTrackColor: AppColor.dodgerBlue,
+                                  trackOutlineColor:
+                                      WidgetStatePropertyAll(Colors.white),
                                   thumbColor:
                                       WidgetStatePropertyAll(Colors.white),
                                   onChanged: (bool newValue) {
