@@ -122,7 +122,9 @@ class _ProfilePageState extends State<ProfilePage> {
                             children: [
                               Icon(Icons.notifications),
                               Text(
-                                'Turn on notifications',
+                                value
+                                    ? 'Turn off notifications'
+                                    : 'Turn on notifications',
                                 style: TextStyle(
                                   fontSize: 14,
                                 ),
@@ -131,7 +133,7 @@ class _ProfilePageState extends State<ProfilePage> {
                               Switch(
                                   value: value,
                                   activeColor: AppColor.dodgerBlue,
-                                  inactiveTrackColor: AppColor.dodgerBlue,
+                                  inactiveTrackColor: Colors.grey,
                                   trackOutlineColor:
                                       WidgetStatePropertyAll(Colors.white),
                                   thumbColor:
