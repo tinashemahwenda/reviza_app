@@ -90,7 +90,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                 ),
                               ),
                               Text(
-                                'Student',
+                                'Account Student',
                                 style: TextStyle(
                                   fontSize: 12,
                                   color: Colors.grey,
