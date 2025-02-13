@@ -93,16 +93,19 @@ class _ProfilePageState extends State<ProfilePage> {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(10)),
                       child: Column(
+                        spacing: 10,
                         children: [
                           Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            spacing: 20,
                             children: [
+                              Icon(Icons.notifications),
                               Text(
                                 'Turn on notifications',
                                 style: TextStyle(
                                   fontSize: 14,
                                 ),
                               ),
+                              Spacer(),
                               Switch(
                                   value: value,
                                   activeColor: AppColor.dodgerBlue,
@@ -115,14 +118,18 @@ class _ProfilePageState extends State<ProfilePage> {
                                   })
                             ],
                           ),
-                          Divider(),
                           Padding(
                             padding: const EdgeInsets.symmetric(vertical: 15),
                             child: Row(
-                              spacing: 10,
+                              spacing: 20,
                               children: [
                                 Icon(Icons.bookmark),
-                                Text('Saved Questions'),
+                                Text(
+                                  'Saved Questions',
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                  ),
+                                ),
                                 Spacer(),
                                 Icon(
                                   Icons.arrow_forward_ios,
@@ -131,7 +138,26 @@ class _ProfilePageState extends State<ProfilePage> {
                               ],
                             ),
                           ),
-                          Divider()
+                          Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 15),
+                            child: Row(
+                              spacing: 20,
+                              children: [
+                                Icon(Icons.update),
+                                Text(
+                                  'Upcoming Updates',
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                  ),
+                                ),
+                                Spacer(),
+                                Icon(
+                                  Icons.arrow_forward_ios,
+                                  size: 16,
+                                ),
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     )
