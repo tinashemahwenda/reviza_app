@@ -32,6 +32,10 @@ class ProfilePage extends StatelessWidget {
                     Container(
                       width: AppMeasure.width,
                       padding: EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(10),
+                      ),
                       child: Row(
                         children: [
                           CircleAvatar(
