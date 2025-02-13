@@ -40,6 +40,7 @@ class ProfilePage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: Row(
+                        spacing: 20,
                         children: [
                           CircleAvatar(
                             backgroundColor: AppColor.dodgerBlue,
@@ -52,6 +53,7 @@ class ProfilePage extends StatelessWidget {
                             ),
                           ),
                           Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
                                 'Tinashe',
@@ -70,9 +72,16 @@ class ProfilePage extends StatelessWidget {
                             ],
                           ),
                           Spacer(),
-                          Icon(Icons.arrow_forward_ios)
+                          Icon(
+                            Icons.arrow_forward_ios,
+                            size: 16,
+                          )
                         ],
                       ),
+                    ),
+                    Container(
+                      width: AppMeasure.width,
+                      padding: EdgeInsets.all(10),
                     )
                   ],
                 ))));
