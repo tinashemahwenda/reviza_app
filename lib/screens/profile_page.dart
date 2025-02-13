@@ -13,7 +13,7 @@ class ProfilePage extends StatefulWidget {
 
 class _ProfilePageState extends State<ProfilePage> {
   String _name = '';
-
+  bool value = true;
   @override
   void initState() {
     super.initState();
@@ -31,7 +31,6 @@ class _ProfilePageState extends State<ProfilePage> {
 
   @override
   Widget build(BuildContext context) {
-    bool value = true;
     return Scaffold(
         backgroundColor: AppColor.backgroundColor,
         body: SafeArea(
@@ -83,7 +82,7 @@ class _ProfilePageState extends State<ProfilePage> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Tinashe',
+                                _name.isNotEmpty ? _name : 'User',
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 16,
@@ -134,7 +133,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                       WidgetStatePropertyAll(Colors.white),
                                   onChanged: (bool newValue) {
                                     setState(() {
-                                      value = !newValue;
+                                      value = newValue;
                                     });
                                   })
                             ],
