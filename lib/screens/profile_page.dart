@@ -25,7 +25,10 @@ class _ProfilePageState extends State<ProfilePage> {
                     Row(
                       spacing: 20,
                       children: [
-                        Icon(Icons.arrow_back_ios),
+                        InkWell(
+                          onTap: () => Navigator.pop(context),
+                          child: Icon(Icons.arrow_back_ios),
+                        ),
                         Text(
                           'Your Profile',
                           style: TextStyle(
