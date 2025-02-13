@@ -13,7 +13,7 @@ class SettingsTile extends StatelessWidget {
       child: Row(
         spacing: 20,
         children: [
-          Icon(Icons.bookmark),
+          Icon(iconName),
           Text(
             settingName,
             style: TextStyle(
@@ -22,7 +22,7 @@ class SettingsTile extends StatelessWidget {
           ),
           Spacer(),
           Icon(
-            iconName,
+            Icons.arrow_forward_ios,
             size: 16,
           ),
         ],
