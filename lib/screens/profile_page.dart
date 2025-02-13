@@ -12,20 +12,42 @@ class ProfilePage extends StatelessWidget {
         backgroundColor: AppColor.backgroundColor,
         body: SafeArea(
             child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
-          child: Row(
-            spacing: 20,
-            children: [
-              Icon(Icons.arrow_back_ios),
-              Text(
-                'Your Profile',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                ),
-              ),
-            ],
-          ),
-        )));
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
+                child: Column(
+                  children: [
+                    Row(
+                      spacing: 20,
+                      children: [
+                        Icon(Icons.arrow_back_ios),
+                        Text(
+                          'Your Profile',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                          ),
+                        ),
+                      ],
+                    ),
+                    Container(
+                      width: AppMeasure.width,
+                      padding: EdgeInsets.all(20),
+                      child: Row(
+                        children: [
+                          CircleAvatar(
+                            backgroundColor: AppColor.dodgerBlue,
+                            child: Text(
+                              'T',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          )
+                        ],
+                      ),
+                    )
+                  ],
+                ))));
   }
 }
