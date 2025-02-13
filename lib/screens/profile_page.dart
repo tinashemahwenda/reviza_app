@@ -181,9 +181,33 @@ class _ProfilePageState extends State<ProfilePage> {
                               ],
                             ),
                           ),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 15),
+                            child: Row(
+                              spacing: 20,
+                              children: [
+                                Icon(Icons.add_box),
+                                Text(
+                                  'More Apps',
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                  ),
+                                ),
+                                Spacer(),
+                                Icon(
+                                  Icons.arrow_forward_ios,
+                                  size: 16,
+                                ),
+                              ],
+                            ),
+                          ),
                         ],
                       ),
-                    )
+                    ),
+                    Spacer(),
+                    Text('Reviza Cambridge App'),
+                    Text('v0.1.1'),
+                    Spacer(),
                   ],
                 ))));
   }
