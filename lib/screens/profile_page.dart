@@ -88,7 +88,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     SizedBox(height: 20),
                     Container(
                       width: AppMeasure.width,
-                      padding: EdgeInsets.all(10),
+                      padding: EdgeInsets.all(20),
                       decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(10)),
@@ -114,7 +114,24 @@ class _ProfilePageState extends State<ProfilePage> {
                                     });
                                   })
                             ],
-                          )
+                          ),
+                          Divider(),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 15),
+                            child: Row(
+                              spacing: 10,
+                              children: [
+                                Icon(Icons.bookmark),
+                                Text('Saved Questions'),
+                                Spacer(),
+                                Icon(
+                                  Icons.arrow_forward_ios,
+                                  size: 16,
+                                ),
+                              ],
+                            ),
+                          ),
+                          Divider()
                         ],
                       ),
                     )
