@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
+//import 'package:lottie/lottie.dart';
 import 'package:reviza_app/constants/app_constants.dart';
-import 'package:reviza_app/widgets/go_back_button.dart';
+//import 'package:reviza_app/widgets/go_back_button.dart';
 
-class ProfilePage extends StatelessWidget {
+class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
 
   @override
+  State<ProfilePage> createState() => _ProfilePageState();
+}
+
+class _ProfilePageState extends State<ProfilePage> {
+  @override
   Widget build(BuildContext context) {
+    bool value = true;
     return Scaffold(
         backgroundColor: AppColor.backgroundColor,
         body: SafeArea(
@@ -79,9 +85,38 @@ class ProfilePage extends StatelessWidget {
                         ],
                       ),
                     ),
+                    SizedBox(height: 20),
                     Container(
                       width: AppMeasure.width,
                       padding: EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Column(
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(
+                                'Turn on notifications',
+                                style: TextStyle(
+                                  fontSize: 14,
+                                ),
+                              ),
+                              Switch(
+                                  value: value,
+                                  activeColor: AppColor.dodgerBlue,
+                                  thumbColor:
+                                      WidgetStatePropertyAll(Colors.white),
+                                  onChanged: (bool newValue) {
+                                    setState(() {
+                                      value = !newValue;
+                                    });
+                                  })
+                            ],
+                          )
+                        ],
+                      ),
                     )
                   ],
                 ))));
