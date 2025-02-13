@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:lottie/lottie.dart';
 import 'package:reviza_app/constants/app_constants.dart';
+import 'package:reviza_app/widgets/settings_tile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 //import 'package:reviza_app/widgets/go_back_button.dart';
 
@@ -141,6 +142,9 @@ class _ProfilePageState extends State<ProfilePage> {
                                   })
                             ],
                           ),
+                          SettingsTile(
+                              settingName: 'Saved Questions',
+                              iconName: Icons.bookmark),
                           Padding(
                             padding: const EdgeInsets.symmetric(vertical: 15),
                             child: Row(
