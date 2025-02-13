@@ -161,6 +161,26 @@ class _ProfilePageState extends State<ProfilePage> {
                               ],
                             ),
                           ),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 15),
+                            child: Row(
+                              spacing: 20,
+                              children: [
+                                Icon(Icons.star),
+                                Text(
+                                  'Upgrade Your Account',
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                  ),
+                                ),
+                                Spacer(),
+                                Icon(
+                                  Icons.arrow_forward_ios,
+                                  size: 16,
+                                ),
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     )
