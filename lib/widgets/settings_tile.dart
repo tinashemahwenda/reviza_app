@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class SettingsTile extends StatelessWidget {
   final String settingName;
-  final Icon iconName;
+  final IconData iconName;
   const SettingsTile(
       {super.key, required this.settingName, required this.iconName});
 
@@ -15,14 +15,14 @@ class SettingsTile extends StatelessWidget {
         children: [
           Icon(Icons.bookmark),
           Text(
-            'Saved Questions',
+            settingName,
             style: TextStyle(
               fontSize: 14,
             ),
           ),
           Spacer(),
           Icon(
-            Icons.arrow_forward_ios,
+            iconName,
             size: 16,
           ),
         ],
