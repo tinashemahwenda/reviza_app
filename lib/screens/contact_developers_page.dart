@@ -30,7 +30,118 @@ class ContactDevelopersPage extends StatelessWidget {
                     ),
                   ),
                 ],
-              )
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: AppMeasure.width,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Column(
+                  spacing: 15,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Contact Details',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14,
+                      ),
+                    ),
+                    Row(
+                      spacing: 10,
+                      children: [
+                        Icon(Icons.call),
+                        Text('0773 423 888'),
+                      ],
+                    ),
+                    Row(
+                      spacing: 10,
+                      children: [
+                        Icon(Icons.mail),
+                        Text('enquires@creativetinashe.co.zw'),
+                      ],
+                    ),
+                    Row(
+                      spacing: 10,
+                      children: [
+                        Icon(Icons.mail),
+                        Text('services@creativetinashe.co.zw'),
+                      ],
+                    ),
+                    Row(
+                      spacing: 10,
+                      children: [
+                        Icon(Icons.mail),
+                        Text('enquires@reviza.co.zw'),
+                      ],
+                    ),
+                    Row(
+                      spacing: 10,
+                      children: [
+                        Icon(Icons.mail),
+                        Text('sales@reviza.co.zw'),
+                      ],
+                    ),
+                    Row(
+                      spacing: 10,
+                      children: [
+                        Icon(Icons.mail_sharp),
+                        Text('reviza.co.zw'),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 20),
+              Container(
+                width: AppMeasure.width,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Column(
+                  spacing: 10,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Direct Enquiry',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14,
+                      ),
+                    ),
+                    TextField(
+                      decoration: InputDecoration(
+                          hintText: 'Write to us....',
+                          hintStyle: TextStyle(
+                            color: Colors.grey,
+                          )),
+                    ),
+                    Row(
+                      children: [
+                        Spacer(),
+                        Container(
+                          padding: EdgeInsets.all(10),
+                          decoration: BoxDecoration(
+                            color: AppColor.darkBlue,
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                          child: Text(
+                            'Send',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
+                        ),
+                      ],
+                    )
+                  ],
+                ),
+              ),
             ],
           ),
         ),
