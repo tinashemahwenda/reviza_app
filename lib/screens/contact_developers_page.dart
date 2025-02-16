@@ -18,7 +18,13 @@ class ContactDevelopersPage extends StatelessWidget {
                 spacing: 10,
                 children: [
                   Icon(Icons.arrow_back_ios),
-                  Text('Contact Developers'),
+                  Text(
+                    'Contact Developers',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                    ),
+                  ),
                 ],
               )
             ],
