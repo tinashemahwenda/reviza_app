@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:reviza_app/constants/app_constants.dart';
 
 class ContactDevelopersPage extends StatelessWidget {
   const ContactDevelopersPage({super.key});
@@ -6,6 +7,7 @@ class ContactDevelopersPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColor.backgroundColor,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(
