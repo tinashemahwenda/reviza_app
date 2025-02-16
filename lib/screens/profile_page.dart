@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:lottie/lottie.dart';
 import 'package:reviza_app/constants/app_constants.dart';
+import 'package:reviza_app/screens/contact_developers_page.dart';
 import 'package:reviza_app/screens/saved_questions.dart';
 import 'package:reviza_app/widgets/settings_tile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -160,9 +161,16 @@ class _ProfilePageState extends State<ProfilePage> {
                           SettingsTile(
                               settingName: 'Upgrade Your Account',
                               iconName: Icons.star_border_purple500_outlined),
-                          SettingsTile(
-                              settingName: 'Contact Developers',
-                              iconName: Icons.phone)
+                          InkWell(
+                            onTap: () => Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) =>
+                                        ContactDevelopersPage())),
+                            child: SettingsTile(
+                                settingName: 'Contact Developers',
+                                iconName: Icons.phone),
+                          )
                         ],
                       ),
                     ),
