@@ -161,8 +161,8 @@ class _ProfilePageState extends State<ProfilePage> {
                               settingName: 'Upgrade Your Account',
                               iconName: Icons.star_border_purple500_outlined),
                           SettingsTile(
-                              settingName: 'More Apps',
-                              iconName: Icons.add_box_rounded)
+                              settingName: 'Contact Developers',
+                              iconName: Icons.contact_emergency)
                         ],
                       ),
                     ),
