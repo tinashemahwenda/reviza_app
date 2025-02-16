@@ -142,6 +142,47 @@ class ContactDevelopersPage extends StatelessWidget {
                   ],
                 ),
               ),
+              SizedBox(height: 20),
+              Container(
+                width: AppMeasure.width,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Column(
+                  spacing: 10,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Social Media',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Row(
+                      spacing: 10,
+                      children: [
+                        Icon(Icons.message),
+                        Text('Message through WhatsApp')
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Row(
+                      spacing: 10,
+                      children: [
+                        Icon(Icons.message),
+                        Text('Message through Facebook')
+                      ],
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
