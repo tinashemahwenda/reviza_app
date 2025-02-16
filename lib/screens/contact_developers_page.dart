@@ -17,7 +17,9 @@ class ContactDevelopersPage extends StatelessWidget {
               Row(
                 spacing: 10,
                 children: [
-                  Icon(Icons.arrow_back_ios),
+                  InkWell(
+                      onTap: () => Navigator.pop(context),
+                      child: Icon(Icons.arrow_back_ios)),
                   Text(
                     'Contact Developers',
                     style: TextStyle(
