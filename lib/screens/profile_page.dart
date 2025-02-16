@@ -162,7 +162,7 @@ class _ProfilePageState extends State<ProfilePage> {
                               iconName: Icons.star_border_purple500_outlined),
                           SettingsTile(
                               settingName: 'Contact Developers',
-                              iconName: Icons.contact_emergency)
+                              iconName: Icons.phone)
                         ],
                       ),
                     ),
