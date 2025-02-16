@@ -6,15 +6,24 @@ class ContactDevelopersPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Row(
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 20,
+            vertical: 30,
+          ),
+          child: Column(
             children: [
-              Icon(Icons.arrow_back_ios),
-              Text('Contact Developers'),
+              Row(
+                spacing: 10,
+                children: [
+                  Icon(Icons.arrow_back_ios),
+                  Text('Contact Developers'),
+                ],
+              )
             ],
-          )
-        ],
+          ),
+        ),
       ),
     );
   }
