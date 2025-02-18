@@ -9,6 +9,10 @@ class NotiService {
   // Initialize
   Future<void> initNotification() async {
     if (_isInitialized) return;
+
+    //android initi settings
+    const initSettingsAndroid =
+        AndroidInitializationSettings('@mipmap/ic_launcher');
   }
 
   // Notifications detail setup
