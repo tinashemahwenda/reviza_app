@@ -180,6 +180,13 @@ class _ProfilePageState extends State<ProfilePage> {
                         ],
                       ),
                     ),
+                    ElevatedButton(
+                        onPressed: () {
+                          NotiService().showNotifications(
+                              title: 'Show Notifications',
+                              body: 'Helloworld to notifications');
+                        },
+                        child: Text('Send Notifications')),
                     Spacer(),
                     Text('Reviza Cambridge App'),
                     Text('v0.1.1'),
