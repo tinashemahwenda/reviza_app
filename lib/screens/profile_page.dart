@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
 import 'package:reviza_app/screens/contact_developers_page.dart';
 import 'package:reviza_app/screens/saved_questions.dart';
+import 'package:reviza_app/services/noti_service.dart';
 import 'package:reviza_app/widgets/settings_tile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 //import 'package:reviza_app/widgets/go_back_button.dart';
@@ -140,6 +141,13 @@ class _ProfilePageState extends State<ProfilePage> {
                                   thumbColor:
                                       WidgetStatePropertyAll(Colors.white),
                                   onChanged: (bool newValue) {
+                                    if (value == true) {
+                                      NotiService().showNotifications(
+                                        title: 'Reviza App Notification!',
+                                        body:
+                                            'You have turned on notifications',
+                                      );
+                                    }
                                     setState(() {
                                       value = newValue;
                                     });
