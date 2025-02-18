@@ -141,13 +141,13 @@ class _ProfilePageState extends State<ProfilePage> {
                                   thumbColor:
                                       WidgetStatePropertyAll(Colors.white),
                                   onChanged: (bool newValue) {
-                                    NotiService().showNotifications(
-                                      title: 'Reviza App Notification!',
-                                      body: 'You have turned on notifications',
-                                    );
-
                                     setState(() {
                                       value = newValue;
+                                      NotiService().showNotifications(
+                                        title: 'Reviza App Notification!',
+                                        body:
+                                            'You have turned on notifications',
+                                      );
                                     });
                                   })
                             ],
