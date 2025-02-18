@@ -20,6 +20,16 @@ class NotiService {
   }
 
   // Notifications detail setup
+  NotificationDetails notificationDetails() {
+    return NotificationDetails(
+        android: AndroidNotificationDetails(
+      'reviza_notification',
+      'Daliy Notifications',
+      channelDescription: 'Daily Notifications Channel',
+      importance: Importance.high,
+      priority: Priority.high,
+    ));
+  }
 
   // Show notifications
 
