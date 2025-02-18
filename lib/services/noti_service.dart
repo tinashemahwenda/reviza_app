@@ -6,11 +6,10 @@ class NotiService {
   bool _isInitialized = false;
   bool get isInitialized => _isInitialized;
 
-  // Initialize
+  // Initialize notifications
   Future<void> initNotification() async {
     if (_isInitialized) return;
 
-    //android initi settings
     const AndroidInitializationSettings initSettingsAndroid =
         AndroidInitializationSettings('@mipmap/ic_launcher');
 
@@ -19,6 +18,7 @@ class NotiService {
 
     await notificationPlugin.initialize(initSettings);
 
+    // Create a notification channel (important for Android 8+)
     const AndroidNotificationChannel channel = AndroidNotificationChannel(
       'reviza_notification', // Unique ID
       'Daily Notifications',
@@ -31,19 +31,20 @@ class NotiService {
             AndroidFlutterLocalNotificationsPlugin>()
         ?.createNotificationChannel(channel);
 
-    _isInitialized = true;
+    _isInitialized = true; // Mark as initialized
   }
 
-  // Notifications detail setup
+  // Notification details setup
   NotificationDetails notificationDetails() {
-    return NotificationDetails(
-        android: AndroidNotificationDetails(
-      'reviza_notification',
-      'Daliy Notifications',
-      channelDescription: 'Daily Notifications Channel',
-      importance: Importance.high,
-      priority: Priority.high,
-    ));
+    return const NotificationDetails(
+      android: AndroidNotificationDetails(
+        'reviza_notification', // MUST match the created channel ID
+        'Daily Notifications',
+        channelDescription: 'Daily Notifications Channel',
+        importance: Importance.high,
+        priority: Priority.high,
+      ),
+    );
   }
 
   // Show notifications
@@ -52,8 +53,6 @@ class NotiService {
     String? title,
     String? body,
   }) async {
-    return notificationPlugin.show(
-        id, title, body, const NotificationDetails());
+    return notificationPlugin.show(id, title, body, notificationDetails());
   }
-  // On tap
 }
