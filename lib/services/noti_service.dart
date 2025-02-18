@@ -11,12 +11,27 @@ class NotiService {
     if (_isInitialized) return;
 
     //android initi settings
-    const initSettingsAndroid =
+    const AndroidInitializationSettings initSettingsAndroid =
         AndroidInitializationSettings('@mipmap/ic_launcher');
 
-    const initSettings = InitializationSettings(android: initSettingsAndroid);
+    const InitializationSettings initSettings =
+        InitializationSettings(android: initSettingsAndroid);
 
     await notificationPlugin.initialize(initSettings);
+
+    const AndroidNotificationChannel channel = AndroidNotificationChannel(
+      'reviza_notification', // Unique ID
+      'Daily Notifications',
+      description: 'Daily Notifications Channel',
+      importance: Importance.high,
+    );
+
+    await notificationPlugin
+        .resolvePlatformSpecificImplementation<
+            AndroidFlutterLocalNotificationsPlugin>()
+        ?.createNotificationChannel(channel);
+
+    _isInitialized = true;
   }
 
   // Notifications detail setup
