@@ -32,6 +32,13 @@ class NotiService {
   }
 
   // Show notifications
-
+  Future<void> showNotifications({
+    int id = 0,
+    String? title,
+    String? body,
+  }) async {
+    return notificationPlugin.show(
+        id, title, body, const NotificationDetails());
+  }
   // On tap
 }
