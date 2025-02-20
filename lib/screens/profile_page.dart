@@ -18,6 +18,7 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   String _name = '';
   bool value = true;
+  final NotiService notiService = NotiService();
   @override
   void initState() {
     super.initState();
@@ -181,12 +182,14 @@ class _ProfilePageState extends State<ProfilePage> {
                       ),
                     ),
                     ElevatedButton(
-                        onPressed: () {
-                          NotiService().showNotifications(
-                              title: 'Show Notifications',
-                              body: 'Helloworld to notifications');
-                        },
-                        child: Text('Send Notifications')),
+                      onPressed: () {
+                        notiService.showNotifications(
+                          title: 'Show Notifications',
+                          body: 'Hello world to notifications',
+                        );
+                      },
+                      child: Text('Send Notifications'),
+                    ),
                     Spacer(),
                     Text('Reviza Cambridge App'),
                     Text('v0.1.1'),
