@@ -2,7 +2,8 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class NotiService {
-  final notificationPlugin = FlutterLocalNotificationsPlugin();
+  final FlutterLocalNotificationsPlugin notificationPlugin =
+      FlutterLocalNotificationsPlugin();
 
   bool _isInitialized = false;
   bool get isInitialized => _isInitialized;
@@ -22,7 +23,7 @@ class NotiService {
 
     // Create a notification channel (important for Android 8+)
     const AndroidNotificationChannel channel = AndroidNotificationChannel(
-      'reviza_notification', // Unique ID
+      'reviza_notification', // Must match the ID in notificationDetails()
       'Daily Notifications',
       description: 'Daily Notifications Channel',
       importance: Importance.high,
@@ -37,7 +38,6 @@ class NotiService {
   }
 
   Future<void> requestPermissions() async {
-    // Check and request notification permissions
     if (await Permission.notification.isDenied) {
       await Permission.notification.request();
     }
@@ -47,7 +47,7 @@ class NotiService {
   NotificationDetails notificationDetails() {
     return const NotificationDetails(
       android: AndroidNotificationDetails(
-        'reviza_notification', // MUST match the created channel ID
+        'reviza_notification', // Must match the created channel ID
         'Daily Notifications',
         channelDescription: 'Daily Notifications Channel',
         importance: Importance.high,
