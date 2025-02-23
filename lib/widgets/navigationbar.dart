@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/screens/profile_page.dart';
-//import 'package:reviza_app/screens/register_page.dart';
-//import 'package:reviza_app/screens/saved_questions.dart';
 
 import '../constants/app_constants.dart';
 
