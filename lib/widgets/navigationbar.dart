@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/screens/profile_page.dart';
-
 import '../constants/app_constants.dart';
 
 class RevizaNavigation extends StatelessWidget {
