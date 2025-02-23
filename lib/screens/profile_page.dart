@@ -148,7 +148,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                           ? NotiService().showNotifications(
                                               title: 'Reviza App Notification!',
                                               body:
-                                                  'You have turned on notifications',
+                                                  'You are now receiving Reviza notifications',
                                             )
                                           : NotiService().showNotifications(
                                               title: 'Reviza App Notification!',
