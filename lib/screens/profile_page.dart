@@ -144,11 +144,17 @@ class _ProfilePageState extends State<ProfilePage> {
                                   onChanged: (bool newValue) {
                                     setState(() {
                                       value = newValue;
-                                      NotiService().showNotifications(
-                                        title: 'Reviza App Notification!',
-                                        body:
-                                            'You have turned on notifications',
-                                      );
+                                      value
+                                          ? NotiService().showNotifications(
+                                              title: 'Reviza App Notification!',
+                                              body:
+                                                  'You have turned on notifications',
+                                            )
+                                          : NotiService().showNotifications(
+                                              title: 'Reviza App Notification!',
+                                              body:
+                                                  'You have turned off notifications',
+                                            );
                                     });
                                   })
                             ],
