@@ -32,7 +32,7 @@ class ContactDevelopersPage extends StatelessWidget {
                 ],
               ),
               SizedBox(
-                height: 20,
+                height: 40,
               ),
               Container(
                 width: AppMeasure.width,
@@ -62,20 +62,6 @@ class ContactDevelopersPage extends StatelessWidget {
                       spacing: 10,
                       children: [
                         Icon(Icons.mail),
-                        Text('enquires@creativetinashe.co.zw'),
-                      ],
-                    ),
-                    Row(
-                      spacing: 10,
-                      children: [
-                        Icon(Icons.mail),
-                        Text('services@creativetinashe.co.zw'),
-                      ],
-                    ),
-                    Row(
-                      spacing: 10,
-                      children: [
-                        Icon(Icons.mail),
                         Text('enquires@reviza.co.zw'),
                       ],
                     ),
@@ -84,13 +70,6 @@ class ContactDevelopersPage extends StatelessWidget {
                       children: [
                         Icon(Icons.mail),
                         Text('sales@reviza.co.zw'),
-                      ],
-                    ),
-                    Row(
-                      spacing: 10,
-                      children: [
-                        Icon(Icons.mail_sharp),
-                        Text('reviza.co.zw'),
                       ],
                     ),
                   ],
