@@ -187,15 +187,6 @@ class _ProfilePageState extends State<ProfilePage> {
                         ],
                       ),
                     ),
-                    ElevatedButton(
-                      onPressed: () {
-                        notiService.showNotifications(
-                          title: 'Reviza Alert',
-                          body: 'Hi, $_name. Your notifications are now on',
-                        );
-                      },
-                      child: Text('Send Notifications'),
-                    ),
                     Spacer(),
                     Text('Reviza Cambridge App'),
                     Text('v0.1.1'),
