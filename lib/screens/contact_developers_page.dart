@@ -55,7 +55,7 @@ class ContactDevelopersPage extends StatelessWidget {
                       spacing: 10,
                       children: [
                         Icon(Icons.call),
-                        Text('0773 423 888'),
+                        Text('+263 773 423 888'),
                       ],
                     ),
                     Row(
