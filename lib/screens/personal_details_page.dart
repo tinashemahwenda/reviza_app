@@ -77,6 +77,7 @@ class PersonalDetailsPage extends StatelessWidget {
                           'Save Changes',
                           style: TextStyle(
                             color: Colors.white,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
                       ),
