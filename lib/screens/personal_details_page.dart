@@ -24,11 +24,14 @@ class PersonalDetailsPage extends StatelessWidget {
                   color: Colors.white,
                 ),
                 child: Column(
-                  spacing: 20,
+                  spacing: 10,
                   children: [
+                    SizedBox(
+                      height: 20,
+                    ),
                     CircleAvatar(
                       backgroundColor: AppColor.dodgerBlue,
-                      radius: AppMeasure.width / 8,
+                      radius: AppMeasure.width / 6,
                       child: Text(
                         'T',
                         style: TextStyle(
@@ -37,6 +40,9 @@ class PersonalDetailsPage extends StatelessWidget {
                           fontSize: 40,
                         ),
                       ),
+                    ),
+                    SizedBox(
+                      height: 20,
                     ),
                     TextField(
                       decoration: InputDecoration(
