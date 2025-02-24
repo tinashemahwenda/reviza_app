@@ -15,9 +15,14 @@ class PersonalDetailsPage extends StatelessWidget {
           child: Column(
             children: [
               SettingsBackButton(pageName: 'Your Info'),
+              SizedBox(height: 20),
               Container(
                 width: AppMeasure.width,
-                color: Colors.white,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.white,
+                ),
                 child: Column(
                   children: [
                     CircleAvatar(
