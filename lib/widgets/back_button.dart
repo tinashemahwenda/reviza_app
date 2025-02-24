@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class BackButton extends StatelessWidget {
-  const BackButton({super.key});
+  final String pageName;
+  const BackButton({super.key, required this.pageName});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +14,7 @@ class BackButton extends StatelessWidget {
           child: Icon(Icons.arrow_back_ios),
         ),
         Text(
-          'Your Profile',
+          pageName,
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 20,
