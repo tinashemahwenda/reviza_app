@@ -9,8 +9,13 @@ class PersonalDetailsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColor.backgroundColor,
-      body: Column(
-        children: [SettingsBackButton(pageName: 'Your Info')],
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
+          child: Column(
+            children: [SettingsBackButton(pageName: 'Your Info')],
+          ),
+        ),
       ),
     );
   }
