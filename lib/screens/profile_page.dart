@@ -4,6 +4,7 @@ import 'package:reviza_app/constants/app_constants.dart';
 import 'package:reviza_app/screens/contact_developers_page.dart';
 import 'package:reviza_app/screens/saved_questions.dart';
 import 'package:reviza_app/services/noti_service.dart';
+import 'package:reviza_app/widgets/back_button.dart';
 import 'package:reviza_app/widgets/settings_tile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 //import 'package:reviza_app/widgets/go_back_button.dart';
@@ -44,21 +45,8 @@ class _ProfilePageState extends State<ProfilePage> {
                     const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
                 child: Column(
                   children: [
-                    Row(
-                      spacing: 20,
-                      children: [
-                        InkWell(
-                          onTap: () => Navigator.pop(context),
-                          child: Icon(Icons.arrow_back_ios),
-                        ),
-                        Text(
-                          'Your Profile',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 20,
-                          ),
-                        ),
-                      ],
+                    SettingsBackButton(
+                      pageName: 'Your Profile',
                     ),
                     SizedBox(
                       height: 40,
