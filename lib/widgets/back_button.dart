@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class BackButton extends StatelessWidget {
+class SettingsBackButton extends StatelessWidget {
   final String pageName;
-  const BackButton({super.key, required this.pageName});
+  const SettingsBackButton({super.key, required this.pageName});
 
   @override
   Widget build(BuildContext context) {
