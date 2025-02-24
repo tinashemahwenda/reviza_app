@@ -24,15 +24,35 @@ class PersonalDetailsPage extends StatelessWidget {
                   color: Colors.white,
                 ),
                 child: Column(
+                  spacing: 20,
                   children: [
                     CircleAvatar(
                       backgroundColor: AppColor.dodgerBlue,
                       radius: AppMeasure.width / 8,
-                      child: Text('T'),
-                    )
+                      child: Text(
+                        'T',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 40,
+                        ),
+                      ),
+                    ),
+                    TextField(
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(),
+                        hintText: 'Tinashe',
+                      ),
+                    ),
+                    TextField(
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(),
+                        hintText: 'Tinashe',
+                      ),
+                    ),
                   ],
                 ),
-              )
+              ),
             ],
           ),
         ),
