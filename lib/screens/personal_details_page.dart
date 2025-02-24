@@ -27,6 +27,7 @@ class PersonalDetailsPage extends StatelessWidget {
                   children: [
                     CircleAvatar(
                       backgroundColor: AppColor.dodgerBlue,
+                      radius: AppMeasure.width / 8,
                       child: Text('T'),
                     )
                   ],
