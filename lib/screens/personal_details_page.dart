@@ -44,6 +44,7 @@ class PersonalDetailsPage extends StatelessWidget {
                     SizedBox(
                       height: 20,
                     ),
+                    Text('You can edit your name and number'),
                     TextField(
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
