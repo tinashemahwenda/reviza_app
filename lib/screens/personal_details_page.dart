@@ -15,7 +15,7 @@ class PersonalDetailsPage extends StatelessWidget {
           child: Column(
             children: [
               SettingsBackButton(pageName: 'Your Info'),
-              SizedBox(height: 20),
+              SizedBox(height: 60),
               Container(
                 width: AppMeasure.width,
                 padding: EdgeInsets.all(20),
