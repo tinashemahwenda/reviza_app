@@ -54,7 +54,7 @@ class PersonalDetailsPage extends StatelessWidget {
                       width: AppMeasure.width,
                       padding: EdgeInsets.all(20),
                       decoration: BoxDecoration(
-                          color: AppColor.darkBlue,
+                          color: AppColor.dodgerBlue,
                           borderRadius: BorderRadius.circular(10)),
                       child: Center(
                         child: Text(
