@@ -47,9 +47,24 @@ class PersonalDetailsPage extends StatelessWidget {
                     TextField(
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
-                        hintText: 'Tinashe',
+                        hintText: '0773423888',
                       ),
                     ),
+                    Container(
+                      width: AppMeasure.width,
+                      padding: EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                          color: AppColor.darkBlue,
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Center(
+                        child: Text(
+                          'Save Changes',
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                    )
                   ],
                 ),
               ),
