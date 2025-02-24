@@ -13,7 +13,21 @@ class PersonalDetailsPage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
           child: Column(
-            children: [SettingsBackButton(pageName: 'Your Info')],
+            children: [
+              SettingsBackButton(pageName: 'Your Info'),
+              Container(
+                width: AppMeasure.width,
+                color: Colors.white,
+                child: Column(
+                  children: [
+                    CircleAvatar(
+                      backgroundColor: AppColor.dodgerBlue,
+                      child: Text('T'),
+                    )
+                  ],
+                ),
+              )
+            ],
           ),
         ),
       ),
