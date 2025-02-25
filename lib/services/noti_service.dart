@@ -72,20 +72,33 @@ class NotiService {
     return notificationPlugin.show(id, title, body, notificationDetails());
   }
 
-  Future<void> scheduledNotification(
-      {int id = 1,
-      required String title,
-      required String body,
-      required int hour,
-      required int minute}) async {
+  Future<void> scheduledNotification({
+    int id = 1,
+    required String title,
+    required String body,
+    required int hour,
+    required int minute,
+  }) async {
     final now = tz.TZDateTime.now(tz.local);
 
     var scheduledDate = tz.TZDateTime(
       tz.local,
       now.year,
       now.month,
+      now.day,
       hour,
       minute,
+    );
+
+    // Ensure NotificationDetails is properly defined
+    final NotificationDetails details = NotificationDetails(
+      android: AndroidNotificationDetails(
+        'reviza_notification', // Ensure this matches your channel ID
+        'Daily Notifications',
+        channelDescription: 'Daily Notifications Channel',
+        importance: Importance.high,
+        priority: Priority.high,
+      ),
     );
 
     await notificationPlugin.zonedSchedule(
@@ -93,7 +106,7 @@ class NotiService {
       title,
       body,
       scheduledDate,
-      NotificationDetails(),
+      details, // Pass the properly defined details here
       uiLocalNotificationDateInterpretation:
           UILocalNotificationDateInterpretation.absoluteTime,
       androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
