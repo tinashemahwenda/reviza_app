@@ -183,6 +183,11 @@ class _ProfilePageState extends State<ProfilePage> {
                       ),
                     ),
                     Spacer(),
+                    ElevatedButton(
+                      onPressed: () {},
+                      child: Text('Schedule Notification'),
+                    ),
+                    Spacer(),
                     Text('Reviza Cambridge App'),
                     Text('v0.1.1'),
                     Spacer(),
