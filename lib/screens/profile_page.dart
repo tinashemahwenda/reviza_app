@@ -184,7 +184,14 @@ class _ProfilePageState extends State<ProfilePage> {
                     ),
                     Spacer(),
                     ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        NotiService().scheduledNotification(
+                            title: 'Daily Reminder',
+                            body:
+                                'Open Reviza, you have 20 questions waiting for you',
+                            hour: 03,
+                            minute: 33);
+                      },
                       child: Text('Schedule Notification'),
                     ),
                     Spacer(),
