@@ -71,4 +71,9 @@ class NotiService {
   }) async {
     return notificationPlugin.show(id, title, body, notificationDetails());
   }
+
+  //Cancel Notifications Function
+  Future<void> cancelAllNotifications() async {
+    await notificationPlugin.cancelAll();
+  }
 }
