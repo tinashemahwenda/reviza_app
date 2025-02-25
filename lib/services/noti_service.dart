@@ -72,6 +72,35 @@ class NotiService {
     return notificationPlugin.show(id, title, body, notificationDetails());
   }
 
+  Future<void> scheduledNotification(
+      {int id = 1,
+      required String title,
+      required String body,
+      required int hour,
+      required int minute}) async {
+    final now = tz.TZDateTime.now(tz.local);
+
+    var scheduledDate = tz.TZDateTime(
+      tz.local,
+      now.year,
+      now.month,
+      hour,
+      minute,
+    );
+
+    await notificationPlugin.zonedSchedule(
+      id,
+      title,
+      body,
+      scheduledDate,
+      NotificationDetails(),
+      uiLocalNotificationDateInterpretation:
+          UILocalNotificationDateInterpretation.absoluteTime,
+      androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+      matchDateTimeComponents: DateTimeComponents.time,
+    );
+  }
+
   //Cancel Notifications Function
   Future<void> cancelAllNotifications() async {
     await notificationPlugin.cancelAll();
