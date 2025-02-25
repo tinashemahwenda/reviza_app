@@ -189,8 +189,8 @@ class _ProfilePageState extends State<ProfilePage> {
                             title: 'Daily Reminder',
                             body:
                                 'Open Reviza, you have 20 questions waiting for you',
-                            hour: 3,
-                            minute: 40);
+                            hour: 04,
+                            minute: 05);
                       },
                       child: Text('Schedule Notification'),
                     ),
