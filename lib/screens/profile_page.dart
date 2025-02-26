@@ -5,6 +5,7 @@ import 'package:reviza_app/screens/saved_questions.dart';
 import 'package:reviza_app/services/noti_service.dart';
 import 'package:reviza_app/widgets/app_version.dart';
 import 'package:reviza_app/widgets/back_button.dart';
+import 'package:reviza_app/widgets/profile_tile.dart';
 import 'package:reviza_app/widgets/settings_tile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -49,6 +50,10 @@ class _ProfilePageState extends State<ProfilePage> {
                     ),
                     SizedBox(
                       height: 40,
+                    ),
+                    ProfileTile(
+                      initialName: _name.isNotEmpty ? _name[0] : 'X',
+                      fullName: _name.isNotEmpty ? _name : 'User',
                     ),
                     SizedBox(height: 20),
                     Container(
