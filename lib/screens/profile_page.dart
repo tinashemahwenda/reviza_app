@@ -5,6 +5,7 @@ import 'package:reviza_app/screens/contact_developers_page.dart';
 import 'package:reviza_app/screens/personal_details_page.dart';
 import 'package:reviza_app/screens/saved_questions.dart';
 import 'package:reviza_app/services/noti_service.dart';
+import 'package:reviza_app/widgets/app_version.dart';
 import 'package:reviza_app/widgets/back_button.dart';
 import 'package:reviza_app/widgets/settings_tile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -194,6 +195,7 @@ class _ProfilePageState extends State<ProfilePage> {
                       },
                       child: Text('Schedule Notification'),
                     ),
+                    AppVersion(versionNumber: '0.1.2')
                   ],
                 ))));
   }
