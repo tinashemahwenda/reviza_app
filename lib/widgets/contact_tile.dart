@@ -11,8 +11,8 @@ class ContactTile extends StatelessWidget {
     return Row(
       spacing: 10,
       children: [
-        Icon(Icons.call),
-        Text('+263 773 423 888'),
+        Icon(contactIcon),
+        Text(contactNumber),
       ],
     );
   }
