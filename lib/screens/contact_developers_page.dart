@@ -158,8 +158,11 @@ class ContactDevelopersPage extends StatelessWidget {
                     Row(
                       spacing: 10,
                       children: [
-                        Icon(Icons.message),
-                        Text('Message through Facebook')
+                        Image.asset(
+                          'assets/images/whatsapp.png',
+                          width: 30,
+                        ),
+                        Text('Visit our Facebook Page')
                       ],
                     ),
                   ],
