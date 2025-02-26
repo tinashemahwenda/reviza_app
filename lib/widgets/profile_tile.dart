@@ -1,0 +1,60 @@
+import 'package:flutter/material.dart';
+
+class ProfileTile extends StatelessWidget {
+  const ProfileTile({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: () => Navigator.push(context,
+          MaterialPageRoute(builder: (context) => PersonalDetailsPage())),
+      child: Container(
+        width: AppMeasure.width,
+        padding: EdgeInsets.all(20),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: Row(
+          spacing: 20,
+          children: [
+            CircleAvatar(
+              backgroundColor: AppColor.dodgerBlue,
+              child: Text(
+                _name.isNotEmpty ? _name[0] : 'X',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  _name.isNotEmpty ? _name : 'User',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 16,
+                  ),
+                ),
+                Text(
+                  'Account Student',
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: Colors.grey,
+                  ),
+                ),
+              ],
+            ),
+            Spacer(),
+            Icon(
+              Icons.arrow_forward_ios,
+              size: 16,
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
