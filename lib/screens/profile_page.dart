@@ -190,14 +190,10 @@ class _ProfilePageState extends State<ProfilePage> {
                             body:
                                 'Open Reviza, you have 20 questions waiting for you',
                             hour: 04,
-                            minute: 05);
+                            minute: 15);
                       },
                       child: Text('Schedule Notification'),
                     ),
-                    Spacer(),
-                    Text('Reviza Cambridge App'),
-                    Text('v0.1.1'),
-                    Spacer(),
                   ],
                 ))));
   }
