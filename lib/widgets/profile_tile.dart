@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../constants/app_constants.dart';
+import '../screens/personal_details_page.dart';
+
 class ProfileTile extends StatelessWidget {
   const ProfileTile({super.key});
 
