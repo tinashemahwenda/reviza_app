@@ -4,7 +4,10 @@ import '../constants/app_constants.dart';
 import '../screens/personal_details_page.dart';
 
 class ProfileTile extends StatelessWidget {
-  const ProfileTile({super.key});
+  final String fullName;
+  final String initialName;
+  const ProfileTile(
+      {super.key, required this.initialName, required this.fullName});
 
   @override
   Widget build(BuildContext context) {
