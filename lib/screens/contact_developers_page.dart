@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
+import 'package:reviza_app/widgets/contact_tile.dart';
 
 class ContactDevelopersPage extends StatelessWidget {
   const ContactDevelopersPage({super.key});
@@ -51,27 +52,15 @@ class ContactDevelopersPage extends StatelessWidget {
                         fontSize: 14,
                       ),
                     ),
-                    Row(
-                      spacing: 10,
-                      children: [
-                        Icon(Icons.call),
-                        Text('+263 773 423 888'),
-                      ],
-                    ),
-                    Row(
-                      spacing: 10,
-                      children: [
-                        Icon(Icons.mail),
-                        Text('enquires@reviza.co.zw'),
-                      ],
-                    ),
-                    Row(
-                      spacing: 10,
-                      children: [
-                        Icon(Icons.mail),
-                        Text('sales@reviza.co.zw'),
-                      ],
-                    ),
+                    ContactTile(
+                        contactNumber: '+263 773 423 888',
+                        contactIcon: Icons.call),
+                    ContactTile(
+                        contactNumber: 'enquiries@reviza.co.zw',
+                        contactIcon: Icons.email),
+                    ContactTile(
+                        contactNumber: 'sales@reviza.co.zw',
+                        contactIcon: Icons.mail)
                   ],
                 ),
               ),
