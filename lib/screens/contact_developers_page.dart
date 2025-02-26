@@ -159,10 +159,20 @@ class ContactDevelopersPage extends StatelessWidget {
                       spacing: 10,
                       children: [
                         Image.asset(
-                          'assets/images/whatsapp.png',
+                          'assets/images/facebook.png',
                           width: 30,
                         ),
                         Text('Visit our Facebook Page')
+                      ],
+                    ),
+                    Row(
+                      spacing: 10,
+                      children: [
+                        Image.asset(
+                          'assets/images/twitter.png',
+                          width: 30,
+                        ),
+                        Text('Visit our X(Twitter) Page')
                       ],
                     ),
                   ],
