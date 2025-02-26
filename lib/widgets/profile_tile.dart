@@ -27,7 +27,7 @@ class ProfileTile extends StatelessWidget {
             CircleAvatar(
               backgroundColor: AppColor.dodgerBlue,
               child: Text(
-                _name.isNotEmpty ? _name[0] : 'X',
+                initialName,
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -38,7 +38,7 @@ class ProfileTile extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  _name.isNotEmpty ? _name : 'User',
+                  fullName,
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 16,
