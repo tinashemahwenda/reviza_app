@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import '../constants/app_constants.dart';
 
 class BlueButton extends StatelessWidget {
-  const BlueButton({super.key});
+  final String buttonText;
+  const BlueButton({super.key, required this.buttonText});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +15,7 @@ class BlueButton extends StatelessWidget {
           color: AppColor.dodgerBlue, borderRadius: BorderRadius.circular(10)),
       child: Center(
         child: Text(
-          'Save Changes',
+          buttonText,
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
