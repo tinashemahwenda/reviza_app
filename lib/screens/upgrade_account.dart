@@ -8,6 +8,9 @@ class UpgradeAccount extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColor.backgroundColor,
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
