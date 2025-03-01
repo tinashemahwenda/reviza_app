@@ -109,7 +109,7 @@ class _ProfilePageState extends State<ProfilePage> {
                             onTap: () => Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => SavedQuestions())),
+                                    builder: (context) => UpgradeAccount())),
                             child: SettingsTile(
                                 settingName: 'Saved Questions',
                                 iconName: Icons.bookmark),
