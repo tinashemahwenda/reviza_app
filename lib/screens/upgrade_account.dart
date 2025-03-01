@@ -92,6 +92,22 @@ class UpgradeAccount extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 40),
+              Container(
+                decoration: BoxDecoration(
+                    border: Border.all(
+                  width: 1,
+                  color: Colors.white,
+                )),
+                padding: EdgeInsets.all(30),
+                child: Text(
+                  '\$5',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 30,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
               Spacer(),
               BlueButton(buttonText: 'Confirm Upgrade')
             ],
