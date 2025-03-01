@@ -7,9 +7,27 @@ class UpgradeAccount extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColor.backgroundColor,
-      body: Column(
-        children: [],
+      backgroundColor: AppColor.darkBlue,
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(
+            vertical: 40,
+            horizontal: 20,
+          ),
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  Spacer(),
+                  Icon(
+                    Icons.cancel,
+                    color: Colors.white,
+                  ),
+                ],
+              )
+            ],
+          ),
+        ),
       ),
     );
   }
