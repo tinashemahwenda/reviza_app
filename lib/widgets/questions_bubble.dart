@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/screens/saved_questions.dart';
 import 'package:reviza_app/screens/solutions.dart';
+import 'package:reviza_app/screens/upgrade_account.dart';
 
 import '../constants/app_constants.dart';
 //import '../models/question.dart';
@@ -107,7 +108,7 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                         onTap: () => Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => SolutionsPage())),
+                                builder: (context) => UpgradeAccount())),
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
                           child: Container(
