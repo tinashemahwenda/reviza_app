@@ -24,7 +24,8 @@ class UpgradeAccount extends StatelessWidget {
                     color: Colors.white,
                   ),
                 ],
-              )
+              ),
+              Image.asset('assets/images/reviza-icon.png', width: 100)
             ],
           ),
         ),
