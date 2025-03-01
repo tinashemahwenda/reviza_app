@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-//import 'package:reviza_app/screens/homepage.dart';
 import 'package:reviza_app/screens/register_page.dart';
 import 'package:reviza_app/services/noti_service.dart';
 import 'constants/app_constants.dart';
