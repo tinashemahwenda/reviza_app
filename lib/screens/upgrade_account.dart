@@ -37,6 +37,61 @@ class UpgradeAccount extends StatelessWidget {
                   fontSize: 20,
                 ),
               ),
+              SizedBox(height: 20),
+              Column(
+                spacing: 10,
+                children: [
+                  Row(
+                    spacing: 10,
+                    children: [
+                      Icon(
+                        Icons.check,
+                        color: Colors.white,
+                        size: 20,
+                      ),
+                      Text(
+                        'Access to over +1000 solutions',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    spacing: 10,
+                    children: [
+                      Icon(
+                        Icons.check,
+                        color: Colors.white,
+                        size: 20,
+                      ),
+                      Text(
+                        'Unlock all features',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    spacing: 10,
+                    children: [
+                      Icon(
+                        Icons.check,
+                        color: Colors.white,
+                        size: 20,
+                      ),
+                      Text(
+                        'Covers 10 Apps in one Purchase',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      )
+                    ],
+                  ),
+                ],
+              ),
+              SizedBox(height: 40),
               Spacer(),
               BlueButton(buttonText: 'Confirm Upgrade')
             ],
