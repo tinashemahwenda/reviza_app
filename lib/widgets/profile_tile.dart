@@ -45,7 +45,7 @@ class ProfileTile extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'Account Student',
+                  'Student Account',
                   style: TextStyle(
                     fontSize: 12,
                     color: Colors.grey,
