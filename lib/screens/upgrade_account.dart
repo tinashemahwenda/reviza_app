@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
+import 'package:reviza_app/widgets/blue_button.dart';
 
 class UpgradeAccount extends StatelessWidget {
   const UpgradeAccount({super.key});
@@ -36,6 +37,8 @@ class UpgradeAccount extends StatelessWidget {
                   fontSize: 20,
                 ),
               ),
+              Spacer(),
+              BlueButton(buttonText: 'Confirm Upgrade')
             ],
           ),
         ),
