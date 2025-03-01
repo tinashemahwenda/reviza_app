@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
 import 'package:reviza_app/widgets/back_button.dart';
+import 'package:reviza_app/widgets/blue_button.dart';
 
 class PersonalDetailsPage extends StatelessWidget {
   const PersonalDetailsPage({super.key});
@@ -66,22 +67,7 @@ class PersonalDetailsPage extends StatelessWidget {
                         hintText: '0773423888',
                       ),
                     ),
-                    Container(
-                      width: AppMeasure.width,
-                      padding: EdgeInsets.all(20),
-                      decoration: BoxDecoration(
-                          color: AppColor.dodgerBlue,
-                          borderRadius: BorderRadius.circular(10)),
-                      child: Center(
-                        child: Text(
-                          'Save Changes',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    )
+                    BlueButton(buttonText: 'Save Changes')
                   ],
                 ),
               ),
