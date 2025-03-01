@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
 import 'package:reviza_app/screens/contact_developers_page.dart';
-import 'package:reviza_app/screens/saved_questions.dart';
+
 import 'package:reviza_app/screens/upgrade_account.dart';
 import 'package:reviza_app/services/noti_service.dart';
 import 'package:reviza_app/widgets/app_version.dart';
