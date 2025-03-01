@@ -20,9 +20,12 @@ class UpgradeAccount extends StatelessWidget {
               Row(
                 children: [
                   Spacer(),
-                  Icon(
-                    Icons.cancel,
-                    color: Colors.white,
+                  InkWell(
+                    onDoubleTap: () => Navigator.pop(context),
+                    child: Icon(
+                      Icons.cancel,
+                      color: Colors.white,
+                    ),
                   ),
                 ],
               ),
@@ -91,7 +94,7 @@ class UpgradeAccount extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(height: 40),
+              Spacer(),
               Row(
                 spacing: 10,
                 children: [
