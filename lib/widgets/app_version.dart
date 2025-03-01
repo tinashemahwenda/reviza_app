@@ -6,13 +6,6 @@ class AppVersion extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Spacer(),
-        Text('Reviza Cambridge App'),
-        Text(versionNumber),
-        Spacer(),
-      ],
-    );
+    return Text(versionNumber);
   }
 }
