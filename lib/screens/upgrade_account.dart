@@ -25,7 +25,17 @@ class UpgradeAccount extends StatelessWidget {
                   ),
                 ],
               ),
-              Image.asset('assets/images/reviza-icon.png', width: 100)
+              SizedBox(height: 20),
+              Image.asset('assets/images/reviza-icon.png', width: 100),
+              SizedBox(height: 20),
+              Text(
+                'Upgrade to Premium+',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                ),
+              ),
             ],
           ),
         ),
