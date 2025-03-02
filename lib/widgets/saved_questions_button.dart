@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:reviza_app/screens/upgrade_account.dart';
 
 import '../screens/saved_questions.dart';
 
@@ -9,7 +10,7 @@ class SavedQuestionsButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () => Navigator.push(
-          context, MaterialPageRoute(builder: (context) => SavedQuestions())),
+          context, MaterialPageRoute(builder: (context) => UpgradeAccount())),
       child: Icon(Icons.bookmark, size: 30),
     );
   }
