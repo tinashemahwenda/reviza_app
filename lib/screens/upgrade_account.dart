@@ -157,6 +157,7 @@ class UpgradeAccount extends StatelessWidget {
                 ],
               ),
               Spacer(),
+              Text('Payments done using Ecocash'),
               BlueButton(buttonText: 'Confirm Upgrade')
             ],
           ),
