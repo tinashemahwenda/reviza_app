@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/screens/upgrade_account.dart';
 
-import '../screens/saved_questions.dart';
-
 class SavedQuestionsButton extends StatelessWidget {
   const SavedQuestionsButton({super.key});
 
