@@ -174,6 +174,9 @@ class UpgradeAccount extends StatelessWidget {
                             width: AppMeasure.width,
                             height: AppMeasure.height / 3,
                             padding: EdgeInsets.all(30),
+                            decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(20)),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
@@ -189,9 +192,32 @@ class UpgradeAccount extends StatelessWidget {
                                   child: Text('Ecocash -  \$9.99'),
                                 ),
                                 Divider(),
-                                Container(
-                                  padding: EdgeInsets.all(20),
-                                  child: Text('InnBucks - \$9.99'),
+                                InkWell(
+                                  onTap: () => showDialog(
+                                      context: context,
+                                      builder: (context) => Dialog(
+                                            insetPadding: EdgeInsets.all(100),
+                                            child: Container(
+                                              decoration: BoxDecoration(
+                                                color: Colors.white,
+                                              ),
+                                              height: AppMeasure.height / 5,
+                                              width: AppMeasure.width,
+                                              padding: EdgeInsets.all(20),
+                                              child: Column(
+                                                spacing: 20,
+                                                children: [
+                                                  SizedBox(height: 10),
+                                                  CircularProgressIndicator(),
+                                                  Text('Processing Payment')
+                                                ],
+                                              ),
+                                            ),
+                                          )),
+                                  child: Container(
+                                    padding: EdgeInsets.all(20),
+                                    child: Text('InnBucks - \$9.99'),
+                                  ),
                                 ),
                               ],
                             ),
