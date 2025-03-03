@@ -171,7 +171,18 @@ class UpgradeAccount extends StatelessWidget {
                   onTap: () => showModalBottomSheet(
                       context: context,
                       builder: (BuildContext context) => Container(
-                            child: Text('Helloworld'),
+                            width: AppMeasure.width,
+                            height: AppMeasure.height / 4,
+                            padding: EdgeInsets.all(30),
+                            child: Column(
+                              children: [
+                                Text('Choose your payment method'),
+                                Container(
+                                  padding: EdgeInsets.all(20),
+                                  child: Text('Ecocash'),
+                                )
+                              ],
+                            ),
                           )),
                   child: BlueButton(buttonText: 'Confirm Upgrade'))
             ],
