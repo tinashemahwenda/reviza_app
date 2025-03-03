@@ -172,15 +172,27 @@ class UpgradeAccount extends StatelessWidget {
                       context: context,
                       builder: (BuildContext context) => Container(
                             width: AppMeasure.width,
-                            height: AppMeasure.height / 4,
+                            height: AppMeasure.height / 3,
                             padding: EdgeInsets.all(30),
                             child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text('Choose your payment method'),
+                                Text(
+                                  'Choose your payment method',
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                SizedBox(height: 20),
                                 Container(
                                   padding: EdgeInsets.all(20),
-                                  child: Text('Ecocash'),
-                                )
+                                  child: Text('Ecocash -  \$9.99'),
+                                ),
+                                Divider(),
+                                Container(
+                                  padding: EdgeInsets.all(20),
+                                  child: Text('InnBucks - \$9.99'),
+                                ),
                               ],
                             ),
                           )),
