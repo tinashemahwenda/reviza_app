@@ -199,8 +199,10 @@ class UpgradeAccount extends StatelessWidget {
                                             insetPadding: EdgeInsets.all(100),
                                             child: Container(
                                               decoration: BoxDecoration(
-                                                color: Colors.white,
-                                              ),
+                                                  color: Colors.white,
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          10)),
                                               height: AppMeasure.height / 5,
                                               width: AppMeasure.width,
                                               padding: EdgeInsets.all(20),
