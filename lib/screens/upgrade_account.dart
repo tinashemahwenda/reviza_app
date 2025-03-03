@@ -24,7 +24,7 @@ class UpgradeAccount extends StatelessWidget {
                     onDoubleTap: () => Navigator.pop(context),
                     child: Icon(
                       Icons.cancel_outlined,
-                      color: Colors.grey,
+                      color: const Color.fromARGB(119, 158, 158, 158),
                     ),
                   ),
                 ],
