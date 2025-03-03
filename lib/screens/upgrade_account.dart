@@ -167,7 +167,13 @@ class UpgradeAccount extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10),
-              BlueButton(buttonText: 'Confirm Upgrade')
+              InkWell(
+                  onTap: () => showModalBottomSheet(
+                      context: context,
+                      builder: (BuildContext context) => Container(
+                            child: Text('Helloworld'),
+                          )),
+                  child: BlueButton(buttonText: 'Confirm Upgrade'))
             ],
           ),
         ),
