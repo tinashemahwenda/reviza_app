@@ -85,7 +85,7 @@ class UpgradeAccount extends StatelessWidget {
                         size: 20,
                       ),
                       Text(
-                        'Covers 10 Apps in one Purchase',
+                        'Covers 3 Apps in one Purchase',
                         style: TextStyle(
                           color: Colors.white,
                         ),
