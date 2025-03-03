@@ -23,8 +23,8 @@ class UpgradeAccount extends StatelessWidget {
                   InkWell(
                     onDoubleTap: () => Navigator.pop(context),
                     child: Icon(
-                      Icons.cancel,
-                      color: Colors.white,
+                      Icons.cancel_outlined,
+                      color: Colors.grey,
                     ),
                   ),
                 ],
