@@ -159,7 +159,12 @@ class UpgradeAccount extends StatelessWidget {
                 ],
               ),
               Spacer(),
-              Text('Payments done using Ecocash or Innbucks'),
+              Text(
+                'Payments done using Ecocash or Innbucks',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
               SizedBox(height: 5),
               BlueButton(buttonText: 'Confirm Upgrade')
             ],
