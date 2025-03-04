@@ -109,7 +109,12 @@ class UpgradeAccount extends StatelessWidget {
                     padding: EdgeInsets.all(30),
                     child: Column(
                       children: [
-                        Text('Forever'),
+                        Text(
+                          'Forever',
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
                         Text(
                           '\$9.99',
                           style: TextStyle(
@@ -137,7 +142,12 @@ class UpgradeAccount extends StatelessWidget {
                     padding: EdgeInsets.all(30),
                     child: Column(
                       children: [
-                        Text('Monthly'),
+                        Text(
+                          'Monthly',
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
                         Text(
                           '\$4.99',
                           style: TextStyle(
