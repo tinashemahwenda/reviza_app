@@ -119,7 +119,7 @@ class ContactDevelopersPage extends StatelessWidget {
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(10)),
                   child: Column(
-                    spacing: 10,
+                    spacing: 20,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
@@ -128,9 +128,6 @@ class ContactDevelopersPage extends StatelessWidget {
                           fontWeight: FontWeight.bold,
                           fontSize: 14,
                         ),
-                      ),
-                      SizedBox(
-                        height: 10,
                       ),
                       Row(
                         spacing: 10,
