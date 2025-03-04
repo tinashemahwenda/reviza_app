@@ -142,9 +142,6 @@ class ContactDevelopersPage extends StatelessWidget {
                           Text('Message through WhatsApp')
                         ],
                       ),
-                      SizedBox(
-                        height: 10,
-                      ),
                       Row(
                         spacing: 10,
                         children: [
