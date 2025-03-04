@@ -236,7 +236,15 @@ class UpgradeAccount extends StatelessWidget {
                                           )),
                                   child: Container(
                                     padding: EdgeInsets.all(20),
-                                    child: Text('InnBucks - \$9.99'),
+                                    child: Row(
+                                      children: [
+                                        Image.asset(
+                                          'assets/images/reviza-transparent-long.png',
+                                          width: 50,
+                                        ),
+                                        Text('InnBucks - \$9.99'),
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ],
