@@ -199,7 +199,15 @@ class UpgradeAccount extends StatelessWidget {
                                 SizedBox(height: 20),
                                 Container(
                                   padding: EdgeInsets.all(20),
-                                  child: Text('Ecocash -  \$9.99'),
+                                  child: Row(
+                                    children: [
+                                      Image.asset(
+                                        'assets/images/reviza-transparent-long.png',
+                                        width: 50,
+                                      ),
+                                      Text('Ecocash -  \$9.99'),
+                                    ],
+                                  ),
                                 ),
                                 Divider(),
                                 InkWell(
