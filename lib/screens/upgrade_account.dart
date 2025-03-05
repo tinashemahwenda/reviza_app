@@ -200,12 +200,19 @@ class UpgradeAccount extends StatelessWidget {
                                 Container(
                                   padding: EdgeInsets.all(20),
                                   child: Row(
+                                    spacing: 20,
                                     children: [
                                       Image.asset(
-                                        'assets/images/reviza-transparent-long.png',
-                                        width: 50,
+                                        'assets/images/ecocash-logo.png',
+                                        width: 100,
                                       ),
-                                      Text('Ecocash -  \$9.99'),
+                                      Text(
+                                        ' \$9.99',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 18,
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 ),
