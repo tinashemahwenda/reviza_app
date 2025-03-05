@@ -11,9 +11,10 @@ class UpgradeAccount extends StatefulWidget {
 
 class _UpgradeAccountState extends State<UpgradeAccount> {
   void showPaymentMethod() {
-    showDialog(
+    print('Tapped');
+    showModalBottomSheet(
         context: context,
-        builder: (context) => Dialog(
+        builder: (BuildContext context) => Dialog(
               insetPadding: EdgeInsets.all(100),
               child: Container(
                 decoration: BoxDecoration(
