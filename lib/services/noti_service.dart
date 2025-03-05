@@ -113,7 +113,7 @@ class NotiService {
       matchDateTimeComponents: DateTimeComponents.time,
     );
 
-    print('Notification Scheduled Successfully');
+    print('Notification Scheduled Successfully for $hour:$minute');
   }
 
   //Cancel Notifications Function
