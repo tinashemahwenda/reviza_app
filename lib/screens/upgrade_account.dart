@@ -2,8 +2,37 @@ import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
 import 'package:reviza_app/widgets/blue_button.dart';
 
-class UpgradeAccount extends StatelessWidget {
+class UpgradeAccount extends StatefulWidget {
   const UpgradeAccount({super.key});
+
+  @override
+  State<UpgradeAccount> createState() => _UpgradeAccountState();
+}
+
+class _UpgradeAccountState extends State<UpgradeAccount> {
+  void showPaymentMethod() {
+    showDialog(
+        context: context,
+        builder: (context) => Dialog(
+              insetPadding: EdgeInsets.all(100),
+              child: Container(
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10)),
+                height: AppMeasure.height / 5,
+                width: AppMeasure.width,
+                padding: EdgeInsets.all(20),
+                child: Column(
+                  spacing: 20,
+                  children: [
+                    SizedBox(height: 10),
+                    CircularProgressIndicator(),
+                    Text('Processing Payment')
+                  ],
+                ),
+              ),
+            ));
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -218,29 +247,7 @@ class UpgradeAccount extends StatelessWidget {
                                 ),
                                 Divider(),
                                 InkWell(
-                                  onTap: () => showDialog(
-                                      context: context,
-                                      builder: (context) => Dialog(
-                                            insetPadding: EdgeInsets.all(100),
-                                            child: Container(
-                                              decoration: BoxDecoration(
-                                                  color: Colors.white,
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          10)),
-                                              height: AppMeasure.height / 5,
-                                              width: AppMeasure.width,
-                                              padding: EdgeInsets.all(20),
-                                              child: Column(
-                                                spacing: 20,
-                                                children: [
-                                                  SizedBox(height: 10),
-                                                  CircularProgressIndicator(),
-                                                  Text('Processing Payment')
-                                                ],
-                                              ),
-                                            ),
-                                          )),
+                                  onTap: () => showPaymentMethod,
                                   child: Container(
                                     padding: EdgeInsets.all(20),
                                     child: Row(
