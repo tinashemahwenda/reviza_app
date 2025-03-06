@@ -41,7 +41,7 @@ class NotiService {
             AndroidFlutterLocalNotificationsPlugin>()
         ?.createNotificationChannel(channel);
 
-    _isInitialized = true; // Mark as initialized
+    _isInitialized = true;
   }
 
   Future<void> requestPermissions() async {
@@ -50,11 +50,10 @@ class NotiService {
     }
   }
 
-  // Notification details setup
   NotificationDetails notificationDetails() {
     return const NotificationDetails(
       android: AndroidNotificationDetails(
-        'reviza_notification', // Must match the created channel ID
+        'reviza_notification',
         'Daily Notifications',
         channelDescription: 'Daily Notifications Channel',
         importance: Importance.high,
