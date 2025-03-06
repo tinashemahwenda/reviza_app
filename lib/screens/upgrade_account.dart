@@ -141,7 +141,7 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                         Text(
                           'Forever',
                           style: TextStyle(
-                            color: Colors.white,
+                            color: AppColor.dodgerBlue,
                           ),
                         ),
                         Text(
