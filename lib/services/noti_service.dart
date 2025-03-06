@@ -111,8 +111,6 @@ class NotiService {
       androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
       matchDateTimeComponents: DateTimeComponents.time,
     );
-
-    print('Notification Scheduled Successfully for $hour:$minute');
   }
 
   //Cancel Notifications Function
