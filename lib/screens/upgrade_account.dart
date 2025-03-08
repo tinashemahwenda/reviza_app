@@ -133,7 +133,8 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                   InkWell(
                     onTap: () {
                       setState(() {
-                        isSelected = !isSelected;
+                        isMonthlySelected = false;
+                        isSelected = true;
                       });
                     },
                     child: Container(
