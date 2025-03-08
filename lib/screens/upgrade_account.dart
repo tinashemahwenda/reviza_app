@@ -11,6 +11,7 @@ class UpgradeAccount extends StatefulWidget {
 
 class _UpgradeAccountState extends State<UpgradeAccount> {
   bool isSelected = false;
+  bool isMonthlySelected = true;
   void showPaymentMethod() {
     showModalBottomSheet(
         context: context,
@@ -174,7 +175,9 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                         borderRadius: BorderRadius.circular(20),
                         border: Border.all(
                           width: 1,
-                          color: Colors.white,
+                          color: isMonthlySelected
+                              ? AppColor.dodgerBlue
+                              : Colors.white,
                         )),
                     padding: EdgeInsets.all(30),
                     child: Column(
