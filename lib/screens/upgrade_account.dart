@@ -129,37 +129,44 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                 spacing: 10,
                 children: [
                   Spacer(),
-                  Container(
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(20),
-                        border: Border.all(
-                          width: 1,
-                          color: Colors.white,
-                        )),
-                    padding: EdgeInsets.all(30),
-                    child: Column(
-                      children: [
-                        Text(
-                          'Forever',
-                          style: TextStyle(
-                            color: AppColor.dodgerBlue,
+                  InkWell(
+                    onTap: () {
+                      setState(() {
+                        isSelected = !isSelected;
+                      });
+                    },
+                    child: Container(
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(
+                            width: 1,
+                            color: isSelected ? Colors.blue : Colors.white,
+                          )),
+                      padding: EdgeInsets.all(30),
+                      child: Column(
+                        children: [
+                          Text(
+                            'Forever',
+                            style: TextStyle(
+                              color: AppColor.dodgerBlue,
+                            ),
                           ),
-                        ),
-                        Text(
-                          '\$9.99',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 30,
-                            color: Colors.white,
+                          Text(
+                            '\$9.99',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 30,
+                              color: Colors.white,
+                            ),
                           ),
-                        ),
-                        Text(
-                          'Life Time',
-                          style: TextStyle(
-                            color: AppColor.dodgerBlue,
-                          ),
-                        )
-                      ],
+                          Text(
+                            'Life Time',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                   Container(
@@ -175,7 +182,7 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                         Text(
                           'Monthly',
                           style: TextStyle(
-                            color: Colors.white,
+                            color: AppColor.dodgerBlue,
                           ),
                         ),
                         Text(
@@ -217,60 +224,63 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                             decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.circular(20)),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  'Choose your payment method',
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                SizedBox(height: 20),
-                                Container(
-                                  padding: EdgeInsets.all(20),
-                                  child: Row(
-                                    spacing: 20,
+                            child: isSelected
+                                ? Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
-                                      Image.asset(
-                                        'assets/images/ecocash-logo.png',
-                                        width: 100,
-                                      ),
                                       Text(
-                                        ' \$9.99',
+                                        'Choose your payment method',
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
-                                          fontSize: 18,
                                         ),
                                       ),
-                                    ],
-                                  ),
-                                ),
-                                Divider(),
-                                InkWell(
-                                  onTap: () => showPaymentMethod,
-                                  child: Container(
-                                    padding: EdgeInsets.all(20),
-                                    child: Row(
-                                      spacing: 20,
-                                      children: [
-                                        Image.asset(
-                                          'assets/images/innbucks-logo.png',
-                                          width: 100,
+                                      SizedBox(height: 20),
+                                      Container(
+                                        padding: EdgeInsets.all(20),
+                                        child: Row(
+                                          spacing: 20,
+                                          children: [
+                                            Image.asset(
+                                              'assets/images/ecocash-logo.png',
+                                              width: 100,
+                                            ),
+                                            Text(
+                                              ' \$9.99',
+                                              style: TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: 18,
+                                              ),
+                                            ),
+                                          ],
                                         ),
-                                        Text(
-                                          ' \$9.99',
-                                          style: TextStyle(
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 18,
+                                      ),
+                                      Divider(),
+                                      InkWell(
+                                        onTap: () => showPaymentMethod,
+                                        child: Container(
+                                          padding: EdgeInsets.all(20),
+                                          child: Row(
+                                            spacing: 20,
+                                            children: [
+                                              Image.asset(
+                                                'assets/images/innbucks-logo.png',
+                                                width: 100,
+                                              ),
+                                              Text(
+                                                ' \$9.99',
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 18,
+                                                ),
+                                              ),
+                                            ],
                                           ),
                                         ),
-                                      ],
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
+                                      )
+                                    ],
+                                  )
+                                : Center(child: Text('Select Package First')),
                           )),
                   child: BlueButton(buttonText: 'Confirm Upgrade'))
             ],
