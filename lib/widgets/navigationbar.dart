@@ -16,9 +16,15 @@ class RevizaNavigation extends StatelessWidget {
           width: 100,
         ),
         Row(
+          spacing: 10,
           children: [
             CircleAvatar(
-              backgroundColor: Colors.white,
+              backgroundColor: AppColor.dodgerBlue,
+              radius: 24,
+              child: Icon(
+                Icons.diamond,
+                color: Colors.white,
+              ),
             ),
             GestureDetector(
               onTap: () => Navigator.push(context,
