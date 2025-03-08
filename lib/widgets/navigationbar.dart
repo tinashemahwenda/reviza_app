@@ -27,7 +27,7 @@ class RevizaNavigation extends StatelessWidget {
                 radius: 24,
                 child: Icon(
                   Icons.diamond,
-                  color: Colors.blue,
+                  color: AppColor.dodgerBlue,
                 ),
               ),
             ),
