@@ -140,7 +140,7 @@ class _ProfilePageState extends State<ProfilePage> {
                       ),
                     ),
                     Spacer(),
-                    ElevatedButton(
+                    /*ElevatedButton(
                       onPressed: () {
                         NotiService().scheduledNotification(
                             title: 'Daily Reminder',
@@ -150,7 +150,7 @@ class _ProfilePageState extends State<ProfilePage> {
                             minute: 35);
                       },
                       child: Text('Schedule Notification'),
-                    ),
+                    ),*/
                     AppVersion(versionNumber: '0.1.2')
                   ],
                 ))));
