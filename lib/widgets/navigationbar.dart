@@ -23,11 +23,11 @@ class RevizaNavigation extends StatelessWidget {
               onTap: () => Navigator.push(context,
                   MaterialPageRoute(builder: (context) => UpgradeAccount())),
               child: CircleAvatar(
-                backgroundColor: AppColor.dodgerBlue,
+                backgroundColor: Colors.transparent, //AppColor.dodgerBlue,
                 radius: 24,
                 child: Icon(
                   Icons.diamond,
-                  color: Colors.white,
+                  color: Colors.blue,
                 ),
               ),
             ),
