@@ -10,6 +10,7 @@ class UpgradeAccount extends StatefulWidget {
 }
 
 class _UpgradeAccountState extends State<UpgradeAccount> {
+  bool isSelected = false;
   void showPaymentMethod() {
     showModalBottomSheet(
         context: context,
