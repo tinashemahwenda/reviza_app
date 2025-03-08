@@ -212,7 +212,7 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                       context: context,
                       builder: (BuildContext context) => Container(
                             width: AppMeasure.width,
-                            height: AppMeasure.height / 3,
+                            height: AppMeasure.height / 2.5,
                             padding: EdgeInsets.all(30),
                             decoration: BoxDecoration(
                                 color: Colors.white,
