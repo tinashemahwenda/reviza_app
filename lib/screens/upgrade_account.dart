@@ -171,39 +171,47 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                       ),
                     ),
                   ),
-                  Container(
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(20),
-                        border: Border.all(
-                          width: 1,
-                          color: isMonthlySelected
-                              ? AppColor.dodgerBlue
-                              : Colors.white,
-                        )),
-                    padding: EdgeInsets.all(30),
-                    child: Column(
-                      children: [
-                        Text(
-                          'Monthly',
-                          style: TextStyle(
-                            color: AppColor.dodgerBlue,
+                  InkWell(
+                    onTap: () {
+                      setState(() {
+                        isMonthlySelected = true;
+                        isSelected = false;
+                      });
+                    },
+                    child: Container(
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(
+                            width: 1,
+                            color: isMonthlySelected
+                                ? AppColor.dodgerBlue
+                                : Colors.white,
+                          )),
+                      padding: EdgeInsets.all(30),
+                      child: Column(
+                        children: [
+                          Text(
+                            'Monthly',
+                            style: TextStyle(
+                              color: AppColor.dodgerBlue,
+                            ),
                           ),
-                        ),
-                        Text(
-                          '\$4.99',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 30,
-                            color: Colors.white,
+                          Text(
+                            '\$4.99',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 30,
+                              color: Colors.white,
+                            ),
                           ),
-                        ),
-                        Text(
-                          'per month',
-                          style: TextStyle(
-                            color: Colors.white,
-                          ),
-                        )
-                      ],
+                          Text(
+                            'per month',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                   Spacer()
@@ -228,7 +236,7 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                             decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.circular(20)),
-                            child: isSelected
+                            child: isSelected | isMonthlySelected
                                 ? Column(
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
@@ -250,7 +258,9 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                                               width: 100,
                                             ),
                                             Text(
-                                              ' \$9.99',
+                                              isMonthlySelected
+                                                  ? ' \$4.99'
+                                                  : '\$9.99',
                                               style: TextStyle(
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: 18,
@@ -272,7 +282,9 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                                                 width: 100,
                                               ),
                                               Text(
-                                                ' \$9.99',
+                                                isMonthlySelected
+                                                    ? ' \$4.99'
+                                                    : ' \$9.99',
                                                 style: TextStyle(
                                                   fontWeight: FontWeight.bold,
                                                   fontSize: 18,
