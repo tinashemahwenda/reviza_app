@@ -15,20 +15,27 @@ class RevizaNavigation extends StatelessWidget {
           'assets/images/reviza-transparent-long.png',
           width: 100,
         ),
-        GestureDetector(
-          onTap: () => Navigator.push(
-              context, MaterialPageRoute(builder: (context) => ProfilePage())),
-          child: CircleAvatar(
-            backgroundColor: AppColor.dodgerBlue,
-            radius: 24,
-            child: Text(
-              nameInitials[0].toUpperCase(),
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
+        Row(
+          children: [
+            CircleAvatar(
+              backgroundColor: Colors.white,
+            ),
+            GestureDetector(
+              onTap: () => Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ProfilePage())),
+              child: CircleAvatar(
+                backgroundColor: AppColor.dodgerBlue,
+                radius: 24,
+                child: Text(
+                  nameInitials[0].toUpperCase(),
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                ),
               ),
             ),
-          ),
+          ],
         )
       ],
     );
