@@ -140,6 +140,9 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                     },
                     child: PackageBox(
                       selectedColor: isSelected ? Colors.blue : Colors.white,
+                      packageName: 'Forever',
+                      packagePrice: '\$9.99',
+                      packageLength: 'Life-Time',
                     ),
                   ),
                   InkWell(
