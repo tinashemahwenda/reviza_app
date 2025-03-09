@@ -4,7 +4,16 @@ import '../constants/app_constants.dart';
 
 class PackageBox extends StatelessWidget {
   final Color selectedColor;
-  const PackageBox({super.key, required this.selectedColor});
+  final String packageName;
+  final String packagePrice;
+  final String packageLength;
+  const PackageBox({
+    super.key,
+    required this.selectedColor,
+    required this.packageName,
+    required this.packagePrice,
+    required this.packageLength,
+  });
 
   @override
   Widget build(BuildContext context) {
