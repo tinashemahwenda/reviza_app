@@ -13,7 +13,7 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
   bool isSelected = false;
   bool isMonthlySelected = true;
   void showPaymentMethod() {
-    showModalBottomSheet(
+    showDialog(
         context: context,
         builder: (BuildContext context) => Dialog(
               insetPadding: EdgeInsets.all(100),
