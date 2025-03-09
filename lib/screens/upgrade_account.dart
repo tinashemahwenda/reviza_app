@@ -138,7 +138,9 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                         isSelected = true;
                       });
                     },
-                    child: PackageBox(),
+                    child: PackageBox(
+                      selectedColor: isSelected ? Colors.blue : Colors.white,
+                    ),
                   ),
                   InkWell(
                     onTap: () {
