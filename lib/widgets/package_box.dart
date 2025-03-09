@@ -28,13 +28,13 @@ class PackageBox extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            'Forever',
+            packageLength,
             style: TextStyle(
               color: AppColor.dodgerBlue,
             ),
           ),
           Text(
-            '\$9.99',
+            packagePrice,
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 30,
@@ -42,7 +42,7 @@ class PackageBox extends StatelessWidget {
             ),
           ),
           Text(
-            'Life Time',
+            packageLength,
             style: TextStyle(
               color: Colors.white,
             ),
