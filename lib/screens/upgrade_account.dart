@@ -146,48 +146,20 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                     ),
                   ),
                   InkWell(
-                    onTap: () {
-                      setState(() {
-                        isMonthlySelected = true;
-                        isSelected = false;
-                      });
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          border: Border.all(
-                            width: 1,
-                            color: isMonthlySelected
-                                ? AppColor.dodgerBlue
-                                : Colors.white,
-                          )),
-                      padding: EdgeInsets.all(30),
-                      child: Column(
-                        children: [
-                          Text(
-                            'Monthly',
-                            style: TextStyle(
-                              color: AppColor.dodgerBlue,
-                            ),
-                          ),
-                          Text(
-                            '\$4.99',
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 30,
-                              color: Colors.white,
-                            ),
-                          ),
-                          Text(
-                            'per month',
-                            style: TextStyle(
-                              color: Colors.white,
-                            ),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
+                      onTap: () {
+                        setState(() {
+                          isMonthlySelected = true;
+                          isSelected = false;
+                        });
+                      },
+                      child: PackageBox(
+                        selectedColor: isMonthlySelected
+                            ? AppColor.dodgerBlue
+                            : Colors.white,
+                        packageName: 'Monthly',
+                        packagePrice: '\$4.99',
+                        packageLength: 'per month',
+                      )),
                   Spacer()
                 ],
               ),
