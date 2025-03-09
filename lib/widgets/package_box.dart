@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import '../constants/app_constants.dart';
 
 class PackageBox extends StatelessWidget {
-  const PackageBox({super.key});
+  final Color selectedColor;
+  const PackageBox({super.key, required this.selectedColor});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +13,7 @@ class PackageBox extends StatelessWidget {
           borderRadius: BorderRadius.circular(20),
           border: Border.all(
             width: 1,
-            color: isSelected ? Colors.blue : Colors.white,
+            color: selectedColor,
           )),
       padding: EdgeInsets.all(30),
       child: Column(
