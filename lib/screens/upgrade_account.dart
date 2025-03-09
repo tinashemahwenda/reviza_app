@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
 import 'package:reviza_app/widgets/blue_button.dart';
+import 'package:reviza_app/widgets/package_box.dart';
 
 class UpgradeAccount extends StatefulWidget {
   const UpgradeAccount({super.key});
@@ -137,39 +138,7 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
                         isSelected = true;
                       });
                     },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          border: Border.all(
-                            width: 1,
-                            color: isSelected ? Colors.blue : Colors.white,
-                          )),
-                      padding: EdgeInsets.all(30),
-                      child: Column(
-                        children: [
-                          Text(
-                            'Forever',
-                            style: TextStyle(
-                              color: AppColor.dodgerBlue,
-                            ),
-                          ),
-                          Text(
-                            '\$9.99',
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 30,
-                              color: Colors.white,
-                            ),
-                          ),
-                          Text(
-                            'Life Time',
-                            style: TextStyle(
-                              color: Colors.white,
-                            ),
-                          )
-                        ],
-                      ),
-                    ),
+                    child: PackageBox(),
                   ),
                   InkWell(
                     onTap: () {
