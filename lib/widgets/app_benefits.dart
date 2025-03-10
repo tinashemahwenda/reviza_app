@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AppBenefits extends StatelessWidget {
-  const AppBenefits({super.key});
+  final String appBenefit;
+  const AppBenefits({super.key, required this.appBenefit});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +15,7 @@ class AppBenefits extends StatelessWidget {
           size: 20,
         ),
         Text(
-          'Access to over +1000 solutions',
+          appBenefit,
           style: TextStyle(
             color: Colors.white,
           ),
