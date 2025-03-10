@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
+import 'package:reviza_app/widgets/app_benefits.dart';
 import 'package:reviza_app/widgets/blue_button.dart';
 import 'package:reviza_app/widgets/package_box.dart';
 
@@ -76,54 +77,9 @@ class _UpgradeAccountState extends State<UpgradeAccount> {
               Column(
                 spacing: 10,
                 children: [
-                  Row(
-                    spacing: 10,
-                    children: [
-                      Icon(
-                        Icons.check,
-                        color: Colors.white,
-                        size: 20,
-                      ),
-                      Text(
-                        'Access to over +1000 solutions',
-                        style: TextStyle(
-                          color: Colors.white,
-                        ),
-                      )
-                    ],
-                  ),
-                  Row(
-                    spacing: 10,
-                    children: [
-                      Icon(
-                        Icons.check,
-                        color: Colors.white,
-                        size: 20,
-                      ),
-                      Text(
-                        'Unlock all features',
-                        style: TextStyle(
-                          color: Colors.white,
-                        ),
-                      )
-                    ],
-                  ),
-                  Row(
-                    spacing: 10,
-                    children: [
-                      Icon(
-                        Icons.check,
-                        color: Colors.white,
-                        size: 20,
-                      ),
-                      Text(
-                        'Covers 3 Apps in one Purchase',
-                        style: TextStyle(
-                          color: Colors.white,
-                        ),
-                      )
-                    ],
-                  ),
+                  AppBenefits(appBenefit: 'Access to over +1000 solutions'),
+                  AppBenefits(appBenefit: 'Unlock all features'),
+                  AppBenefits(appBenefit: 'Covers 3 apps in one purchase')
                 ],
               ),
               Spacer(),
