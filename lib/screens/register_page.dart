@@ -38,7 +38,7 @@ class _RegisterPageState extends State<RegisterPage> {
   _saveNameAndPhone() async {
     final prefs = await SharedPreferences.getInstance();
     prefs.setString('name', _nameSurnameController.text);
-    prefs.setString('revizaPhoneNumber', _phoneNumberController.text);
+    prefs.setInt('revizaPhoneNumber', _phoneNumberController.hashCode);
   }
 
   @override
