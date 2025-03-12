@@ -10,3 +10,7 @@ class AppColor {
   static late Color dodgerBlue;
   static late Color darkBlue;
 }
+
+class AppText {
+  static late int smallText;
+}
