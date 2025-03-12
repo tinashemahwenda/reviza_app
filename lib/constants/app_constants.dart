@@ -13,4 +13,6 @@ class AppColor {
 
 class AppText {
   static late int smallText;
+  static late int normalText;
+  static 
 }
