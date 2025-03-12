@@ -27,6 +27,8 @@ class RevizaApp extends StatelessWidget {
       AppColor.darkBlue = Color.fromARGB(255, 17, 24, 28);
       AppColor.dodgerBlue = Color.fromARGB(255, 0, 127, 255);
       AppText.headingText = 32;
+      AppText.normalText = 20;
+      AppText.smallText = 18;
 
       return MaterialApp(
         home: Scaffold(
