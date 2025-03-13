@@ -83,7 +83,7 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontFamily: 'Manrope-Extrabold',
-                      fontSize: 18,
+                      fontSize: AppText.smallText,
                     ),
                   ),
                   Row(
