@@ -12,6 +12,7 @@ class AppColor {
 }
 
 class AppText {
+  static late double verySmallText;
   static late double smallText;
   static late double normalText;
   static late double headingText;
