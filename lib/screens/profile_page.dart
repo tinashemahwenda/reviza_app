@@ -75,7 +75,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                     ? 'Turn off notifications'
                                     : 'Turn on notifications',
                                 style: TextStyle(
-                                  fontSize: AppText.smallText,
+                                  fontSize: AppText.verySmallText + 6,
                                 ),
                               ),
                               Spacer(),
