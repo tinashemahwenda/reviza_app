@@ -29,6 +29,7 @@ class RevizaApp extends StatelessWidget {
       AppText.headingText = 32;
       AppText.normalText = 20;
       AppText.smallText = 18;
+      AppText.verySmallText = 8;
 
       return MaterialApp(
         home: Scaffold(
