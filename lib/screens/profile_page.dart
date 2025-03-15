@@ -151,6 +151,7 @@ class _ProfilePageState extends State<ProfilePage> {
                       },
                       child: Text('Schedule Notification'),
                     ),*/
+                    Text('Reviza App'),
                     AppVersion(versionNumber: '0.1.2')
                   ],
                 ))));
