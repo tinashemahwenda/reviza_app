@@ -112,7 +112,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         if (value!.isEmpty || value.runtimeType == int) {
                           return 'Please enter your phone number';
                         } else {
-                          return null;
+                          return 'Enter a valid phone number';
                         }
                       },
                     ),
