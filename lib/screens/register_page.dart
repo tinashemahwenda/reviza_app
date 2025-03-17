@@ -109,7 +109,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         ),
                       ),
                       validator: (value) {
-                        if (value!.isEmpty) {
+                        if (value!.isEmpty || value.runtimeType == int) {
                           return 'Please enter your phone number';
                         } else {
                           return null;
