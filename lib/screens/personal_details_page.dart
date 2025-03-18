@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
 import 'package:reviza_app/widgets/back_button.dart';
 import 'package:reviza_app/widgets/blue_button.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class PersonalDetailsPage extends StatefulWidget {
   const PersonalDetailsPage({super.key});
@@ -11,6 +12,14 @@ class PersonalDetailsPage extends StatefulWidget {
 }
 
 class _PersonalDetailsPageState extends State<PersonalDetailsPage> {
+  String name = '';
+
+  void initState() {}
+
+  _loadProfileData() async {
+    final prefs = await SharedPreferences.getInstance();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
