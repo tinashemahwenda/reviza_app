@@ -38,7 +38,7 @@ class _RegisterPageState extends State<RegisterPage> {
   _saveNameAndPhone() async {
     final prefs = await SharedPreferences.getInstance();
     prefs.setString('name', _nameSurnameController.text);
-    prefs.setInt('revizaPhoneNumber', _phoneNumberController.hashCode);
+    prefs.setString('revizaPhoneNumber', _phoneNumberController.text);
   }
 
   @override
@@ -109,7 +109,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         ),
                       ),
                       validator: (value) {
-                        if (value!.isEmpty || value.runtimeType == int) {
+                        if (value!.isEmpty || value.length == 10) {
                           return 'Please enter your phone number';
                         } else {
                           return 'Enter a valid phone number';
