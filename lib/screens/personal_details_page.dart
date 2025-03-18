@@ -14,7 +14,11 @@ class PersonalDetailsPage extends StatefulWidget {
 class _PersonalDetailsPageState extends State<PersonalDetailsPage> {
   String _name = '';
 
-  void initState() {}
+  @override
+  void initState() {
+    super.initState();
+    _loadProfileData();
+  }
 
   _loadProfileData() async {
     final prefs = await SharedPreferences.getInstance();
