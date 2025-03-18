@@ -3,9 +3,14 @@ import 'package:reviza_app/constants/app_constants.dart';
 import 'package:reviza_app/widgets/back_button.dart';
 import 'package:reviza_app/widgets/blue_button.dart';
 
-class PersonalDetailsPage extends StatelessWidget {
+class PersonalDetailsPage extends StatefulWidget {
   const PersonalDetailsPage({super.key});
 
+  @override
+  State<PersonalDetailsPage> createState() => _PersonalDetailsPageState();
+}
+
+class _PersonalDetailsPageState extends State<PersonalDetailsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
