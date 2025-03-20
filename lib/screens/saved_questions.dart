@@ -14,6 +14,12 @@ class SavedQuestions extends StatefulWidget {
 class _SavedQuestionsState extends State<SavedQuestions> {
   Set<String> savedQuestions = {};
 
+  @override
+  void initState() {
+    super.initState();
+    _loadSavedQuestions();
+  }
+
   Future<void> _loadSavedQuestions() async {
     final prefs = await SharedPreferences.getInstance();
 
