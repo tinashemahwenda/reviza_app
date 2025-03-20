@@ -11,6 +11,7 @@ class SavedQuestions extends StatefulWidget {
 }
 
 class _SavedQuestionsState extends State<SavedQuestions> {
+  Set<String> savedQuestions = {};
   @override
   Widget build(BuildContext context) {
     return Scaffold(
