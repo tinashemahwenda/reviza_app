@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/widgets/uploading_questions_screen.dart';
+import '../models/question.dart';
 
 class SavedQuestions extends StatefulWidget {
-  const SavedQuestions({super.key});
+  final List<Question> allQuestions;
+  const SavedQuestions({super.key, required this.allQuestions});
 
   @override
   State<SavedQuestions> createState() => _SavedQuestionsState();
