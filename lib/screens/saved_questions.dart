@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:reviza_app/widgets/questions_bubble.dart';
 import 'package:reviza_app/widgets/uploading_questions_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/question.dart';
@@ -40,9 +41,33 @@ class _SavedQuestionsState extends State<SavedQuestions> {
 
   @override
   Widget build(BuildContext context) {
+    List<Question> displayedQuestions = widget.allQuestions
+        .where((q) => savedQuestions.contains('${q.questionCode}-${q.id}'))
+        .toList();
     return Scaffold(
-      backgroundColor: Colors.white,
-      body: UploadingQuestionsScreen(uploadType: 'saved questions'),
-    );
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Padding(
+            padding: EdgeInsets.all(20),
+            child: displayedQuestions.isEmpty
+                ? Center(
+                    child: Text('Not saved Questions'),
+                  )
+                : ListView.builder(
+                    itemCount: displayedQuestions.length,
+                    itemBuilder: (context, index) {
+                      final question = displayedQuestions[index];
+
+                      return QuestionsBubble(
+                          questionNumber: question.id,
+                          questionBody: question.questionBody,
+                          questionCode: question.questionCode,
+                          paperCode: question.questionCode,
+                          isSaved: true,
+                          onSavePressed: () => _toggleSavedQuestion(
+                              question.id.toString(), question.questionCode));
+                    }),
+          ),
+        ));
   }
 }
