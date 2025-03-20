@@ -4,7 +4,7 @@ import 'package:reviza_app/screens/saved_questions.dart';
 import 'package:reviza_app/screens/upgrade_account.dart';
 
 import '../constants/app_constants.dart';
-//import '../models/question.dart';
+import '../models/question.dart';
 
 class QuestionsBubble extends StatefulWidget {
   final String questionBody;
@@ -41,8 +41,12 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
           content: Text('Question ${widget.questionNumber} removed'),
           action: SnackBarAction(
             label: 'View',
-            onPressed: () => Navigator.push(context,
-                MaterialPageRoute(builder: (context) => SavedQuestions())),
+            onPressed: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => SavedQuestions(
+                          allQuestions: [],
+                        ))),
           ),
         ));
       } else {
@@ -52,8 +56,12 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
           content: Text('Question ${widget.questionNumber} saved successfully'),
           action: SnackBarAction(
             label: 'View',
-            onPressed: () => Navigator.push(context,
-                MaterialPageRoute(builder: (context) => SavedQuestions())),
+            onPressed: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => SavedQuestions(
+                          allQuestions: [],
+                        ))),
           ),
         ));
       }
@@ -108,7 +116,9 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                         onTap: () => Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => UpgradeAccount())),
+                                builder: (context) => SavedQuestions(
+                                      allQuestions: [],
+                                    ))),
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
                           child: Container(
