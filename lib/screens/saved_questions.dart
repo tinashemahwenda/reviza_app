@@ -28,6 +28,16 @@ class _SavedQuestionsState extends State<SavedQuestions> {
     });
   }
 
+  Future<void> _toggleSavedQuestion(String questionId, String topic) async {
+    final prefs = await SharedPreferences.getInstance();
+    final String key = '$questionId-$topic';
+
+    setState(() {
+      savedQuestions.remove(key);
+      prefs.setStringList('savedQuestion', savedQuestions.toList());
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
