@@ -153,7 +153,9 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
               Container(
                 height: AppMeasure.height / 4,
                 width: AppMeasure.width,
-                child: Placeholder(),
+                decoration: BoxDecoration(
+                    color: Colors.grey[200],
+                    borderRadius: BorderRadius.circular(20)),
               ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
