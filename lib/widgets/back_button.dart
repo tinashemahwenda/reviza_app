@@ -6,21 +6,21 @@ class SettingsBackButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      spacing: 20,
-      children: [
-        InkWell(
-          onTap: () => Navigator.pop(context),
-          child: Icon(Icons.arrow_back_ios),
-        ),
-        Text(
-          pageName,
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 20,
+    return InkWell(
+      onTap: () => Navigator.pop(context),
+      child: Row(
+        spacing: 20,
+        children: [
+          Icon(Icons.arrow_back_ios),
+          Text(
+            pageName,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 20,
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }

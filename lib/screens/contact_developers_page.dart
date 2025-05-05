@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reviza_app/constants/app_constants.dart';
+import 'package:reviza_app/widgets/back_button.dart';
 import 'package:reviza_app/widgets/contact_tile.dart';
 
 class ContactDevelopersPage extends StatelessWidget {
@@ -18,21 +19,7 @@ class ContactDevelopersPage extends StatelessWidget {
             ),
             child: Column(
               children: [
-                Row(
-                  spacing: 10,
-                  children: [
-                    InkWell(
-                        onTap: () => Navigator.pop(context),
-                        child: Icon(Icons.arrow_back_ios)),
-                    Text(
-                      'Contact Developers',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 20,
-                      ),
-                    ),
-                  ],
-                ),
+                SettingsBackButton(pageName: 'Contact Developers'),
                 SizedBox(
                   height: 40,
                 ),
