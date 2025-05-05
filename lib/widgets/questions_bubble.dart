@@ -1,3 +1,4 @@
+import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/material.dart';
 import 'package:reviza_app/screens/saved_questions.dart';
 
@@ -156,6 +157,13 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                 decoration: BoxDecoration(
                     color: Colors.grey[200],
                     borderRadius: BorderRadius.circular(20)),
+                child: Swiper(
+                    itemBuilder: (context, index) {
+                      return Image.asset('assets/images/biology.png');
+                    },
+                    loop: false,
+                    itemCount: 3,
+                    pagination: RectSwiperPaginationBuilder()),
               ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
