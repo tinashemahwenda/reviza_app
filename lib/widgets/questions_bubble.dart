@@ -1,6 +1,5 @@
 import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:reviza_app/screens/saved_questions.dart';
 
 import 'package:reviza_app/screens/upgrade_account.dart';
@@ -35,9 +34,9 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
   bool savedButton = false;
 
   List images = [
-    'assets/image_assets/0625_2024_J_2_1a_1.png',
-    'assets/image_assets/0625_2024_J_2_1a_2.png',
-    'assets/image_assets/0625_2024_J_2_1a_3.png',
+    'assets/images/biology.png',
+    'assets/images/ecocash-logo.png',
+    'assets/images/chemistry.png',
   ];
 
   void toggleButton() {
@@ -166,12 +165,15 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                     borderRadius: BorderRadius.circular(20)),
                 child: Swiper(
                   itemBuilder: (context, index) {
-                    return Image.asset(images[index]);
+                    return Image.asset(
+                      images[index],
+                      fit: BoxFit.contain,
+                    );
                   },
                   loop: false,
                   itemCount: images.length,
                   control: SwiperControl(
-                    size: 18,
+                    size: 1,
                     padding: EdgeInsets.all(10),
                     color: AppColor.darkBlue,
                     disableColor: AppColor.backgroundColor,
