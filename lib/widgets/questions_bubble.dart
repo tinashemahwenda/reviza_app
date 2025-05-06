@@ -164,15 +164,17 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                     color: Colors.grey[200],
                     borderRadius: BorderRadius.circular(20)),
                 child: Swiper(
-                    itemBuilder: (context, index) {
-                      return Image.asset(
-                        images[index],
-                        fit: BoxFit.contain,
-                      );
-                    },
-                    loop: false,
-                    itemCount: images.length,
-                    pagination: DotSwiperPaginationBuilder()),
+                  itemBuilder: (context, index) {
+                    return Image.asset(
+                      images[index],
+                      fit: BoxFit.contain,
+                    );
+                  },
+                  loop: false,
+                  itemCount: images.length,
+                  pagination: DotSwiperPaginationBuilder(),
+                  layout: SwiperLayout.TINDER,
+                ),
               ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
