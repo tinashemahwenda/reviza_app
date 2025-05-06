@@ -165,7 +165,10 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                     borderRadius: BorderRadius.circular(20)),
                 child: Swiper(
                     itemBuilder: (context, index) {
-                      return Image.asset(images[index]);
+                      return Image.asset(
+                        images[index],
+                        fit: BoxFit.contain,
+                      );
                     },
                     loop: false,
                     itemCount: images.length,
