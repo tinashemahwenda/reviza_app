@@ -35,9 +35,9 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
   bool savedButton = false;
 
   List images = [
-    'assets/image_assets/0625_2024_J_2_1a__1.svg',
-    'assets/image_assets/0625_2024_J_2_1a__2.svg',
-    'assets/image_assets/0625_2024_J_2_1a__3.svg',
+    'assets/image_assets/0625_2024_J_2_1a_1.png',
+    'assets/image_assets/0625_2024_J_2_1a_2.png',
+    'assets/image_assets/0625_2024_J_2_1a_3.png',
   ];
 
   void toggleButton() {
@@ -166,7 +166,7 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                     borderRadius: BorderRadius.circular(20)),
                 child: Swiper(
                   itemBuilder: (context, index) {
-                    return SvgPicture.asset(images[index]);
+                    return Image.asset(images[index]);
                   },
                   loop: false,
                   itemCount: images.length,
