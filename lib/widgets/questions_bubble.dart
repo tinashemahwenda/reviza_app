@@ -33,6 +33,12 @@ class QuestionsBubble extends StatefulWidget {
 class _QuestionsBubbleState extends State<QuestionsBubble> {
   bool savedButton = false;
 
+  List images = [
+    'assets/images/biology.png',
+    'assets/images/ecocash-logo.png',
+    'assets/images/chemistry.png',
+  ];
+
   void toggleButton() {
     setState(() {
       if (savedButton == true) {
@@ -159,11 +165,11 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                     borderRadius: BorderRadius.circular(20)),
                 child: Swiper(
                     itemBuilder: (context, index) {
-                      return Image.asset('assets/images/biology.png');
+                      return Image.asset(images[index]);
                     },
                     loop: false,
-                    itemCount: 3,
-                    pagination: RectSwiperPaginationBuilder()),
+                    itemCount: images.length,
+                    pagination: DotSwiperPaginationBuilder()),
               ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
