@@ -172,8 +172,10 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                   },
                   loop: false,
                   itemCount: images.length,
-                  pagination: DotSwiperPaginationBuilder(),
-                  layout: SwiperLayout.TINDER,
+                  pagination: DotSwiperPaginationBuilder(
+                    color: AppColor.backgroundColor,
+                    activeColor: AppColor.darkBlue,
+                  ),
                 ),
               ),
               Padding(
