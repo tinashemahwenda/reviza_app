@@ -1,5 +1,6 @@
 import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:reviza_app/screens/saved_questions.dart';
 
 import 'package:reviza_app/screens/upgrade_account.dart';
@@ -165,10 +166,7 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
                     borderRadius: BorderRadius.circular(20)),
                 child: Swiper(
                   itemBuilder: (context, index) {
-                    return Image.asset(
-                      images[index],
-                      fit: BoxFit.contain,
-                    );
+                    return SvgPicture.asset(images[index]);
                   },
                   loop: false,
                   itemCount: images.length,
