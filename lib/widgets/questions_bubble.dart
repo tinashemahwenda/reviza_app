@@ -35,9 +35,9 @@ class _QuestionsBubbleState extends State<QuestionsBubble> {
   bool savedButton = false;
 
   List images = [
-    'assets/images/biology.png',
-    'assets/images/ecocash-logo.png',
-    'assets/images/chemistry.png',
+    'assets/image_assets/0625_2024_J_2_1a__1.svg',
+    'assets/image_assets/0625_2024_J_2_1a__2.svg',
+    'assets/image_assets/0625_2024_J_2_1a__3.svg',
   ];
 
   void toggleButton() {
